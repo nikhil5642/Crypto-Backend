@@ -2,7 +2,7 @@ from fastapi import APIRouter
 from pydantic import BaseModel
 
 from server.fastApi.modules.login import getUserIdByAuth, processLogin, verifyAuth
-from SRC.DataFieldName import authorisation, success, userID
+from src.DataFieldConstants import AUTHORISATION, SUCCESS, USER_ID
 
 router = APIRouter(prefix="/auth")
 
@@ -17,14 +17,15 @@ class VerifyAuthModel(BaseModel):
 
 @router.post("/login")
 async def login(data: LoginModel):
-    return {authorisation: processLogin(data.mobileNumber)}
+    return {AUTHORISATION: processLogin(data.mobileNumber)}
 
 
 @router.post("/verify")
 async def verify(data: VerifyAuthModel):
-    return {success: verifyAuth(data.auth)}
+    return {SUCCESS: verifyAuth(data.auth)}
 
 
 @router.post("/userId")
 async def verify(data: VerifyAuthModel):
-    return {userID: getUserIdByAuth(data.auth)}
+    print(data.auth)
+    return {USER_ID: getUserIdByAuth(data.auth)}

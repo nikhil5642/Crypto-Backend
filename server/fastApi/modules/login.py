@@ -1,6 +1,6 @@
 import uuid
 from DataBase.MongoDB import getLoginInfoCollection, getUserInfoCollection
-from SRC.DataFieldName import mobileNumber, userID, authorisation
+from src.DataFieldConstants import MOBILE_NUMBER, USER_ID, AUTHORISATION
 
 loginDB = getLoginInfoCollection()
 userDB = getUserInfoCollection()
@@ -18,28 +18,28 @@ def processLogin(mobileNumber):
 def setNewLogin(auth, mobNum):
     userId = userDB.count_documents({})+1
     loginDB.insert_one(
-        {mobileNumber: mobNum, userID: userId, authorisation: auth})
-    userDB.insert_one({mobileNumber: mobNum, userID: userId})
+        {MOBILE_NUMBER: mobNum, USER_ID: userId, AUTHORISATION: auth})
+    userDB.insert_one({MOBILE_NUMBER: mobNum, USER_ID: userId})
 
 
 def verifyAuth(auth):
-    result = loginDB.find_one({authorisation: auth})
+    result = loginDB.find_one({AUTHORISATION: auth})
     if(result):
         return True
     return False
 
 
 def getUserIdByAuth(auth):
-    result = loginDB.find_one({authorisation: auth})
+    result = loginDB.find_one({AUTHORISATION: auth})
     if(result):
-        return result[userID]
+        return result[USER_ID]
     return None
 
 
 def checkExistingLogin(auth, mobNum):
     if(mobNum):
-        result = loginDB.update_one({mobileNumber: mobNum}, {
-                                    "$set": {authorisation: auth}})
+        result = loginDB.update_one({MOBILE_NUMBER: mobNum}, {
+                                    "$set": {AUTHORISATION: auth}})
         if(result.matched_count > 0):
             return True
     return False
