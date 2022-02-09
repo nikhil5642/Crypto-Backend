@@ -1,0 +1,17 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "files.exclude": {
+    "**/*.d.ts": false,
+    "**/*.js.map": true,
+    "*/**/*.js": true,
+    "**/*.pyc": true,
+    "**/__pycache__": true,
+    "**/__init__.py": true,
+    "**/.ipynb_checkpoints": true
+  }
+}
