@@ -6,3 +6,4 @@ USER_ID = "userID"
 AUTHORISATION = "Authorisation"
 
 SUCCESS = "success"
+RESULT = "result"
