@@ -15,14 +15,18 @@ class TickerListModel(BaseModel):
     tickers: list[str] = []
 
 
+class TickerModel(BaseModel):
+    tickerId: str = ""
+
+
 @router.post("/getTickerLiveData")
 async def getTickerLiveData(data: TickerListModel):
     return {RESULT: liveMarketData.getTickersData(data.tickers)}
 
 
 @router.post("/getTickerDetails")
-async def getTickerLiveData(tickerId: str):
-    return {RESULT: getTickerDetails(tickerId)}
+async def getTickerLiveData(data: TickerModel):
+    return {RESULT: getTickerDetails(data.tickerId)}
 
 if __name__ == '__main__':
     print(list(["adsf", "dfa"]) is list[str])
