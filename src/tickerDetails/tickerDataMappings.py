@@ -1,4 +1,5 @@
 from src.tickerDetails.tickerItems.polarGraphItem import PolarGraphDataItem, PolarGraphItem
+from src.tickerDetails.tickerItems.generalInfo import GeneralInfo
 
 
 def StablityGraph(value: int, past: int, future: int, health: int, usage: int):
@@ -9,3 +10,7 @@ def StablityGraph(value: int, past: int, future: int, health: int, usage: int):
                                               PolarGraphDataItem(
                                                   "HEALTH", health),
                                               PolarGraphDataItem("USEAGE", usage)]).getJson()
+
+
+def Info(name: str, description: str):
+    return GeneralInfo(name, description).getJson()

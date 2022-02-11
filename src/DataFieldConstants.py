@@ -11,3 +11,6 @@ ITEM_TYPE = "itemType"
 TITLE = "title"
 VALUES = "values"
 DATA = "data"
+
+NAME = "name"
+DESCRIPTION = "description"

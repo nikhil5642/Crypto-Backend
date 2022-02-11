@@ -24,8 +24,8 @@ async def getTickerLiveData(data: TickerListModel):
     return {RESULT: liveMarketData.getTickersData(data.tickers)}
 
 
-@router.post("/getTickerDetails")
-async def getTickerLiveData(data: TickerModel):
+@router.post("/tickerDetails")
+async def tickerDetails(data: TickerModel):
     return {RESULT: getTickerDetails(data.tickerId)}
 
 if __name__ == '__main__':
