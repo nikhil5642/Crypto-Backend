@@ -2,7 +2,9 @@
 MOBILE_NUMBER = "mobileNumber"
 USER_ID = "userID"
 AUTHORISATION = "Authorisation"
-CREDITS = "Credits"
+BALANCE = "Balance"
+
+INR = "INR"
 
 SUCCESS = "success"
 RESULT = "result"
