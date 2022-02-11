@@ -1,5 +1,3 @@
-from sre_constants import SUCCESS
-
 
 MOBILE_NUMBER = "mobileNumber"
 USER_ID = "userID"
@@ -8,3 +6,8 @@ CREDITS = "Credits"
 
 SUCCESS = "success"
 RESULT = "result"
+
+ITEM_TYPE = "itemType"
+TITLE = "title"
+VALUES = "values"
+DATA = "data"

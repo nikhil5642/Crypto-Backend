@@ -11,3 +11,12 @@ def getCreditsByUserId(userId: str):
     if(result):
         return result[CREDITS]
     return 0
+
+
+def updateCreditsByUserId(userId: str, newCredit: int):
+    result = userDB.update_one(
+        {USER_ID: int(userId), "$set": {CREDITS: newCredit}})
+    print("result", result, userId)
+    if(result):
+        return result[CREDITS]
+    return 0
