@@ -1,14 +1,11 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
-from server.fastApi.modules.liveMarketData import LiveMarketData
 
-from server.fastApi.modules.portfolio import getAmountByUserId, getMutiCurrencyAmountByUserId, getCompletePortFolio
+from server.fastApi.modules.portfolio import exchangeCurrency, getAmountByUserId, getMutiCurrencyAmountByUserId, getCompletePortFolio
 
-from src.DataFieldConstants import RESULT
+from src.DataFieldConstants import RESULT, SUCCESS, TRANSACTIONID, TRANSACTIONS
 
 router = APIRouter(prefix="/portfolio")
-liveMarketData = LiveMarketData()
-liveMarketData.fetchAndUpdateLiveMarketData()
 
 
 class TickerListModel(BaseModel):
@@ -18,6 +15,14 @@ class TickerListModel(BaseModel):
 class PortFolioModel(BaseModel):
     userId: str
     currency: str
+
+
+class ExcangeCurrencyModel(BaseModel):
+    userId: str
+    fromCurrency: str
+    toCurrency: str
+    amount: float
+    actionType: str
 
 
 class MutliCurrencyPortFolioModel(BaseModel):
@@ -38,6 +43,13 @@ async def getMultipleCurrencyBalance(portfolio: MutliCurrencyPortFolioModel):
 @router.post("/getCompletePortFolio")
 async def getPortFolio(portfolio: PortFolioModel):
     return getCompletePortFolio(portfolio.userId)
+
+
+@router.post("/exchangeCurrency")
+async def exchange(exchange: ExcangeCurrencyModel):
+    success, transactionId = exchangeCurrency(exchange.userId, exchange.fromCurrency,
+                                             exchange.toCurrency, exchange.amount,exchange.actionType)
+    return {SUCCESS: success, TRANSACTIONID: transactionId}
 
 if __name__ == '__main__':
     print(list(["adsf", "dfa"]) is list[str])

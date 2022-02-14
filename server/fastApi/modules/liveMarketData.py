@@ -1,4 +1,5 @@
 
+import re
 from selectors import SelectorKey
 from tokenize import Double
 
@@ -52,6 +53,19 @@ class LiveMarketData():
         if((datetime.now() - self.lastFetched).total_seconds() > 900):
             self.fetchAndUpdateLiveMarketData()
         return [self.data[val].getJsonData() for val in ticker if val in self.data]
+
+    def getExchangeRate(self, fromCurrency: str, toCurrency: str):
+        if((datetime.now() - self.lastFetched).total_seconds() > 900):
+            self.fetchAndUpdateLiveMarketData()
+        return self.data[toCurrency].currentPrice
+
+
+marketData = LiveMarketData()
+marketData.fetchAndUpdateLiveMarketData()
+
+
+def getLiveMarketDataInstance():
+    return marketData
 
 
 if __name__ == '__main__':

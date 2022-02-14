@@ -1,14 +1,12 @@
 from unicodedata import name
 from fastapi import APIRouter
 from pydantic import BaseModel
-from server.fastApi.modules.liveMarketData import LiveMarketData
+from server.fastApi.modules.liveMarketData import LiveMarketData, getLiveMarketDataInstance
 from server.fastApi.modules.tickerDetails import getTickerDetails
 
 from src.DataFieldConstants import RESULT
 
 router = APIRouter(prefix="/market")
-liveMarketData = LiveMarketData()
-liveMarketData.fetchAndUpdateLiveMarketData()
 
 
 class TickerListModel(BaseModel):
@@ -21,7 +19,7 @@ class TickerModel(BaseModel):
 
 @router.post("/getTickerLiveData")
 async def getTickerLiveData(data: TickerListModel):
-    return {RESULT: liveMarketData.getTickersData(data.tickers)}
+    return {RESULT: getLiveMarketDataInstance().getTickersData(data.tickers)}
 
 
 @router.post("/tickerDetails")

@@ -1,7 +1,5 @@
-from server.fastApi.modules.login import generateAuthorisation, getUserIdByAuth
-from server.fastApi.modules.portfolio import getCreditsByUserId
-from server.fastApi.modules.tickerDetails import getTickerDetails
+from server.fastApi.modules.portfolio import exchangeCurrency
 
 
 if __name__ == '__main__':
-    print(getTickerDetails("BTC"))
+    print(exchangeCurrency(1, "INR", "BTC", 1000))

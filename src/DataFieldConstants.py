@@ -3,6 +3,8 @@ MOBILE_NUMBER = "mobileNumber"
 USER_ID = "userID"
 AUTHORISATION = "Authorisation"
 BALANCE = "Balance"
+TRANSACTIONS = "transactions"
+TRANSACTIONID = "transactionId"
 
 INR = "INR"
 
