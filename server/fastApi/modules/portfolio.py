@@ -35,31 +35,40 @@ def getCompletePortFolio(userId: str):
     return {}
 
 
+def getRecentTransactions(userId: str):
+    result = userDB.find_one({USER_ID: int(userId)})
+    if result:
+        if result[TRANSACTIONS]:
+            return result[TRANSACTIONS]
+    return []
+
+
 def updateAmountByUserId(userId: str, newAmount: int, currency: str):
     userDB.update_one(
         {USER_ID: int(userId), "$set": {BALANCE: {currency: newAmount}}})
 
 
-def exchangeCurrency(userId: str, fromCurrency: str, toCurrency: str, amountInFromCurrency: int,actionType:str):
+def exchangeCurrency(userId: str, fromCurrency: str, toCurrency: str, amountInFromCurrency: int, actionType: str):
     # try:
-        if(actionType=='buy'):
-            exchangeRate = getLiveMarketDataInstance().getExchangeRate(fromCurrency, toCurrency)
-            amountInToCurrency = amountInFromCurrency / exchangeRate
-        else:
-            exchangeRate = getLiveMarketDataInstance().getExchangeRate(toCurrency, fromCurrency)
-            amountInToCurrency = amountInFromCurrency * exchangeRate
+    if (actionType == 'buy'):
+        exchangeRate = getLiveMarketDataInstance().getExchangeRate(fromCurrency, toCurrency)
+        amountInToCurrency = amountInFromCurrency / exchangeRate
+    else:
+        exchangeRate = getLiveMarketDataInstance().getExchangeRate(toCurrency, fromCurrency)
+        amountInToCurrency = amountInFromCurrency * exchangeRate
 
-        currentBalance = getMutiCurrencyAmountByUserId(
-            userId, [fromCurrency, toCurrency])
-        transactionId = uuid.uuid4().hex
-        userDB.update_one({USER_ID: int(userId)},
-                          {"$push": {TRANSACTIONS: {"transactionId": transactionId,
-                                                    "from": amountInFromCurrency,
-                                                    "fromCurrency": fromCurrency,
-                                                    "to": amountInToCurrency,
-                                                    "toCurrency": toCurrency}},
-                           "$set": {BALANCE: {fromCurrency: currentBalance[fromCurrency] - amountInFromCurrency,
-                                              toCurrency: currentBalance[toCurrency] + amountInToCurrency}}})
-        return True, transactionId
-    # except:
-    #     return False, ""
+    currentBalance = getMutiCurrencyAmountByUserId(
+        userId, [fromCurrency, toCurrency])
+    transactionId = uuid.uuid4().hex
+    userDB.update_one({USER_ID: int(userId)},
+                      {"$push": {TRANSACTIONS: {"transactionId": transactionId,
+                                                "from": amountInFromCurrency,
+                                                "fromCurrency": fromCurrency,
+                                                "to": amountInToCurrency,
+                                                "toCurrency": toCurrency,
+                                                "actionType": actionType}},
+                       "$set": {BALANCE+"."+fromCurrency: currentBalance[fromCurrency] - amountInFromCurrency,
+                                BALANCE+"."+toCurrency: currentBalance[toCurrency] + amountInToCurrency}})
+    return True, transactionId
+# except:
+#     return False, ""
