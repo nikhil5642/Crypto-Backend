@@ -1,8 +1,8 @@
-from turtle import update
-from DataBase.MongoDB import getUserInfoCollection
-from server.fastApi.modules.liveMarketData import LiveMarketData, getLiveMarketDataInstance
-from src.DataFieldConstants import BALANCE, USER_ID, TRANSACTIONS
 import uuid
+
+from DataBase.MongoDB import getUserInfoCollection
+from server.fastApi.modules.liveMarketData import getLiveMarketDataInstance
+from src.DataFieldConstants import BALANCE, USER_ID, TRANSACTIONS
 
 userDB = getUserInfoCollection()
 
@@ -15,7 +15,7 @@ def getAmountByUserId(userId: str, currency: str):
     return 0
 
 
-def getMutiCurrencyAmountByUserId(userId: str, currencies: list[str]):
+def getMultiCurrencyAmountByUserId(userId: str, currencies: list[str]):
     result = userDB.find_one({USER_ID: int(userId)})
     balance = {}
     if result:
@@ -29,10 +29,14 @@ def getMutiCurrencyAmountByUserId(userId: str, currencies: list[str]):
 
 def getCompletePortFolio(userId: str):
     result = userDB.find_one({USER_ID: int(userId)})
+    totalPortfolioValue = 0
     if result:
         if result[BALANCE]:
-            return result[BALANCE]
-    return {}
+            for tickerID in result[BALANCE]:
+                totalPortfolioValue += result[BALANCE][tickerID] * getLiveMarketDataInstance().getExchangeRate(tickerID,
+                                                                                                               "INR")
+            return result[BALANCE], totalPortfolioValue
+    return {}, totalPortfolioValue
 
 
 def getRecentTransactions(userId: str):
@@ -49,26 +53,26 @@ def updateAmountByUserId(userId: str, newAmount: int, currency: str):
 
 
 def exchangeCurrency(userId: str, fromCurrency: str, toCurrency: str, amountInFromCurrency: int, actionType: str):
-    # try:
-    if (actionType == 'buy'):
-        exchangeRate = getLiveMarketDataInstance().getExchangeRate(fromCurrency, toCurrency)
-        amountInToCurrency = amountInFromCurrency / exchangeRate
-    else:
-        exchangeRate = getLiveMarketDataInstance().getExchangeRate(toCurrency, fromCurrency)
-        amountInToCurrency = amountInFromCurrency * exchangeRate
+    try:
+        if actionType == 'buy':
+            exchangeRate = getLiveMarketDataInstance().getExchangeRate(toCurrency, fromCurrency)
+            amountInToCurrency = amountInFromCurrency / exchangeRate
+        else:
+            exchangeRate = getLiveMarketDataInstance().getExchangeRate(fromCurrency, toCurrency)
+            amountInToCurrency = amountInFromCurrency * exchangeRate
 
-    currentBalance = getMutiCurrencyAmountByUserId(
-        userId, [fromCurrency, toCurrency])
-    transactionId = uuid.uuid4().hex
-    userDB.update_one({USER_ID: int(userId)},
-                      {"$push": {TRANSACTIONS: {"transactionId": transactionId,
-                                                "from": amountInFromCurrency,
-                                                "fromCurrency": fromCurrency,
-                                                "to": amountInToCurrency,
-                                                "toCurrency": toCurrency,
-                                                "actionType": actionType}},
-                       "$set": {BALANCE+"."+fromCurrency: currentBalance[fromCurrency] - amountInFromCurrency,
-                                BALANCE+"."+toCurrency: currentBalance[toCurrency] + amountInToCurrency}})
-    return True, transactionId
-# except:
-#     return False, ""
+        currentBalance = getMultiCurrencyAmountByUserId(
+            userId, [fromCurrency, toCurrency])
+        transactionId = uuid.uuid4().hex
+        userDB.update_one({USER_ID: int(userId)},
+                          {"$push": {TRANSACTIONS: {"transactionId": transactionId,
+                                                    "from": amountInFromCurrency,
+                                                    "fromCurrency": fromCurrency,
+                                                    "to": amountInToCurrency,
+                                                    "toCurrency": toCurrency,
+                                                    "actionType": actionType}},
+                           "$set": {BALANCE + "." + fromCurrency: currentBalance[fromCurrency] - amountInFromCurrency,
+                                    BALANCE + "." + toCurrency: currentBalance[toCurrency] + amountInToCurrency}})
+        return True, transactionId
+    except:
+        return False, ""

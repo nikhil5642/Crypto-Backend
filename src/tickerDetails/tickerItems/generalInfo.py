@@ -1,19 +1,23 @@
-from h11 import Data
-from src.DataFieldConstants import DATA, DESCRIPTION, ITEM_TYPE, NAME, VALUES
+import json
+import os
+
+from src.DataFieldConstants import DATA, DESCRIPTION, ITEM_TYPE, NAME
+
+data = json.load(open(os.path.abspath("./src/tickerDetails/tickerItems/CoinList.json"), 'r'))
 
 
 class GeneralInfo:
     ITEM_TYPE = "GeneralInfo"
 
-    def __init__(self, name: str, description: str):
-        self.DATA = {NAME: name, DESCRIPTION: description}
+    def __init__(self, tickerId: str):
+        self.DATA = {NAME: data[tickerId]["CoinName"], DESCRIPTION: data[tickerId]["Description"]}
 
     def getJson(self):
-        return{
+        return {
             ITEM_TYPE: self.ITEM_TYPE,
             DATA: self.DATA
         }
 
 
 if __name__ == '__main__':
-    print(GeneralInfo("title", "dsfakljalsjfk;a").getJson())
+    print(GeneralInfo("BTC").getJson())

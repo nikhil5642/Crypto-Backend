@@ -1,4 +1,3 @@
-
 MOBILE_NUMBER = "mobileNumber"
 USER_ID = "userID"
 AUTHORISATION = "Authorisation"
@@ -7,6 +6,7 @@ TRANSACTIONS = "transactions"
 TRANSACTIONID = "transactionId"
 
 INR = "INR"
+TOTAL_PORTFOLIO_VALUE = "totalPortfolioValue"
 
 SUCCESS = "success"
 RESULT = "result"

@@ -27,5 +27,4 @@ async def verify(data: VerifyAuthModel):
 
 @router.post("/userId")
 async def verify(data: VerifyAuthModel):
-    print(data.auth)
     return {USER_ID: getUserIdByAuth(data.auth)}

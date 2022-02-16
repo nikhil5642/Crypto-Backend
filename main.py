@@ -1,5 +1,6 @@
-from server.fastApi.modules.portfolio import exchangeCurrency
-
+import json
+import os
 
 if __name__ == '__main__':
-    print(exchangeCurrency(1, "INR", "BTC", 1000))
+    data = json.load(open(os.path.abspath("./src/tickerDetails/tickerItems/CoinList.json"), 'r'))
+    print(data["BTC"])

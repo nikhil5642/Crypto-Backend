@@ -1,10 +1,9 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
 
-from server.fastApi.modules.portfolio import exchangeCurrency, getAmountByUserId, getMutiCurrencyAmountByUserId, \
+from server.fastApi.modules.portfolio import exchangeCurrency, getAmountByUserId, getMultiCurrencyAmountByUserId, \
     getCompletePortFolio, getRecentTransactions
-
-from src.DataFieldConstants import RESULT, SUCCESS, TRANSACTIONID, TRANSACTIONS, DATA
+from src.DataFieldConstants import SUCCESS, TRANSACTIONID, DATA, TOTAL_PORTFOLIO_VALUE
 
 router = APIRouter(prefix="/portfolio")
 
@@ -42,12 +41,13 @@ async def getRemainingAmount(portfolio: PortFolioModel):
 
 @router.post("/getMultipleCurrencyBalance")
 async def getMultipleCurrencyBalance(portfolio: MutliCurrencyPortFolioModel):
-    return getMutiCurrencyAmountByUserId(portfolio.userId, portfolio.currencies)
+    return getMultiCurrencyAmountByUserId(portfolio.userId, portfolio.currencies)
 
 
 @router.post("/getCompletePortFolio")
 async def getPortFolio(portfolio: PortFolioModel):
-    return getCompletePortFolio(portfolio.userId)
+    portfolioItems, totalPortfolio = getCompletePortFolio(portfolio.userId)
+    return {TOTAL_PORTFOLIO_VALUE: totalPortfolio, DATA: portfolioItems}
 
 
 @router.post("/exchangeCurrency")

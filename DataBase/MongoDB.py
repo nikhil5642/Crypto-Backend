@@ -1,4 +1,5 @@
 import os
+
 from pymongo import MongoClient
 
 MONGO_DB_NAME = "visa_mongo_db"
@@ -6,7 +7,7 @@ MONGO_DB_NAME = "visa_mongo_db"
 
 class MongoDBCollections:
     USER_INFO_COLLECTION = "user_info"
-    LOGIN_INFO_COLLECTION="login_info"
+    LOGIN_INFO_COLLECTION = "login_info"
 
 
 class MongoManager:
@@ -36,6 +37,7 @@ def getCollection():
 def getUserInfoCollection():
     return MongoManager.getInstance()[MongoDBCollections.USER_INFO_COLLECTION]
 
+
 def getLoginInfoCollection():
     return MongoManager.getInstance()[MongoDBCollections.LOGIN_INFO_COLLECTION]
 
@@ -43,4 +45,4 @@ def getLoginInfoCollection():
 if __name__ == '__main__':
     db = MongoManager.getInstance()
     userInfoCollection = db[MongoDBCollections.USER_INFO_COLLECTION]
-    print(userInfoCollection.find_one({"userId":1}))
+    print(userInfoCollection.find_one({"userId": 1}))
