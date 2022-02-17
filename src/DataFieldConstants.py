@@ -4,6 +4,7 @@ AUTHORISATION = "Authorisation"
 BALANCE = "Balance"
 TRANSACTIONS = "transactions"
 TRANSACTIONID = "transactionId"
+SESSION_ID = "sessionId"
 
 INR = "INR"
 TOTAL_PORTFOLIO_VALUE = "totalPortfolioValue"
