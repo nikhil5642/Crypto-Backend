@@ -42,7 +42,7 @@ def getCompletePortFolio(userId: str):
 def getRecentTransactions(userId: str):
     result = userDB.find_one({USER_ID: int(userId)})
     if result:
-        if result[TRANSACTIONS]:
+        if TRANSACTIONS in result:
             return result[TRANSACTIONS]
     return []
 

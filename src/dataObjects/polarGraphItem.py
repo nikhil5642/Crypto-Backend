@@ -1,7 +1,4 @@
-# from DataFieldConstants import ITEM_TYPE, TITLE
-
-
-from src.DataFieldConstants import DATA, ITEM_TYPE, TITLE, VALUES, DATA
+from src.DataFieldConstants import ITEM_TYPE, TITLE, VALUES, DATA
 
 
 class PolarGraphDataItem:
@@ -23,7 +20,7 @@ class PolarGraphItem:
         }
 
     def getJson(self):
-        return{
+        return {
             ITEM_TYPE: self.ITEM_TYPE,
             DATA: self.DATA
         }
