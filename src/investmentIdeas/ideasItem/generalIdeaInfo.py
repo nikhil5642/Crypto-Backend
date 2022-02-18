@@ -1,8 +1,8 @@
 from src.DataFieldConstants import DATA, DESCRIPTION, ITEM_TYPE, NAME
 
 
-class GeneralInfo:
-    ITEM_TYPE = "GeneralInfo"
+class GeneralIdeaInfo:
+    ITEM_TYPE = "GeneralIdeaInfo"
 
     def __init__(self, name: str, description: str):
         self.DATA = {NAME: name, DESCRIPTION: description}
@@ -15,4 +15,4 @@ class GeneralInfo:
 
 
 if __name__ == '__main__':
-    print(GeneralInfo("BTC", "testing").getJson())
+    print(GeneralIdeaInfo("BTC", "testing").getJson())

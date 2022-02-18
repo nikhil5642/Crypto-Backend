@@ -17,5 +17,9 @@ TITLE = "title"
 VALUES = "values"
 DATA = "data"
 
+ID = "id"
 NAME = "name"
 DESCRIPTION = "description"
+TITLE_IMG = "titleImg"
+
+IMG_URL = "imgUrl"
