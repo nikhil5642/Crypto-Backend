@@ -5,6 +5,8 @@ import numpy as np
 import pandas as pd
 import requests
 
+from src.tickerDetails.tickerItems.tagsProcessing import getProcessedTickerTags
+
 baseUrl = "https://min-api.cryptocompare.com"
 
 
@@ -14,6 +16,7 @@ class Ticker:
     currentPrice = 0.0
     change = 0.0
     volatility = 0
+    tags = []
     lastFetched = datetime.now()
 
     def __init__(self, name: str, tickerId: str, currentPrice: Double, change: Double):
@@ -21,6 +24,7 @@ class Ticker:
         self.tickerId = tickerId
         self.currentPrice = currentPrice
         self.change = change
+        self.tags = getProcessedTickerTags(tickerId)
 
     def updatePrice(self, newPrice: Double, change: Double):
         self.currentPrice = newPrice
@@ -33,7 +37,8 @@ class Ticker:
                 "id": self.tickerId,
                 "price": self.currentPrice,
                 "change": self.change,
-                "volatility": self.volatility}
+                "riskIndex": self.volatility,
+                "tags": self.tags, }
 
     def updateAdditionalInfo(self):
         endPoint = "data/v2/histohour"
@@ -87,7 +92,8 @@ class LiveMarketData:
                         ticker["CoinInfo"]["FullName"], ticker["CoinInfo"]["Name"], ticker["RAW"]["INR"]["PRICE"],
                         ticker["RAW"]["INR"]["CHANGEPCT24HOUR"])
                 except:
-                    print("Data not present for:", ticker["CoinInfo"]["FullName"])
+                    print("Data not present for:",
+                          ticker["CoinInfo"]["FullName"])
             self.lastFetched = datetime.now()
             print("Live Data Fetched")
         else:
