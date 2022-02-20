@@ -10,7 +10,6 @@ buckets = json.load(
 
 def getBucketsBasicInfo(bucketIds: list[str]):
     data = []
-    print(bucketIds)
     for bucketId in bucketIds:
         if bucketId in buckets:
             data.append({ID: bucketId, NAME: buckets[bucketId][NAME],
