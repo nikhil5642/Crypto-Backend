@@ -1,8 +1,9 @@
 import json
 import os
 from turtle import st
-
-from src.DataFieldConstants import NAME, TITLE_IMG, ID
+import copy
+from src.DataFieldConstants import NAME, TITLE_IMG, ID, BUCKETS
+from src.investmentIdeas.buckets.buckets import getBucketsBasicInfo
 
 causeInvestmentList = json.load(
     open(os.path.abspath("./src/investmentIdeas/causeInvestment/CauseInvestmentList.json"), 'r'))
@@ -18,4 +19,7 @@ def getInvestInCauseItems(causes: list[str]):
 
 
 def getCauseItemDetails(causes: str):
-    return causeInvestmentList[causes]
+    details = copy.deepcopy(causeInvestmentList[causes])
+    if BUCKETS in details:
+        details[BUCKETS] = getBucketsBasicInfo(details[BUCKETS])
+    return details

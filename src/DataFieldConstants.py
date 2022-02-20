@@ -16,6 +16,7 @@ ITEM_TYPE = "itemType"
 TITLE = "title"
 VALUES = "values"
 DATA = "data"
+BUCKETS = "buckets"
 
 ID = "id"
 NAME = "name"
