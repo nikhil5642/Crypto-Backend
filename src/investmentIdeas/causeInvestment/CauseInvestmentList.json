@@ -14,15 +14,15 @@
 		"name": "Lending & Borrowing",
 		"description": "Just like conventional peer–to–peer lending platforms, DeFi lending platforms facilitate its users to lend their assets to others. In exchange, they get interest payments. As these platforms usually deal in cryptocurrency, they get the interest payments in crypto only.",
 		"titleImg": "/assets/lending_logo.jpeg",
-		"images": ["/assets/metaverse_1.jpg", "/assets/metaverse_2.jpg"],
-		"buckets": []
+		"images": ["/assets/lending_1.jpeg", "/assets/lending_2.png"],
+		"buckets": ["bucket_x"]
 	},
 
 	"payments": {
 		"name": "Money Transfer",
 		"description": "Now you don't need bank to transfer Money. Blockchain technology offers faster, low-cost, secured payment services along with a distributed ledger that can provide trust among the participants. ",
 		"titleImg": "/assets/payments_logo.jpeg",
-		"images": ["/assets/metaverse_1.jpg", "/assets/metaverse_2.jpg"],
-		"buckets": []
+		"images": ["/assets/payments_1.png", "/assets/payments_2.jpeg"],
+		"buckets": ["bucket_x"]
 	}
 }
