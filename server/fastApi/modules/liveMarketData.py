@@ -1,5 +1,6 @@
 from datetime import datetime
 from tokenize import Double
+from typing import List
 
 import numpy as np
 import pandas as pd
@@ -99,7 +100,7 @@ class LiveMarketData:
         else:
             self.fetchAndUpdateLiveMarketData()
 
-    def getTickersData(self, ticker: list[str]):
+    def getTickersData(self, ticker: List[str]):
         if (datetime.now() - self.lastFetched).total_seconds() > 900:
             self.fetchAndUpdateLiveMarketData()
         return [self.data[val].getJsonData() for val in ticker if val in self.data]
