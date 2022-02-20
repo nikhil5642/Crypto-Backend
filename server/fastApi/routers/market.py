@@ -5,12 +5,13 @@ from server.fastApi.modules.liveMarketData import LiveMarketData, getLiveMarketD
 from server.fastApi.modules.tickerDetails import getTickerDetails
 
 from src.DataFieldConstants import RESULT
+from typing import List
 
 router = APIRouter(prefix="/market")
 
 
 class TickerListModel(BaseModel):
-    tickers: list[str] = []
+    tickers: List[str] = []
 
 
 class TickerModel(BaseModel):

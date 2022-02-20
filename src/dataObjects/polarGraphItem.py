@@ -1,5 +1,7 @@
 from src.DataFieldConstants import ITEM_TYPE, TITLE, VALUES, DATA
 
+from typing import List
+
 
 class PolarGraphDataItem:
     def __init__(self, name: str, value: int):
@@ -13,7 +15,7 @@ class PolarGraphDataItem:
 class PolarGraphItem:
     ITEM_TYPE = "PolarGraph"
 
-    def __init__(self, title: str, itemList: list[PolarGraphDataItem]):
+    def __init__(self, title: str, itemList: List[PolarGraphDataItem]):
         self.DATA = {
             TITLE: title,
             VALUES: [item.getJson() for item in itemList]

@@ -3,6 +3,7 @@ import uuid
 from DataBase.MongoDB import getUserInfoCollection
 from server.fastApi.modules.liveMarketData import getLiveMarketDataInstance
 from src.DataFieldConstants import BALANCE, USER_ID, TRANSACTIONS
+from typing import List
 
 userDB = getUserInfoCollection()
 
@@ -15,7 +16,7 @@ def getAmountByUserId(userId: str, currency: str):
     return 0
 
 
-def getMultiCurrencyAmountByUserId(userId: str, currencies: list[str]):
+def getMultiCurrencyAmountByUserId(userId: str, currencies: List[str]):
     result = userDB.find_one({USER_ID: int(userId)})
     balance = {}
     if result:

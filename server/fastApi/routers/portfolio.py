@@ -4,12 +4,14 @@ from pydantic import BaseModel
 from server.fastApi.modules.portfolio import exchangeCurrency, getAmountByUserId, getMultiCurrencyAmountByUserId, \
     getCompletePortFolio, getRecentTransactions
 from src.DataFieldConstants import SUCCESS, TRANSACTIONID, DATA, TOTAL_PORTFOLIO_VALUE
+from typing import List
+from typing import List
 
 router = APIRouter(prefix="/portfolio")
 
 
 class TickerListModel(BaseModel):
-    tickers: list[str] = []
+    tickers: List[str] = []
 
 
 class PortFolioModel(BaseModel):
@@ -27,7 +29,7 @@ class ExcangeCurrencyModel(BaseModel):
 
 class MutliCurrencyPortFolioModel(BaseModel):
     userId: str
-    currencies: list[str]
+    currencies: List[str]
 
 
 class RecentTransactions(BaseModel):

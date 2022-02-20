@@ -3,12 +3,13 @@ import os
 from turtle import st
 
 from src.DataFieldConstants import NAME, TITLE_IMG, ID
+from typing import List
 
 buckets = json.load(
     open(os.path.abspath("./src/investmentIdeas/buckets/BucketList.json"), 'r'))
 
 
-def getBucketsBasicInfo(bucketIds: list[str]):
+def getBucketsBasicInfo(bucketIds: List[str]):
     data = []
     for bucketId in bucketIds:
         if bucketId in buckets:
