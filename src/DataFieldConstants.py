@@ -1,6 +1,8 @@
 MOBILE_NUMBER = "mobileNumber"
 USER_ID = "userID"
 AUTHORISATION = "Authorisation"
+NEW_USER = "newUser"
+
 BALANCE = "Balance"
 TRANSACTIONS = "transactions"
 TRANSACTIONID = "transactionId"
