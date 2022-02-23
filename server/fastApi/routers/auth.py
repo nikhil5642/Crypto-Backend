@@ -27,9 +27,8 @@ TWO_FACTOR_AUTH_API_KEY = "37bc1f71-8fd4-11ec-a4c2-0200cd936042"
 
 @router.post("/sendOTP")
 async def login(data: SendOTPModel):
-    
-    if data.mobileNumber == "9999999999" or "8888888888" : #for testing purpous
-        return {SUCCESS: True, SESSION_ID: "testing"}
+    if data.mobileNumber == "9999999999" or data.mobileNumber =="8888888888" : #for testing purpous
+         return {SUCCESS: True, SESSION_ID: "testing"}
     
     response = requests.get(
         f"https://2factor.in/API/V1/{TWO_FACTOR_AUTH_API_KEY}/SMS/{data.mobileNumber}/AUTOGEN/OTP").json()
