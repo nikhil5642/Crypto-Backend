@@ -11,7 +11,7 @@ userDB = getUserInfoCollection()
 def getAmountByUserId(userId: str, currency: str):
     result = userDB.find_one({USER_ID: int(userId)})
     if result:
-        if result[BALANCE][currency]:
+        if currency in result[BALANCE]:
             return result[BALANCE][currency]
     return 0
 
