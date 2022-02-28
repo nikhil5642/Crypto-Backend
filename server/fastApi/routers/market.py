@@ -28,4 +28,4 @@ async def tickerDetails(data: TickerModel):
     return {RESULT: getTickerDetails(data.tickerId)}
 
 if __name__ == '__main__':
-    print(list(["adsf", "dfa"]) is list[str])
+    print(list(["adsf", "dfa"]) is List[str])

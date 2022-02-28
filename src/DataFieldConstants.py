@@ -1,3 +1,6 @@
+from sre_constants import CATEGORY
+
+
 MOBILE_NUMBER = "mobileNumber"
 USER_ID = "userID"
 AUTHORISATION = "Authorisation"
@@ -22,7 +25,14 @@ BUCKETS = "buckets"
 
 ID = "id"
 NAME = "name"
+SHORT_DESCRIPTION = "short_desc"
 DESCRIPTION = "description"
 TITLE_IMG = "titleImg"
+CATEGORY = "category"
+
+RETURN_ONE_YR = "return_one_yr"
+RETURN_THREE_YR = "return_three_yr"
+MIN_AMOUNT = "minAmount"
+RISK_LEVEL = "riskLevel"
 
 IMG_URL = "imgUrl"

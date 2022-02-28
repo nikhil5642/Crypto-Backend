@@ -2,6 +2,7 @@ from unicodedata import category
 from fastapi import APIRouter
 from pydantic import BaseModel
 from src.investmentIdeas.buckets.buckets import getBucketDetail, getBucketsBasicInfo
+from typing import List
 
 from src.investmentIdeas.causeInvestment.causeInvestment import getCauseItemDetails, getInvestInCauseItems
 
@@ -46,4 +47,4 @@ async def causeIdeaDetails(bucket: BucketItem):
     return getBucketDetail(bucket.bucketId)
 
 if __name__ == '__main__':
-    print(list(["adsf", "dfa"]) is list[str])
+    print(list(["adsf", "dfa"]) is List[str])

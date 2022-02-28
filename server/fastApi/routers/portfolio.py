@@ -65,4 +65,4 @@ async def getPortFolio(transactions: RecentTransactions):
 
 
 if __name__ == '__main__':
-    print(list(["adsf", "dfa"]) is list[str])
+    print(list(["adsf", "dfa"]) is List[str])

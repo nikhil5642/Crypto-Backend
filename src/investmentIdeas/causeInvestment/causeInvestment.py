@@ -1,8 +1,9 @@
+from calendar import c
 import json
 import os
 from turtle import st
 import copy
-from src.DataFieldConstants import NAME, TITLE_IMG, ID, BUCKETS
+from src.DataFieldConstants import NAME, TITLE_IMG, ID, BUCKETS, DESCRIPTION, SHORT_DESCRIPTION
 from src.investmentIdeas.buckets.buckets import getBucketsBasicInfo
 from typing import List
 
@@ -14,7 +15,7 @@ def getInvestInCauseItems(causes: List[str]):
     data = []
     for cause in causes:
         if cause in causeInvestmentList:
-            data.append({ID: cause, NAME: causeInvestmentList[cause][NAME],
+            data.append({ID: cause, NAME: causeInvestmentList[cause][NAME], SHORT_DESCRIPTION: causeInvestmentList[cause][SHORT_DESCRIPTION],
                         TITLE_IMG: causeInvestmentList[cause][TITLE_IMG]})
     return data
 
