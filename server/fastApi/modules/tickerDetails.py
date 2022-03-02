@@ -1,9 +1,13 @@
 
 
+from src.tickerDetails.tickerItems.generalInfo import GeneralInfo
+from src.tickerDetails.tickerItems.tagsProcessing import getProcessedTickerTags
 from src.tickerDetails.tickers.BTC import getBTCData
 
 
 def getTickerDetails(tickerId: str):
-    if(tickerId == "BTC"):
-        return getBTCData()
-    return getBTCData()
+    data = []
+    data.append(GeneralInfo(tickerId).getJson())
+    getProcessedTickerTags(tickerId)
+
+    return data

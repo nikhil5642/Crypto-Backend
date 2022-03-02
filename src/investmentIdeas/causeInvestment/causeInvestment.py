@@ -1,27 +1,26 @@
 from calendar import c
-import json
-import os
 from turtle import st
 import copy
+from unicodedata import category
+from DataBase.MongoDB import getInvestmentCategoriesCollection
 from src.DataFieldConstants import NAME, TITLE_IMG, ID, BUCKETS, DESCRIPTION, SHORT_DESCRIPTION
 from src.investmentIdeas.buckets.buckets import getBucketsBasicInfo
 from typing import List
 
-causeInvestmentList = json.load(
-    open(os.path.abspath("./src/investmentIdeas/causeInvestment/CauseInvestmentList.json"), 'r'))
+categoryDB = getInvestmentCategoriesCollection()
 
 
 def getInvestInCauseItems(causes: List[str]):
     data = []
-    for cause in causes:
-        if cause in causeInvestmentList:
-            data.append({ID: cause, NAME: causeInvestmentList[cause][NAME], SHORT_DESCRIPTION: causeInvestmentList[cause][SHORT_DESCRIPTION],
-                        TITLE_IMG: causeInvestmentList[cause][TITLE_IMG]})
+    for category in categoryDB.find({ID: {'$in': causes}}):
+        data.append({ID: category[ID], NAME: category[NAME], SHORT_DESCRIPTION: category[SHORT_DESCRIPTION],
+                     TITLE_IMG: category[TITLE_IMG]})
     return data
 
 
-def getCauseItemDetails(causes: str):
-    details = copy.deepcopy(causeInvestmentList[causes])
+def getCauseItemDetails(cause: str):
+    details = categoryDB.find({ID: cause})[0]
+    details.pop("_id")
     if BUCKETS in details:
         details[BUCKETS] = getBucketsBasicInfo(details[BUCKETS])
     return details

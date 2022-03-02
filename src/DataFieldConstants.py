@@ -34,5 +34,7 @@ RETURN_ONE_YR = "return_one_yr"
 RETURN_THREE_YR = "return_three_yr"
 MIN_AMOUNT = "minAmount"
 RISK_LEVEL = "riskLevel"
-
+UNIT_PRICE = "unitPrice"
+AMOUNT_PER_UNIT = "amountPerUnit"
+PORTFOLIO = "portfolio"
 IMG_URL = "imgUrl"

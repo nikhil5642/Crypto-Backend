@@ -8,6 +8,8 @@ MONGO_DB_NAME = "visa_mongo_db"
 class MongoDBCollections:
     USER_INFO_COLLECTION = "user_info"
     LOGIN_INFO_COLLECTION = "login_info"
+    BUCKET_COLLECTION = "buckets"
+    INVESTMETN_CATEGORIES_COLLECTION = "invest_categories"
 
 
 class MongoManager:
@@ -40,6 +42,14 @@ def getUserInfoCollection():
 
 def getLoginInfoCollection():
     return MongoManager.getInstance()[MongoDBCollections.LOGIN_INFO_COLLECTION]
+
+
+def getBucketsCollection():
+    return MongoManager.getInstance()[MongoDBCollections.BUCKET_COLLECTION]
+
+
+def getInvestmentCategoriesCollection():
+    return MongoManager.getInstance()[MongoDBCollections.INVESTMETN_CATEGORIES_COLLECTION]
 
 
 if __name__ == '__main__':

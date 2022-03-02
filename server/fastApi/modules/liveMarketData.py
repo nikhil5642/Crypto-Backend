@@ -17,7 +17,6 @@ class Ticker:
     currentPrice = 0.0
     change = 0.0
     volatility = 0
-    tags = []
     lastFetched = datetime.now()
 
     def __init__(self, name: str, tickerId: str, currentPrice: Double, change: Double):
@@ -25,7 +24,6 @@ class Ticker:
         self.tickerId = tickerId
         self.currentPrice = currentPrice
         self.change = change
-        self.tags = getProcessedTickerTags(tickerId)
 
     def updatePrice(self, newPrice: Double, change: Double):
         self.currentPrice = newPrice
@@ -38,8 +36,7 @@ class Ticker:
                 "id": self.tickerId,
                 "price": self.currentPrice,
                 "change": self.change,
-                "riskIndex": self.volatility,
-                "tags": self.tags, }
+                "riskIndex": self.volatility}
 
     def updateAdditionalInfo(self):
         endPoint = "data/v2/histohour"
