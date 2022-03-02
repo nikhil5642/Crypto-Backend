@@ -1,5 +1,7 @@
+import json
 from turtle import st
 from DataBase.MongoDB import getBucketsCollection
+from DataBase.RedisDB import getRedisInstance
 from server.fastApi.modules.liveMarketData import getLiveMarketDataInstance
 from server.fastApi.routers.market import getTickerLiveData
 
@@ -8,27 +10,41 @@ from typing import List
 from datetime import datetime
 
 bucketDB = getBucketsCollection()
+redis_client = getRedisInstance()
 
 
 def getBucketsBasicInfo(bucketIds: List[str]):
-    global lastUpdated
     data = []
-    for bucket in bucketDB.find({ID: {'$in': bucketIds}}):
-        if(LAST_UPDATED not in bucket or (bucket[LAST_UPDATED]-datetime.now()).total_seconds() > 900):
-            updateBucketPrice(bucket)
-        data.append({ID: bucket[ID], NAME: bucket[NAME], CATEGORY: bucket[CATEGORY],
-                    SHORT_DESCRIPTION: bucket[SHORT_DESCRIPTION],
-                    RETURN_ONE_YR: bucket[RETURN_ONE_YR],
-                    UNIT_PRICE: bucket[UNIT_PRICE],
-                    MIN_AMOUNT: bucket[MIN_AMOUNT],
-                    RISK_LEVEL: bucket[RISK_LEVEL],
-                    TITLE_IMG: bucket[TITLE_IMG]})
+    updateRedisDataBase()
+    for bucketId in bucketIds:
+        bucket = redis_client.get(bucketId+"_MarketData")
+        if bucket is not None:
+            bucket = json.loads(bucket)
+            data.append({ID: bucket[ID], NAME: bucket[NAME], CATEGORY: bucket[CATEGORY],
+                        SHORT_DESCRIPTION: bucket[SHORT_DESCRIPTION],
+                        RETURN_ONE_YR: bucket[RETURN_ONE_YR],
+                        UNIT_PRICE: bucket[UNIT_PRICE],
+                        MIN_AMOUNT: bucket[MIN_AMOUNT],
+                        RISK_LEVEL: bucket[RISK_LEVEL],
+                        TITLE_IMG: bucket[TITLE_IMG]})
     return data
 
 
+def updateRedisDataBase():
+    lastUpdated = redis_client.get("bucketBasicInfoLastFetched")
+    if lastUpdated is None or (datetime.now() - datetime.fromtimestamp(float(lastUpdated))).total_seconds() > 900:
+        for bucket in bucketDB.find({}):
+            if(LAST_UPDATED not in bucket or (bucket[LAST_UPDATED]-datetime.now()).total_seconds() > 900):
+                updateBucketPrice(bucket)
+            bucket.pop("_id")
+            bucket.pop("lastUpdated")
+            redis_client.set(bucket[ID]+"_MarketData", json.dumps(bucket))
+            redis_client.set(
+                "bucketBasicInfoLastFetched", datetime.timestamp(datetime.now()))
+
+
 def getBucketDetail(bucketId: str):
-    details = bucketDB.find({ID: bucketId})[0]
-    details.pop("_id")
+    details = json.loads(redis_client.get(bucketId+"_MarketData"))
     return details
 
 

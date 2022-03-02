@@ -1,80 +1,73 @@
-from datetime import datetime
+import copy
+from datetime import date, datetime
+import json
+from tkinter import CURRENT
 from tokenize import Double
 from typing import List
-
+from DataBase.MongoDB import getLiveMarketCollection
+from DataBase.RedisDB import getRedisInstance
+import pickle
 import numpy as np
 import pandas as pd
 import requests
+from src.DataFieldConstants import CHANGE, ID, LAST_UPDATED, NAME, PRICE, VOLATILITY
 
-from src.tickerDetails.tickerItems.tagsProcessing import getProcessedTickerTags
 
 baseUrl = "https://min-api.cryptocompare.com"
 
+liveMarketDB = getLiveMarketCollection()
 
-class Ticker:
-    name = ""
-    tickerId = ""
-    currentPrice = 0.0
-    change = 0.0
-    volatility = 0
-    lastFetched = datetime.now()
+redis_instance = getRedisInstance()
 
-    def __init__(self, name: str, tickerId: str, currentPrice: Double, change: Double):
-        self.name = name
-        self.tickerId = tickerId
-        self.currentPrice = currentPrice
-        self.change = change
 
-    def updatePrice(self, newPrice: Double, change: Double):
-        self.currentPrice = newPrice
-        self.change = change
-        if (datetime.now() - self.lastFetched).total_seconds() > 3600:
-            self.updateAdditionalInfo()
+def updateAdditionalInfo(tickerId):
+    endPoint = "/data/v2/histohour"
+    params = {"fsym": tickerId,
+              "tsym": "INR",
+              "limit": 200,
+              "toTs": -1}
+    response = requests.get(baseUrl + endPoint, params=params)
+    if response.status_code == 200:
+        df = pd.DataFrame(response.json()["Data"]["Data"])
+        df.sort_index(ascending=False, inplace=True)
+        volatility = calculateVolatility(df)
+        current = json.loads(redis_instance.get(tickerId+"_MarketData"))
+        current[VOLATILITY] = volatility
+        current[LAST_UPDATED] = datetime.timestamp(datetime.now())
+        redis_instance.set(tickerId+"_MarketData", json.dumps(current))
 
-    def getJsonData(self):
-        return {"name": self.name,
-                "id": self.tickerId,
-                "price": self.currentPrice,
-                "change": self.change,
-                "riskIndex": self.volatility}
 
-    def updateAdditionalInfo(self):
-        endPoint = "data/v2/histohour"
-        params = {"fsym": self.tickerId,
-                  "tsym": "INR",
-                  "limit": 200,
-                  "toTs": -1
-                  }
-        response = requests.get(baseUrl + endPoint, params=params)
-        if response.status_code == 200:
-            df = pd.DataFrame(response.json()["Data"])
-            df.sort_index(ascending=False, inplace=True)
-            self.calculateAndUpdateVolatility(df)
-            self.lastFetched = datetime.now()
-
-    def calculateAndUpdateVolatility(self, df):
-        returns = (np.log(df.close /
-                          df.close.shift(-1)))
-        returns.fillna(0, inplace=True)
-        std = np.std(returns)
-        mean = np.mean(returns)
-        if returns[0] > mean + 3 * std or returns[0] < mean - 3 * std:
-            self.volatility = 1  # "Highly Volatile"
-        elif returns[0] > mean + std or returns[0] < mean - std:
-            self.volatility = 0  # "Volatile"
-        else:
-            self.volatility = -1  # "Low Volatile"
+def calculateVolatility(data):
+    df = copy.deepcopy(data)
+    returns = (np.log(df.close /
+                      df.close.shift(-1)))
+    returns.fillna(0, inplace=True)
+    std = np.std(returns)
+    mean = np.mean(returns)
+    if returns[0] > mean + 3 * std or returns[0] < mean - 3 * std:
+        volatility = 1  # "Highly Volatile"
+    elif returns[0] > mean + std or returns[0] < mean - std:
+        volatility = 0  # "Volatile"
+    else:
+        volatility = -1  # "Low Volatile"
+    return volatility
 
 
 class LiveMarketData:
-    data = {}
-    lastFetched = datetime.now()
 
     def createOrUpdateTicker(self, name: str, tickerId: str, currentPrice: Double, change: Double):
-        if tickerId in self.data:
-            self.data[tickerId].updatePrice(currentPrice, change)
+        val = redis_instance.get(tickerId+"_MarketData")
+        if val is not None:
+            val = json.loads(val)
+            val[PRICE] = currentPrice
+            val[CHANGE] = change
+            redis_instance.set(tickerId+"_MarketData", json.dumps(val))
+            if LAST_UPDATED in val and (datetime.now() - datetime.fromtimestamp(float(val[LAST_UPDATED]))).total_seconds() > 3600:
+                updateAdditionalInfo(tickerId)
         else:
-            self.data[tickerId] = Ticker(name, tickerId, currentPrice, change)
+            redis_instance.set(tickerId+"_MarketData", json.dumps(
+                {NAME: name, ID: tickerId, PRICE: currentPrice, CHANGE: change}))
+            updateAdditionalInfo(tickerId)
 
     def fetchAndUpdateLiveMarketData(self):
         endPoint = "/data/top/mktcapfull"
@@ -92,23 +85,28 @@ class LiveMarketData:
                 except:
                     print("Data not present for:",
                           ticker["CoinInfo"]["FullName"])
-            self.lastFetched = datetime.now()
+            redis_instance.set("liveMarketDataLastFetched",
+                               datetime.timestamp(datetime.now()))
             print("Live Data Fetched")
         else:
             self.fetchAndUpdateLiveMarketData()
 
-    def getTickersData(self, ticker: List[str]):
-        if (datetime.now() - self.lastFetched).total_seconds() > 900:
+    def getTickersData(self, tickers: List[str]):
+        lastUpdated = redis_instance.get("liveMarketDataLastFetched")
+        if lastUpdated is None or (datetime.now() - datetime.fromtimestamp(float(lastUpdated))).total_seconds() > 900:
             self.fetchAndUpdateLiveMarketData()
-        return [self.data[val].getJsonData() for val in ticker if val in self.data]
+        data = []
+        for tickerId in tickers:
+            ticker = redis_instance.get(tickerId+"_MarketData")
+            if ticker is not None:
+                data.append(json.loads(ticker))
+        return data
 
     def getExchangeRate(self, fromCurrency: str, toCurrency: str):
-        if (datetime.now() - self.lastFetched).total_seconds() > 900:
-            self.fetchAndUpdateLiveMarketData()
-        try:
-            return self.data[fromCurrency].currentPrice
-        except:
-            return 1
+        ticker = redis_instance.get(fromCurrency+"_MarketData")
+        if ticker is None:
+            return 0
+        return json.loads(ticker)[PRICE]
 
 
 marketData = LiveMarketData()

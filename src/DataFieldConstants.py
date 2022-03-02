@@ -25,6 +25,10 @@ BUCKETS = "buckets"
 
 ID = "id"
 NAME = "name"
+PRICE = "price"
+CHANGE = "change"
+VOLATILITY = "volatility"
+
 SHORT_DESCRIPTION = "short_desc"
 DESCRIPTION = "description"
 TITLE_IMG = "titleImg"

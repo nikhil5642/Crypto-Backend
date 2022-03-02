@@ -10,6 +10,7 @@ class MongoDBCollections:
     LOGIN_INFO_COLLECTION = "login_info"
     BUCKET_COLLECTION = "buckets"
     INVESTMETN_CATEGORIES_COLLECTION = "invest_categories"
+    LIVE_MARKET_COLLECTION = "live_market"
 
 
 class MongoManager:
@@ -50,6 +51,10 @@ def getBucketsCollection():
 
 def getInvestmentCategoriesCollection():
     return MongoManager.getInstance()[MongoDBCollections.INVESTMETN_CATEGORIES_COLLECTION]
+
+
+def getLiveMarketCollection():
+    return MongoManager.getInstance()[MongoDBCollections.LIVE_MARKET_COLLECTION]
 
 
 if __name__ == '__main__':
