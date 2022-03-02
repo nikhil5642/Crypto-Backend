@@ -29,6 +29,7 @@ SHORT_DESCRIPTION = "short_desc"
 DESCRIPTION = "description"
 TITLE_IMG = "titleImg"
 CATEGORY = "category"
+LAST_UPDATED = "lastUpdated"
 
 RETURN_ONE_YR = "return_one_yr"
 RETURN_THREE_YR = "return_three_yr"
