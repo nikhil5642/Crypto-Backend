@@ -31,11 +31,13 @@ def getMultiCurrencyAmountByUserId(userId: str, currencies: List[str]):
 def getCompletePortFolio(userId: str):
     result = userDB.find_one({USER_ID: int(userId)})
     totalPortfolioValue = 0
+    baseCurrency = "INR"
     if result:
         if result[BALANCE]:
             for tickerID in result[BALANCE]:
-                totalPortfolioValue += result[BALANCE][tickerID] * getLiveMarketDataInstance().getExchangeRate(tickerID,
-                                                                                                               "INR")
+                totalPortfolioValue += result[BALANCE][tickerID] * \
+                    getLiveMarketDataInstance().getExchangeRate(tickerID, baseCurrency)
+            totalPortfolioValue += result[BALANCE][baseCurrency]
             return result[BALANCE], totalPortfolioValue
     return {}, totalPortfolioValue
 
