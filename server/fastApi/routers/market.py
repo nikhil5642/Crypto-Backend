@@ -1,6 +1,7 @@
 from unicodedata import name
 from fastapi import APIRouter
 from pydantic import BaseModel
+from server.fastApi.modules.chartData import fetchChartData
 from server.fastApi.modules.liveMarketData import LiveMarketData, getLiveMarketDataInstance
 from server.fastApi.modules.tickerDetails import getTickerDetails
 
@@ -26,6 +27,12 @@ async def getTickerLiveData(data: TickerListModel):
 @router.post("/tickerDetails")
 async def tickerDetails(data: TickerModel):
     return {RESULT: getTickerDetails(data.tickerId)}
+
+
+@router.post("/chartData")
+async def tickerDetails(data: TickerModel):
+    return {RESULT: fetchChartData(data.tickerId)}
+
 
 if __name__ == '__main__':
     print(list(["adsf", "dfa"]) is List[str])

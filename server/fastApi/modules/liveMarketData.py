@@ -1,6 +1,7 @@
 import copy
 from datetime import date, datetime
 import json
+import threading
 from tkinter import CURRENT
 from tokenize import Double
 from typing import List
@@ -10,7 +11,8 @@ import pickle
 import numpy as np
 import pandas as pd
 import requests
-from src.DataFieldConstants import CHANGE, ID, LAST_UPDATED, NAME, PRICE, VOLATILITY
+from server.fastApi.modules.chartData import updateOneDayData, updateOneYearData, updateWeeklyAndMonthlyData
+from src.DataFieldConstants import CHANGE, DAY, ID, LAST_UPDATED, MONTH, NAME, PRICE, VOLATILITY, WEEK
 
 
 baseUrl = "https://min-api.cryptocompare.com"
@@ -21,23 +23,25 @@ redis_instance = getRedisInstance()
 
 
 def updateAdditionalInfo(tickerId):
-    endPoint = "/data/v2/histohour"
-    params = {"fsym": tickerId,
-              "tsym": "INR",
-              "limit": 200,
-              "toTs": -1}
-    response = requests.get(baseUrl + endPoint, params=params)
-    if response.status_code == 200:
-        df = pd.DataFrame(response.json()["Data"]["Data"])
-        df.sort_index(ascending=False, inplace=True)
-        volatility = calculateVolatility(df)
-        current = json.loads(redis_instance.get(tickerId+"_MarketData"))
-        current[VOLATILITY] = volatility
-        current[LAST_UPDATED] = datetime.timestamp(datetime.now())
-        redis_instance.set(tickerId+"_MarketData", json.dumps(current))
+    currentTime = datetime.now()
+    updateOneDayData(tickerId)
+    if(currentTime.hour == 0):
+        updateOneYearData(tickerId)
+    if(currentTime.minute < 16):
+        endPoint = "/data/v2/histohour"
+        params = {"fsym": tickerId,
+                  "tsym": "INR",
+                  "limit": 800,
+                  "toTs": -1}
+        response = requests.get(baseUrl + endPoint, params=params)
+        if response.status_code == 200:
+            df = pd.DataFrame(response.json()["Data"]["Data"])
+            df.sort_index(ascending=False, inplace=True)
+            calculateAndUpdateVolatility(tickerId, df)
+            updateWeeklyAndMonthlyData(tickerId, df)
 
 
-def calculateVolatility(data):
+def calculateAndUpdateVolatility(tickerId, data):
     df = copy.deepcopy(data)
     returns = (np.log(df.close /
                       df.close.shift(-1)))
@@ -50,7 +54,10 @@ def calculateVolatility(data):
         volatility = 0  # "Volatile"
     else:
         volatility = -1  # "Low Volatile"
-    return volatility
+    current = json.loads(redis_instance.get(tickerId+"_MarketData"))
+    current[VOLATILITY] = volatility
+    current[LAST_UPDATED] = datetime.timestamp(datetime.now())
+    redis_instance.set(tickerId+"_MarketData", json.dumps(current))
 
 
 class LiveMarketData:
@@ -62,7 +69,7 @@ class LiveMarketData:
             val[PRICE] = currentPrice
             val[CHANGE] = change
             redis_instance.set(tickerId+"_MarketData", json.dumps(val))
-            if LAST_UPDATED in val and (datetime.now() - datetime.fromtimestamp(float(val[LAST_UPDATED]))).total_seconds() > 3600:
+            if LAST_UPDATED in val and (datetime.now() - datetime.fromtimestamp(float(val[LAST_UPDATED]))).total_seconds() > 900:
                 updateAdditionalInfo(tickerId)
         else:
             redis_instance.set(tickerId+"_MarketData", json.dumps(
@@ -70,6 +77,12 @@ class LiveMarketData:
             updateAdditionalInfo(tickerId)
 
     def fetchAndUpdateLiveMarketData(self):
+        thread = threading.Thread(
+            target=self.fetchAndUpdateLiveMarketDataAscyncronously, args=())
+        thread.daemon = True
+        thread.start()
+
+    def fetchAndUpdateLiveMarketDataAscyncronously(self):
         endPoint = "/data/top/mktcapfull"
         params = {"limit": 100,
                   "tsym": "INR",

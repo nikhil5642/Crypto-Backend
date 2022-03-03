@@ -43,3 +43,8 @@ UNIT_PRICE = "unitPrice"
 AMOUNT_PER_UNIT = "amountPerUnit"
 PORTFOLIO = "portfolio"
 IMG_URL = "imgUrl"
+
+DAY = 'day'
+WEEK = 'week'
+MONTH = 'month'
+YEAR = 'year'
