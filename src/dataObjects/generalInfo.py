@@ -4,14 +4,14 @@ import os
 from src.DataFieldConstants import DATA, DESCRIPTION, ITEM_TYPE, NAME
 
 data = json.load(open(os.path.abspath(
-    "./src/tickerDetails/tickerItems/CoinList.json"), 'r'))
+    "./src/assets/CoinList.json"), 'r'))
 
 
 class GeneralInfo:
     ITEM_TYPE = "GeneralInfo"
 
     def __init__(self, tickerId: str):
-        if(tickerId in data):
+        if (tickerId in data):
             self.DATA = {NAME: data[tickerId]["CoinName"],
                          DESCRIPTION: data[tickerId]["Description"]}
         else:

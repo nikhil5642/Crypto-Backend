@@ -1,6 +1,3 @@
-from sre_constants import CATEGORY
-
-
 MOBILE_NUMBER = "mobileNumber"
 USER_ID = "userID"
 AUTHORISATION = "Authorisation"
@@ -29,6 +26,10 @@ PRICE = "price"
 CHANGE = "change"
 VOLATILITY = "volatility"
 
+TAGS = "tags"
+RATINGS = "ratings"
+RATING = "rating"
+CHART_DATA = "chartData"
 SHORT_DESCRIPTION = "short_desc"
 DESCRIPTION = "description"
 TITLE_IMG = "titleImg"
@@ -48,3 +49,6 @@ DAY = 'day'
 WEEK = 'week'
 MONTH = 'month'
 YEAR = 'year'
+
+SIMETRI = "simetri"
+TOKEN_INSIGHT = "tokenInsight"

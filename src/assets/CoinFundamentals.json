@@ -1,0 +1,6643 @@
+{
+	"BTC": {
+		"tags": [
+			"mineable",
+			"pow",
+			"sha-256",
+			"store-of-value",
+			"state-channel",
+			"coinbase-ventures-portfolio",
+			"three-arrows-capital-portfolio",
+			"polychain-capital-portfolio",
+			"binance-labs-portfolio",
+			"blockchain-capital-portfolio",
+			"boostvc-portfolio",
+			"cms-holdings-portfolio",
+			"dcg-portfolio",
+			"dragonfly-capital-portfolio",
+			"electric-capital-portfolio",
+			"fabric-ventures-portfolio",
+			"framework-ventures-portfolio",
+			"galaxy-digital-portfolio",
+			"huobi-capital-portfolio",
+			"alameda-research-portfolio",
+			"a16z-portfolio",
+			"1confirmation-portfolio",
+			"winklevoss-capital-portfolio",
+			"usv-portfolio",
+			"placeholder-ventures-portfolio",
+			"pantera-capital-portfolio",
+			"multicoin-capital-portfolio",
+			"paradigm-portfolio"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 84.0,
+			"opportunity": 98.0,
+			"ecosystem": 95.0,
+			"performance": 84.0,
+			"team": 80.0,
+			"technology": 83.0,
+			"progress": 67.0
+		}
+	},
+	"ETH": {
+		"tags": [
+			"mineable",
+			"pow",
+			"smart-contracts",
+			"ethereum-ecosystem",
+			"coinbase-ventures-portfolio",
+			"three-arrows-capital-portfolio",
+			"polychain-capital-portfolio",
+			"binance-labs-portfolio",
+			"blockchain-capital-portfolio",
+			"boostvc-portfolio",
+			"cms-holdings-portfolio",
+			"dcg-portfolio",
+			"dragonfly-capital-portfolio",
+			"electric-capital-portfolio",
+			"fabric-ventures-portfolio",
+			"framework-ventures-portfolio",
+			"hashkey-capital-portfolio",
+			"kenetic-capital-portfolio",
+			"huobi-capital-portfolio",
+			"alameda-research-portfolio",
+			"a16z-portfolio",
+			"1confirmation-portfolio",
+			"winklevoss-capital-portfolio",
+			"usv-portfolio",
+			"placeholder-ventures-portfolio",
+			"pantera-capital-portfolio",
+			"multicoin-capital-portfolio",
+			"paradigm-portfolio",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 80.0,
+			"opportunity": 90.0,
+			"ecosystem": 95.0,
+			"performance": 65.0,
+			"team": 80.0,
+			"technology": 75.0,
+			"progress": 65.0
+		}
+	},
+	"USDT": {
+		"tags": [
+			"payments",
+			"stablecoin",
+			"asset-backed-stablecoin",
+			"avalanche-ecosystem",
+			"solana-ecosystem",
+			"arbitrum-ecosytem",
+			"moonriver-ecosystem",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 68,
+			"team": 59,
+			"technology": 83
+		}
+	},
+	"BNB": {
+		"tags": [
+			"marketplace",
+			"centralized-exchange",
+			"payments",
+			"smart-contracts",
+			"alameda-research-portfolio",
+			"multicoin-capital-portfolio",
+			"moonriver-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 81.0,
+			"opportunity": 90.0,
+			"ecosystem": 80.0,
+			"performance": 75.0,
+			"team": 90.0,
+			"technology": 70.0,
+			"progress": 75.0
+		}
+	},
+	"USDC": {
+		"tags": [
+			"medium-of-exchange",
+			"stablecoin",
+			"asset-backed-stablecoin",
+			"fantom-ecosystem",
+			"arbitrum-ecosytem",
+			"moonriver-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 95.0,
+			"ecosystem": 90,
+			"team": 80,
+			"technology": 80
+		}
+	},
+	"XRP": {
+		"tags": [
+			"medium-of-exchange",
+			"enterprise-solutions",
+			"binance-chain",
+			"arrington-xrp-capital-portfolio",
+			"galaxy-digital-portfolio",
+			"a16z-portfolio",
+			"pantera-capital-portfolio"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 69.0,
+			"opportunity": 80.0,
+			"ecosystem": 75.0,
+			"performance": 60.0,
+			"team": 80.0,
+			"technology": 75.0,
+			"progress": 65.0
+		}
+	},
+	"LUNA": {
+		"tags": [
+			"cosmos-ecosystem",
+			"store-of-value",
+			"defi",
+			"payments",
+			"coinbase-ventures-portfolio",
+			"binance-labs-portfolio",
+			"solana-ecosystem",
+			"arrington-xrp-capital-portfolio",
+			"hashkey-capital-portfolio",
+			"kenetic-capital-portfolio",
+			"huobi-capital-portfolio",
+			"pantera-capital-portfolio",
+			"terra-ecosystem"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 56,
+			"team": 90,
+			"technology": 84
+		}
+	},
+	"ADA": {
+		"tags": [
+			"mineable",
+			"dpos",
+			"pos",
+			"platform",
+			"research",
+			"smart-contracts",
+			"staking",
+			"cardano-ecosystem",
+			"cardano",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 64.0,
+			"opportunity": 58.0,
+			"ecosystem": 55.0,
+			"performance": 60.0,
+			"team": 65.0,
+			"technology": 65.0,
+			"progress": 40.0
+		}
+	},
+	"SOL": {
+		"tags": [
+			"pos",
+			"platform",
+			"solana-ecosystem",
+			"cms-holdings-portfolio",
+			"kenetic-capital-portfolio",
+			"alameda-research-portfolio",
+			"multicoin-capital-portfolio",
+			"okex-blockdream-ventures-portfolio"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 75.0,
+			"opportunity": 75.0,
+			"ecosystem": 73.0,
+			"performance": 75.0,
+			"team": 80.0,
+			"technology": 75.0,
+			"progress": 70.0
+		}
+	},
+	"AVAX": {
+		"tags": [
+			"defi",
+			"smart-contracts",
+			"polychain-capital-portfolio",
+			"avalanche-ecosystem",
+			"cms-holdings-portfolio",
+			"dragonfly-capital-portfolio",
+			"moonriver-ecosystem",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 77.0,
+			"opportunity": 72.0,
+			"ecosystem": 75.0,
+			"performance": 80.0,
+			"team": 80.0,
+			"technology": 85.0,
+			"progress": 80.0
+		}
+	},
+	"BUSD": {
+		"tags": [
+			"stablecoin",
+			"asset-backed-stablecoin",
+			"binance-chain",
+			"harmony-ecosystem",
+			"moonriver-ecosystem",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"DOT": {
+		"tags": [
+			"substrate",
+			"polkadot",
+			"binance-chain",
+			"polkadot-ecosystem",
+			"three-arrows-capital-portfolio",
+			"polychain-capital-portfolio",
+			"arrington-xrp-capital-portfolio",
+			"blockchain-capital-portfolio",
+			"boostvc-portfolio",
+			"cms-holdings-portfolio",
+			"coinfund-portfolio",
+			"fabric-ventures-portfolio",
+			"fenbushi-capital-portfolio",
+			"hashkey-capital-portfolio",
+			"kenetic-capital-portfolio",
+			"1confirmation-portfolio",
+			"placeholder-ventures-portfolio",
+			"pantera-capital-portfolio",
+			"exnetwork-capital-portfolio",
+			"web3",
+			"spartan-group",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 78.0,
+			"opportunity": 80.0,
+			"ecosystem": 80.0,
+			"performance": 70.0,
+			"team": 85.0,
+			"technology": 80.0,
+			"progress": 60.0
+		}
+	},
+	"DOGE": {
+		"tags": [
+			"mineable",
+			"pow",
+			"scrypt",
+			"medium-of-exchange",
+			"memes",
+			"payments",
+			"doggone-doggerel",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 41.0,
+			"opportunity": 50.0,
+			"ecosystem": 50.0,
+			"performance": 50.0,
+			"team": 30.0,
+			"technology": 30.0,
+			"progress": 30.0
+		}
+	},
+	"UST": {
+		"tags": [
+			"cosmos-ecosystem",
+			"stablecoin",
+			"terra-ecosystem",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"SHIB": { "tags": ["memes", "doggone-doggerel"], "rating": null },
+	"MATIC": {
+		"tags": [
+			"platform",
+			"enterprise-solutions",
+			"scaling",
+			"state-channel",
+			"coinbase-ventures-portfolio",
+			"binance-launchpad",
+			"binance-labs-portfolio",
+			"polygon-ecosystem",
+			"moonriver-ecosystem",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 75.0,
+			"opportunity": 75.0,
+			"ecosystem": 75.0,
+			"performance": 70.0,
+			"team": 80.0,
+			"technology": 80.0,
+			"progress": 70.0
+		}
+	},
+	"WBTC": {
+		"tags": [
+			"medium-of-exchange",
+			"defi",
+			"wrapped-tokens",
+			"fantom-ecosystem",
+			"arbitrum-ecosytem",
+			"moonriver-ecosystem"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 95.0,
+			"ecosystem": 82,
+			"team": 80,
+			"technology": 80
+		}
+	},
+	"DAI": {
+		"tags": [
+			"defi",
+			"stablecoin",
+			"ethereum-ecosystem",
+			"avalanche-ecosystem",
+			"polygon-ecosystem",
+			"fantom-ecosystem",
+			"arbitrum-ecosytem",
+			"harmony-ecosystem",
+			"moonriver-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 57,
+			"team": 71,
+			"technology": 80
+		}
+	},
+	"CRO": {
+		"tags": [
+			"medium-of-exchange",
+			"cosmos-ecosystem",
+			"centralized-exchange",
+			"mobile",
+			"payments"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 80,
+			"team": 56,
+			"technology": 56
+		}
+	},
+	"ATOM": {
+		"tags": [
+			"platform",
+			"cosmos-ecosystem",
+			"content-creation",
+			"interoperability",
+			"binance-chain",
+			"polychain-capital-portfolio",
+			"dragonfly-capital-portfolio",
+			"hashkey-capital-portfolio",
+			"1confirmation-portfolio",
+			"paradigm-portfolio",
+			"exnetwork-capital-portfolio",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 70.0,
+			"opportunity": 71.0,
+			"ecosystem": 71.0,
+			"performance": 75.0,
+			"team": 73.0,
+			"technology": 76.0,
+			"progress": 71.0
+		}
+	},
+	"LTC": {
+		"tags": [
+			"mineable",
+			"pow",
+			"scrypt",
+			"medium-of-exchange",
+			"binance-chain",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 74,
+			"team": 90,
+			"technology": 73
+		}
+	},
+	"NEAR": {
+		"tags": [
+			"platform",
+			"staking",
+			"coinbase-ventures-portfolio",
+			"arrington-xrp-capital-portfolio",
+			"coinfund-portfolio",
+			"electric-capital-portfolio",
+			"fabric-ventures-portfolio",
+			"kenetic-capital-portfolio",
+			"near-protocol-ecosystem",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 50,
+			"team": 65,
+			"technology": 65
+		}
+	},
+	"LINK": {
+		"tags": [
+			"platform",
+			"defi",
+			"oracles",
+			"smart-contracts",
+			"substrate",
+			"polkadot",
+			"polkadot-ecosystem",
+			"avalanche-ecosystem",
+			"solana-ecosystem",
+			"framework-ventures-portfolio",
+			"polygon-ecosystem",
+			"fantom-ecosystem",
+			"cardano-ecosystem",
+			"web3",
+			"near-protocol-ecosystem",
+			"arbitrum-ecosytem",
+			"cardano",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 76.0,
+			"opportunity": 85.0,
+			"ecosystem": 75.0,
+			"performance": 60.0,
+			"team": 85.0,
+			"technology": 75.0,
+			"progress": 70.0
+		}
+	},
+	"TRX": {
+		"tags": ["media", "payments", "tron-ecosystem", "bnb-chain"],
+		"rating": {
+			"provider": "simetri",
+			"overall": 73.7,
+			"opportunity": 80.0,
+			"ecosystem": 83.0,
+			"performance": 65.0,
+			"team": 75.0,
+			"technology": 70.0,
+			"progress": 60.0
+		}
+	},
+	"UNI": {
+		"tags": [
+			"decentralized-exchange",
+			"defi",
+			"dao",
+			"yield-farming",
+			"amm",
+			"coinbase-ventures-portfolio",
+			"three-arrows-capital-portfolio",
+			"governance",
+			"blockchain-capital-portfolio",
+			"defiance-capital-portfolio",
+			"alameda-research-portfolio",
+			"a16z-portfolio",
+			"pantera-capital-portfolio",
+			"parafi-capital",
+			"paradigm-portfolio",
+			"arbitrum-ecosytem",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 69.0,
+			"opportunity": 80.0,
+			"ecosystem": 80.0,
+			"performance": 70.0,
+			"team": 65.0,
+			"technology": 90.0,
+			"progress": 40.0
+		}
+	},
+	"FTT": {
+		"tags": [
+			"marketplace",
+			"centralized-exchange",
+			"derivatives",
+			"cms-holdings-portfolio",
+			"kenetic-capital-portfolio",
+			"alameda-research-portfolio",
+			"pantera-capital-portfolio",
+			"exnetwork-capital-portfolio"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 72,
+			"team": 84,
+			"technology": 73
+		}
+	},
+	"LEO": {
+		"tags": [
+			"marketplace",
+			"centralized-exchange",
+			"discount-token",
+			"payments",
+			"kenetic-capital-portfolio",
+			"alameda-research-portfolio"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 56,
+			"team": 63,
+			"technology": 49
+		}
+	},
+	"BCH": {
+		"tags": [
+			"mineable",
+			"pow",
+			"sha-256",
+			"marketplace",
+			"medium-of-exchange",
+			"store-of-value",
+			"enterprise-solutions",
+			"payments",
+			"binance-chain",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 67.6,
+			"opportunity": 60.0,
+			"ecosystem": 60.0,
+			"performance": 50.0,
+			"team": 82.0,
+			"technology": 73.0,
+			"progress": 75.0
+		}
+	},
+	"ALGO": {
+		"tags": [
+			"pos",
+			"platform",
+			"research",
+			"smart-contracts",
+			"arrington-xrp-capital-portfolio",
+			"kenetic-capital-portfolio",
+			"usv-portfolio",
+			"multicoin-capital-portfolio",
+			"exnetwork-capital-portfolio"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 70.0,
+			"opportunity": 67.0,
+			"ecosystem": 70.0,
+			"performance": 47.0,
+			"team": 83.0,
+			"technology": 76.0,
+			"progress": 70.0
+		}
+	},
+	"MANA": {
+		"tags": [
+			"platform",
+			"collectibles-nfts",
+			"gaming",
+			"payments",
+			"metaverse",
+			"boostvc-portfolio",
+			"dcg-portfolio",
+			"fabric-ventures-portfolio",
+			"kenetic-capital-portfolio",
+			"polygon-ecosystem",
+			"play-to-earn"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 64,
+			"team": 73,
+			"technology": 72
+		}
+	},
+	"XLM": {
+		"tags": [
+			"medium-of-exchange",
+			"enterprise-solutions",
+			"decentralized-exchange",
+			"smart-contracts",
+			"hashkey-capital-portfolio"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 64.0,
+			"opportunity": 60.0,
+			"ecosystem": 65.0,
+			"performance": 50.0,
+			"team": 75.0,
+			"technology": 75.0,
+			"progress": 60.0
+		}
+	},
+	"BTCB": { "tags": ["binance-chain", "bnb-chain"], "rating": null },
+	"HBAR": {
+		"tags": [
+			"dag",
+			"marketplace",
+			"enterprise-solutions",
+			"payments",
+			"dcg-portfolio"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 68.0,
+			"opportunity": 70.0,
+			"ecosystem": 73.0,
+			"performance": 57.0,
+			"team": 72.0,
+			"technology": 69.0,
+			"progress": 73.0
+		}
+	},
+	"ETC": {
+		"tags": [
+			"mineable",
+			"pow",
+			"ethash",
+			"platform",
+			"smart-contracts",
+			"dcg-portfolio",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 68.9,
+			"opportunity": 65.0,
+			"ecosystem": 60.0,
+			"performance": 60.0,
+			"team": 75.0,
+			"technology": 69.0,
+			"progress": 70.0
+		}
+	},
+	"ICP": {
+		"tags": [
+			"platform",
+			"distributed-computing",
+			"polychain-capital-portfolio",
+			"exnetwork-capital-portfolio"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 57.0,
+			"opportunity": 50.0,
+			"ecosystem": 60.0,
+			"performance": 40.0,
+			"team": 85.0,
+			"technology": 75.0,
+			"progress": 60.0
+		}
+	},
+	"FTM": {
+		"tags": [
+			"platform",
+			"enterprise-solutions",
+			"defi",
+			"research",
+			"scaling",
+			"smart-contracts",
+			"fantom-ecosystem",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 69.0,
+			"opportunity": 65.0,
+			"ecosystem": 60.0,
+			"performance": 80.0,
+			"team": 75.0,
+			"technology": 75.0,
+			"progress": 50.0
+		}
+	},
+	"SAND": {
+		"tags": [
+			"collectibles-nfts",
+			"content-creation",
+			"gaming",
+			"ethereum-ecosystem",
+			"binance-launchpad",
+			"metaverse",
+			"play-to-earn",
+			"animoca-brands-portfolio"
+		],
+		"rating": null
+	},
+	"XMR": {
+		"tags": [
+			"mineable",
+			"pow",
+			"medium-of-exchange",
+			"privacy",
+			"ringct",
+			"boostvc-portfolio",
+			"electric-capital-portfolio",
+			"galaxy-digital-portfolio"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 70.0,
+			"opportunity": 80.0,
+			"ecosystem": 66.0,
+			"performance": 50.0,
+			"team": 70.0,
+			"technology": 70.0,
+			"progress": 70.0
+		}
+	},
+	"FIL": {
+		"tags": [
+			"mineable",
+			"distributed-computing",
+			"filesharing",
+			"storage",
+			"polychain-capital-portfolio",
+			"blockchain-capital-portfolio",
+			"boostvc-portfolio",
+			"dcg-portfolio",
+			"hashkey-capital-portfolio",
+			"a16z-portfolio",
+			"winklevoss-capital-portfolio",
+			"pantera-capital-portfolio",
+			"web3",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 70.0,
+			"opportunity": 60.0,
+			"ecosystem": 75.0,
+			"performance": 65.0,
+			"team": 85.0,
+			"technology": 70.0,
+			"progress": 50.0
+		}
+	},
+	"WAVES": {
+		"tags": ["lpos", "platform", "smart-contracts"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 52,
+			"team": 51,
+			"technology": 82
+		}
+	},
+	"VET": {
+		"tags": [
+			"logistics",
+			"data-provenance",
+			"iot",
+			"smart-contracts",
+			"fenbushi-capital-portfolio"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 69.0,
+			"opportunity": 68.0,
+			"ecosystem": 72.0,
+			"performance": 50.0,
+			"team": 70.0,
+			"technology": 70.0,
+			"progress": 70.0
+		}
+	},
+	"EGLD": {
+		"tags": [
+			"binance-launchpad",
+			"binance-labs-portfolio",
+			"electric-capital-portfolio",
+			"exnetwork-capital-portfolio",
+			"elrond-ecosystem",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 69.0,
+			"opportunity": 47.0,
+			"ecosystem": 63.0,
+			"performance": 70.0,
+			"team": 80.0,
+			"technology": 73.0,
+			"progress": 73.0
+		}
+	},
+	"THETA": {
+		"tags": [
+			"media",
+			"collectibles-nfts",
+			"content-creation",
+			"defi",
+			"video",
+			"metaverse",
+			"huobi-capital-portfolio",
+			"web3"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 71.0,
+			"opportunity": 70.0,
+			"ecosystem": 79.0,
+			"performance": 75.0,
+			"team": 78.0,
+			"technology": 63.0,
+			"progress": 74.0
+		}
+	},
+	"KLAY": {
+		"tags": ["platform", "enterprise-solutions", "injective-ecosystem"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 51,
+			"team": 85,
+			"technology": 68
+		}
+	},
+	"AXS": {
+		"tags": [
+			"collectibles-nfts",
+			"gaming",
+			"binance-launchpad",
+			"metaverse",
+			"defiance-capital-portfolio",
+			"play-to-earn",
+			"animoca-brands-portfolio"
+		],
+		"rating": null
+	},
+	"XTZ": {
+		"tags": [
+			"pos",
+			"platform",
+			"enterprise-solutions",
+			"collectibles-nfts",
+			"defi",
+			"smart-contracts",
+			"polychain-capital-portfolio",
+			"boostvc-portfolio",
+			"winklevoss-capital-portfolio",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 70.0,
+			"opportunity": 73.0,
+			"ecosystem": 65.0,
+			"performance": 70.0,
+			"team": 70.0,
+			"technology": 70.0,
+			"progress": 65.0
+		}
+	},
+	"HNT": {
+		"tags": [
+			"mineable",
+			"enterprise-solutions",
+			"distributed-computing",
+			"iot",
+			"usv-portfolio",
+			"multicoin-capital-portfolio",
+			"web3"
+		],
+		"rating": null
+	},
+	"MIOTA": {
+		"tags": [
+			"dag",
+			"medium-of-exchange",
+			"iot",
+			"sharing-economy",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 64.0,
+			"opportunity": 65.0,
+			"ecosystem": 67.0,
+			"performance": 60.0,
+			"team": 75.0,
+			"technology": 70.0,
+			"progress": 50.0
+		}
+	},
+	"FLOW": {
+		"tags": [
+			"collectibles-nfts",
+			"coinbase-ventures-portfolio",
+			"coinfund-portfolio",
+			"dcg-portfolio",
+			"ledgerprime-portfolio",
+			"a16z-portfolio",
+			"animoca-brands-portfolio"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 69.0,
+			"opportunity": 90.0,
+			"ecosystem": 90.0,
+			"performance": 60.0,
+			"team": 80.0,
+			"technology": 80.0,
+			"progress": 50.0
+		}
+	},
+	"EOS": {
+		"tags": [
+			"medium-of-exchange",
+			"enterprise-solutions",
+			"smart-contracts",
+			"binance-chain",
+			"fenbushi-capital-portfolio",
+			"galaxy-digital-portfolio",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 74.0,
+			"opportunity": 80.0,
+			"ecosystem": 80.0,
+			"performance": 65.0,
+			"team": 80.0,
+			"technology": 70.0,
+			"progress": 60.0
+		}
+	},
+	"ZEC": {
+		"tags": [
+			"mineable",
+			"pow",
+			"equihash",
+			"medium-of-exchange",
+			"privacy",
+			"zero-knowledge-proofs",
+			"binance-chain",
+			"boostvc-portfolio",
+			"dcg-portfolio",
+			"electric-capital-portfolio",
+			"fenbushi-capital-portfolio",
+			"hashkey-capital-portfolio",
+			"winklevoss-capital-portfolio",
+			"placeholder-ventures-portfolio",
+			"pantera-capital-portfolio",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 69.0,
+			"opportunity": 65.0,
+			"ecosystem": 57.0,
+			"performance": 65.0,
+			"team": 80.0,
+			"technology": 83.0,
+			"progress": 70.0
+		}
+	},
+	"MKR": {
+		"tags": [
+			"store-of-value",
+			"defi",
+			"dao",
+			"polychain-capital-portfolio",
+			"governance",
+			"lending-borowing",
+			"dragonfly-capital-portfolio",
+			"electric-capital-portfolio",
+			"a16z-portfolio",
+			"1confirmation-portfolio",
+			"placeholder-ventures-portfolio",
+			"pantera-capital-portfolio",
+			"paradigm-portfolio",
+			"near-protocol-ecosystem",
+			"spartan-group",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 74.0,
+			"opportunity": 85.0,
+			"ecosystem": 75.0,
+			"performance": 60.0,
+			"team": 75.0,
+			"technology": 75.0,
+			"progress": 70.0
+		}
+	},
+	"BTT": {
+		"tags": [
+			"platform",
+			"distributed-computing",
+			"filesharing",
+			"interoperability",
+			"staking",
+			"tron-ecosystem",
+			"storage",
+			"binance-launchpad",
+			"binance-labs-portfolio",
+			"web3",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 61,
+			"team": 71,
+			"technology": 50
+		}
+	},
+	"CAKE": {
+		"tags": [
+			"decentralized-exchange",
+			"defi",
+			"yield-farming",
+			"binance-chain",
+			"amm",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 80,
+			"team": 70,
+			"technology": 80
+		}
+	},
+	"RUNE": {
+		"tags": [
+			"cosmos-ecosystem",
+			"decentralized-exchange",
+			"defi",
+			"multicoin-capital-portfolio",
+			"exnetwork-capital-portfolio"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 71.0,
+			"opportunity": 75.0,
+			"ecosystem": 68.0,
+			"performance": 60.0,
+			"team": 70.0,
+			"technology": 70.0,
+			"progress": 78.0
+		}
+	},
+	"AAVE": {
+		"tags": [
+			"defi",
+			"dao",
+			"yield-farming",
+			"three-arrows-capital-portfolio",
+			"governance",
+			"lending-borowing",
+			"blockchain-capital-portfolio",
+			"defiance-capital-portfolio",
+			"framework-ventures-portfolio",
+			"alameda-research-portfolio",
+			"pantera-capital-portfolio",
+			"parafi-capital",
+			"polygon-ecosystem",
+			"fantom-ecosystem",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"GRT": {
+		"tags": [
+			"ai-big-data",
+			"enterprise-solutions",
+			"defi",
+			"coinbase-ventures-portfolio",
+			"solana-ecosystem",
+			"analytics",
+			"coinfund-portfolio",
+			"dcg-portfolio",
+			"fabric-ventures-portfolio",
+			"framework-ventures-portfolio",
+			"ledgerprime-portfolio",
+			"multicoin-capital-portfolio",
+			"parafi-capital",
+			"polygon-ecosystem",
+			"fantom-ecosystem",
+			"web3",
+			"near-protocol-ecosystem",
+			"arbitrum-ecosytem",
+			"spartan-group",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 70.0,
+			"opportunity": 70.0,
+			"ecosystem": 75.0,
+			"performance": 70.0,
+			"team": 75.0,
+			"technology": 70.0,
+			"progress": 70.0
+		}
+	},
+	"GALA": {
+		"tags": [
+			"collectibles-nfts",
+			"gaming",
+			"polygon-ecosystem",
+			"play-to-earn"
+		],
+		"rating": null
+	},
+	"BSV": {
+		"tags": [
+			"mineable",
+			"pow",
+			"sha-256",
+			"medium-of-exchange",
+			"store-of-value",
+			"state-channel"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 71,
+			"team": 75,
+			"technology": 46
+		}
+	},
+	"ONE": {
+		"tags": [
+			"platform",
+			"enterprise-solutions",
+			"scaling",
+			"smart-contracts",
+			"binance-launchpad",
+			"binance-labs-portfolio",
+			"hashkey-capital-portfolio",
+			"harmony-ecosystem",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 70.0,
+			"opportunity": 65.0,
+			"ecosystem": 70.0,
+			"performance": 60.0,
+			"team": 78.0,
+			"technology": 76.0,
+			"progress": 75.0
+		}
+	},
+	"TUSD": {
+		"tags": [
+			"store-of-value",
+			"stablecoin",
+			"asset-backed-stablecoin",
+			"avalanche-ecosystem",
+			"arbitrum-ecosytem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 56,
+			"team": 83,
+			"technology": 92
+		}
+	},
+	"KCS": {
+		"tags": [
+			"marketplace",
+			"centralized-exchange",
+			"discount-token",
+			"algorand-ecosystem"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 48,
+			"team": 61,
+			"technology": 68
+		}
+	},
+	"HT": {
+		"tags": [
+			"marketplace",
+			"centralized-exchange",
+			"discount-token",
+			"payments",
+			"algorand-ecosystem",
+			"kenetic-capital-portfolio",
+			"alameda-research-portfolio",
+			"multicoin-capital-portfolio"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 65,
+			"team": 92,
+			"technology": 78
+		}
+	},
+	"NEO": {
+		"tags": ["platform", "enterprise-solutions", "smart-contracts"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 56,
+			"team": 65,
+			"technology": 82
+		}
+	},
+	"XEC": { "tags": [], "rating": null },
+	"STX": {
+		"tags": [
+			"arrington-xrp-capital-portfolio",
+			"blockchain-capital-portfolio",
+			"dcg-portfolio",
+			"fabric-ventures-portfolio",
+			"hashkey-capital-portfolio",
+			"huobi-capital-portfolio",
+			"usv-portfolio",
+			"web3",
+			"injective-ecosystem"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 52,
+			"team": 71,
+			"technology": 59
+		}
+	},
+	"QNT": {
+		"tags": ["platform", "interoperability"],
+		"rating": {
+			"provider": "simetri",
+			"overall": 72.0,
+			"opportunity": 75.0,
+			"ecosystem": 72.0,
+			"performance": 65.0,
+			"team": 77.0,
+			"technology": 70.0,
+			"progress": 70.0
+		}
+	},
+	"CELO": {
+		"tags": [
+			"pos",
+			"zero-knowledge-proofs",
+			"mobile",
+			"payments",
+			"smart-contracts",
+			"coinbase-ventures-portfolio",
+			"polychain-capital-portfolio",
+			"dragonfly-capital-portfolio",
+			"electric-capital-portfolio",
+			"a16z-portfolio",
+			"celo-ecosystem"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 57,
+			"team": 68,
+			"technology": 65
+		}
+	},
+	"NEXO": {
+		"tags": ["services", "payments", "cardano-ecosystem"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 62,
+			"team": 55,
+			"technology": 60
+		}
+	},
+	"ENJ": {
+		"tags": [
+			"media",
+			"collectibles-nfts",
+			"gaming",
+			"ethereum-ecosystem",
+			"metaverse",
+			"arrington-xrp-capital-portfolio"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 79.0,
+			"opportunity": 85.0,
+			"ecosystem": 85.0,
+			"performance": 75.0,
+			"team": 80.0,
+			"technology": 85.0,
+			"progress": 75.0
+		}
+	},
+	"CHZ": {
+		"tags": ["sports", "collectibles-nfts", "content-creation", "payments"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 52,
+			"team": 66,
+			"technology": 75
+		}
+	},
+	"AR": {
+		"tags": [
+			"distributed-computing",
+			"filesharing",
+			"storage",
+			"coinbase-ventures-portfolio",
+			"solana-ecosystem",
+			"arrington-xrp-capital-portfolio",
+			"blockchain-capital-portfolio",
+			"a16z-portfolio",
+			"multicoin-capital-portfolio",
+			"web3"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 62,
+			"team": 57,
+			"technology": 81
+		}
+	},
+	"KSM": {
+		"tags": [
+			"substrate",
+			"polkadot-ecosystem",
+			"cms-holdings-portfolio",
+			"kenetic-capital-portfolio",
+			"1confirmation-portfolio",
+			"vbc-ventures-portfolio"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 48,
+			"team": 73,
+			"technology": 64
+		}
+	},
+	"KDA": {
+		"tags": [
+			"mineable",
+			"pow",
+			"blake2s",
+			"platform",
+			"cosmos-ecosystem",
+			"smart-contracts",
+			"coinfund-portfolio",
+			"multicoin-capital-portfolio"
+		],
+		"rating": null
+	},
+	"OKB": {
+		"tags": [
+			"marketplace",
+			"centralized-exchange",
+			"discount-token",
+			"alameda-research-portfolio"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 74.8,
+			"opportunity": 80.0,
+			"ecosystem": 70.0,
+			"performance": 65.0,
+			"team": 80.0,
+			"technology": 70.0,
+			"progress": 70.0
+		}
+	},
+	"AMP": { "tags": [], "rating": null },
+	"DASH": {
+		"tags": [
+			"mineable",
+			"hybrid-pow-pos",
+			"x11",
+			"medium-of-exchange",
+			"masternodes",
+			"dao",
+			"governance"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 73.0,
+			"opportunity": 70.0,
+			"ecosystem": 85.0,
+			"performance": 50.0,
+			"team": 72.0,
+			"technology": 80.0,
+			"progress": 75.0
+		}
+	},
+	"ANC": {
+		"tags": [
+			"cosmos-ecosystem",
+			"arrington-xrp-capital-portfolio",
+			"terra-ecosystem"
+		],
+		"rating": null
+	},
+	"BAT": {
+		"tags": [
+			"marketing",
+			"content-creation",
+			"defi",
+			"payments",
+			"dcg-portfolio",
+			"1confirmation-portfolio",
+			"pantera-capital-portfolio",
+			"web3",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 74.0,
+			"opportunity": 80.0,
+			"ecosystem": 70.0,
+			"performance": 50.0,
+			"team": 80.0,
+			"technology": 70.0,
+			"progress": 90.0
+		}
+	},
+	"USDP": {
+		"tags": [
+			"store-of-value",
+			"stablecoin",
+			"asset-backed-stablecoin",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"LRC": {
+		"tags": [
+			"marketplace",
+			"decentralized-exchange",
+			"defi",
+			"scaling",
+			"rollups"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 43,
+			"team": 57,
+			"technology": 69
+		}
+	},
+	"CRV": {
+		"tags": [
+			"decentralized-exchange",
+			"defi",
+			"dao",
+			"yield-farming",
+			"amm",
+			"governance",
+			"framework-ventures-portfolio",
+			"alameda-research-portfolio",
+			"polygon-ecosystem",
+			"fantom-ecosystem",
+			"arbitrum-ecosytem"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 76,
+			"team": 74,
+			"technology": 84
+		}
+	},
+	"XEM": {
+		"tags": [
+			"poi",
+			"medium-of-exchange",
+			"payments",
+			"smart-contracts",
+			"fantom-ecosystem"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 60.0,
+			"opportunity": 59.0,
+			"ecosystem": 54.0,
+			"performance": 39.0,
+			"team": 54.0,
+			"technology": 59.0,
+			"progress": 29.0
+		}
+	},
+	"CVX": { "tags": ["defi", "yield-aggregator"], "rating": null },
+	"TFUEL": {
+		"tags": ["media", "content-creation", "defi", "payments"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 78,
+			"team": 60,
+			"technology": 65
+		}
+	},
+	"ROSE": {
+		"tags": [
+			"cosmos-ecosystem",
+			"collectibles-nfts",
+			"defi",
+			"privacy",
+			"scaling",
+			"smart-contracts",
+			"polychain-capital-portfolio",
+			"binance-labs-portfolio",
+			"arrington-xrp-capital-portfolio",
+			"blockchain-capital-portfolio",
+			"dragonfly-capital-portfolio",
+			"electric-capital-portfolio",
+			"kenetic-capital-portfolio",
+			"huobi-capital-portfolio",
+			"a16z-portfolio",
+			"winklevoss-capital-portfolio",
+			"pantera-capital-portfolio"
+		],
+		"rating": null
+	},
+	"XYM": { "tags": [], "rating": null },
+	"CEL": {
+		"tags": ["lending-borowing", "exnetwork-capital-portfolio"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 53,
+			"team": 68,
+			"technology": 54
+		}
+	},
+	"DCR": {
+		"tags": [
+			"mineable",
+			"hybrid-pow-pos",
+			"blake256",
+			"medium-of-exchange",
+			"store-of-value",
+			"privacy",
+			"dao",
+			"placeholder-ventures-portfolio"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 70.0,
+			"opportunity": 68.0,
+			"ecosystem": 68.0,
+			"performance": 60.0,
+			"team": 70.0,
+			"technology": 73.0,
+			"progress": 75.0
+		}
+	},
+	"SCRT": { "tags": ["cosmos-ecosystem", "defi", "privacy"], "rating": null },
+	"MINA": {
+		"tags": [
+			"pos",
+			"zero-knowledge-proofs",
+			"staking",
+			"coinbase-ventures-portfolio",
+			"polychain-capital-portfolio"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 59.0,
+			"opportunity": 50.0,
+			"ecosystem": 55.0,
+			"performance": 60.0,
+			"team": 60.0,
+			"technology": 50.0,
+			"progress": 70.0
+		}
+	},
+	"BORA": {
+		"tags": ["marketplace", "gaming", "wallet"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 44,
+			"team": 59,
+			"technology": 56
+		}
+	},
+	"YFI": {
+		"tags": [
+			"defi",
+			"yield-farming",
+			"yield-aggregator",
+			"yearn-partnerships",
+			"three-arrows-capital-portfolio",
+			"polychain-capital-portfolio",
+			"governance",
+			"blockchain-capital-portfolio",
+			"framework-ventures-portfolio",
+			"alameda-research-portfolio",
+			"parafi-capital",
+			"fantom-ecosystem",
+			"arbitrum-ecosytem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 81.0,
+			"opportunity": 85.0,
+			"ecosystem": 85.0,
+			"performance": 75.0,
+			"team": 80.0,
+			"technology": 90.0,
+			"progress": 70.0
+		}
+	},
+	"HOT": {
+		"tags": ["platform", "distributed-computing", "filesharing", "storage"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 45,
+			"team": 61,
+			"technology": 47
+		}
+	},
+	"COMP": {
+		"tags": [
+			"defi",
+			"dao",
+			"yield-farming",
+			"polkadot-ecosystem",
+			"coinbase-ventures-portfolio",
+			"three-arrows-capital-portfolio",
+			"polychain-capital-portfolio",
+			"lending-borowing",
+			"dragonfly-capital-portfolio",
+			"alameda-research-portfolio",
+			"a16z-portfolio",
+			"pantera-capital-portfolio",
+			"paradigm-portfolio",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 75.0,
+			"opportunity": 80.0,
+			"ecosystem": 75.0,
+			"performance": 70.0,
+			"team": 90.0,
+			"technology": 90.0,
+			"progress": 60.0
+		}
+	},
+	"ICX": {
+		"tags": [
+			"platform",
+			"enterprise-solutions",
+			"interoperability",
+			"smart-contracts",
+			"kenetic-capital-portfolio",
+			"pantera-capital-portfolio"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 64.0,
+			"opportunity": 67.0,
+			"ecosystem": 60.0,
+			"performance": 50.0,
+			"team": 75.0,
+			"technology": 69.0,
+			"progress": 50.0
+		}
+	},
+	"IOTX": {
+		"tags": [
+			"platform",
+			"iot",
+			"hashkey-capital-portfolio",
+			"kenetic-capital-portfolio",
+			"iotex-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 53,
+			"team": 61,
+			"technology": 67
+		}
+	},
+	"XDC": { "tags": [], "rating": null },
+	"SXP": {
+		"tags": [
+			"medium-of-exchange",
+			"defi",
+			"payments",
+			"wallet",
+			"binance-labs-portfolio",
+			"alameda-research-portfolio",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 44,
+			"team": 36,
+			"technology": 73
+		}
+	},
+	"OMG": {
+		"tags": [
+			"medium-of-exchange",
+			"payments",
+			"scaling",
+			"state-channel",
+			"pantera-capital-portfolio"
+		],
+		"rating": null
+	},
+	"PAXG": {
+		"tags": ["bnb-chain"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 53,
+			"team": 68,
+			"technology": 50
+		}
+	},
+	"RENBTC": {
+		"tags": ["defi", "wrapped-tokens", "fantom-ecosystem", "bnb-chain"],
+		"rating": null
+	},
+	"USDN": { "tags": ["defi", "stablecoin", "bnb-chain"], "rating": null },
+	"ANKR": {
+		"tags": [
+			"platform",
+			"cosmos-ecosystem",
+			"enterprise-solutions",
+			"defi",
+			"filesharing",
+			"staking",
+			"substrate",
+			"binance-chain",
+			"polkadot-ecosystem",
+			"pantera-capital-portfolio",
+			"polygon-ecosystem",
+			"celo-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 32,
+			"team": 43,
+			"technology": 72
+		}
+	},
+	"RNDR": {
+		"tags": [
+			"art",
+			"media",
+			"collectibles-nfts",
+			"gaming",
+			"scaling",
+			"video",
+			"ethereum-ecosystem",
+			"solana-ecosystem",
+			"metaverse",
+			"alameda-research-portfolio",
+			"multicoin-capital-portfolio",
+			"polygon-ecosystem",
+			"web3"
+		],
+		"rating": null
+	},
+	"QTUM": {
+		"tags": ["platform", "smart-contracts", "kenetic-capital-portfolio"],
+		"rating": {
+			"provider": "simetri",
+			"overall": 58.0,
+			"opportunity": 60.0,
+			"ecosystem": 60.0,
+			"performance": 50.0,
+			"team": 53.0,
+			"technology": 63.0,
+			"progress": 45.0
+		}
+	},
+	"BNT": {
+		"tags": [
+			"marketplace",
+			"decentralized-exchange",
+			"defi",
+			"payments",
+			"scaling",
+			"amm",
+			"kenetic-capital-portfolio",
+			"arbitrum-ecosytem"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 41,
+			"team": 80,
+			"technology": 92
+		}
+	},
+	"WAXP": {
+		"tags": [
+			"media",
+			"collectibles-nfts",
+			"gaming",
+			"entertainment",
+			"payments",
+			"metaverse",
+			"galaxy-digital-portfolio",
+			"kenetic-capital-portfolio",
+			"play-to-earn",
+			"okex-blockdream-ventures-portfolio"
+		],
+		"rating": null
+	},
+	"GNO": {
+		"tags": [
+			"services",
+			"decentralized-exchange",
+			"defi",
+			"prediction-markets",
+			"kenetic-capital-portfolio",
+			"arbitrum-ecosytem"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 86,
+			"team": 32,
+			"technology": 50
+		}
+	},
+	"BTG": {
+		"tags": ["mineable", "medium-of-exchange", "payments"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 17,
+			"team": 100,
+			"technology": 20
+		}
+	},
+	"1INCH": {
+		"tags": [
+			"decentralized-exchange",
+			"defi",
+			"amm",
+			"binance-labs-portfolio",
+			"blockchain-capital-portfolio",
+			"dragonfly-capital-portfolio",
+			"fabric-ventures-portfolio",
+			"alameda-research-portfolio",
+			"parafi-capital",
+			"spartan-group",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 74,
+			"team": 76,
+			"technology": 77
+		}
+	},
+	"SNX": {
+		"tags": [
+			"services",
+			"decentralized-exchange",
+			"defi",
+			"derivatives",
+			"dao",
+			"yield-farming",
+			"coinbase-ventures-portfolio",
+			"three-arrows-capital-portfolio",
+			"governance",
+			"synthetics",
+			"defiance-capital-portfolio",
+			"framework-ventures-portfolio",
+			"alameda-research-portfolio",
+			"parafi-capital",
+			"paradigm-portfolio",
+			"fantom-ecosystem",
+			"spartan-group",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 82.0,
+			"opportunity": 80.0,
+			"ecosystem": 85.0,
+			"performance": 85.0,
+			"team": 85.0,
+			"technology": 80.0,
+			"progress": 85.0
+		}
+	},
+	"RVN": {
+		"tags": ["mineable", "pow", "platform", "crowdfunding"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 28,
+			"team": 44,
+			"technology": 76
+		}
+	},
+	"KNC": {
+		"tags": [
+			"marketplace",
+			"decentralized-exchange",
+			"defi",
+			"dao",
+			"amm",
+			"three-arrows-capital-portfolio",
+			"governance",
+			"kenetic-capital-portfolio",
+			"pantera-capital-portfolio",
+			"parafi-capital"
+		],
+		"rating": null
+	},
+	"UMA": {
+		"tags": [
+			"defi",
+			"derivatives",
+			"oracles",
+			"dao",
+			"coinbase-ventures-portfolio",
+			"governance",
+			"synthetics",
+			"blockchain-capital-portfolio",
+			"dragonfly-capital-portfolio",
+			"placeholder-ventures-portfolio",
+			"polygon-ecosystem",
+			"injective-ecosystem"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 70,
+			"team": 67,
+			"technology": 60
+		}
+	},
+	"VLX": { "tags": [], "rating": null },
+	"LPT": {
+		"tags": [
+			"coinfund-portfolio",
+			"dcg-portfolio",
+			"pantera-capital-portfolio",
+			"multicoin-capital-portfolio",
+			"web3"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 60,
+			"team": 66,
+			"technology": 70
+		}
+	},
+	"ZIL": {
+		"tags": [
+			"mineable",
+			"platform",
+			"payments",
+			"smart-contracts",
+			"polychain-capital-portfolio",
+			"kenetic-capital-portfolio",
+			"zilliqa-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 69.5,
+			"opportunity": 70.0,
+			"ecosystem": 60.0,
+			"performance": 50.0,
+			"team": 80.0,
+			"technology": 75.0,
+			"progress": 65.0
+		}
+	},
+	"GT": {
+		"tags": [
+			"marketplace",
+			"centralized-exchange",
+			"discount-token",
+			"algorand-ecosystem"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 48,
+			"team": 49,
+			"technology": 63
+		}
+	},
+	"KAVA": {
+		"tags": [
+			"cosmos-ecosystem",
+			"defi",
+			"binance-launchpad",
+			"binance-labs-portfolio",
+			"lending-borowing",
+			"arrington-xrp-capital-portfolio",
+			"framework-ventures-portfolio",
+			"hashkey-capital-portfolio",
+			"injective-ecosystem"
+		],
+		"rating": null
+	},
+	"ZEN": {
+		"tags": [
+			"mineable",
+			"pow",
+			"medium-of-exchange",
+			"enterprise-solutions",
+			"content-creation",
+			"privacy",
+			"masternodes",
+			"sidechain",
+			"dcg-portfolio"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 39,
+			"team": 77,
+			"technology": 90
+		}
+	},
+	"GLM": {
+		"tags": [
+			"platform",
+			"distributed-computing",
+			"payments",
+			"polygon-ecosystem",
+			"web3"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 60,
+			"team": 58,
+			"technology": 83
+		}
+	},
+	"RLY": {
+		"tags": [
+			"yield-farming",
+			"social-token",
+			"social-money",
+			"coinbase-ventures-portfolio",
+			"kenetic-capital-portfolio",
+			"ledgerprime-portfolio",
+			"a16z-portfolio"
+		],
+		"rating": null
+	},
+	"WOO": {
+		"tags": [
+			"centralized-exchange",
+			"exnetwork-capital-portfolio",
+			"polygon-ecosystem",
+			"arbitrum-ecosytem",
+			"mvb",
+			"vbc-ventures-portfolio",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 32,
+			"team": 61,
+			"technology": 74
+		}
+	},
+	"GLMR": {
+		"tags": [
+			"smart-contracts",
+			"substrate",
+			"polkadot",
+			"polkadot-ecosystem",
+			"binance-labs-portfolio",
+			"arrington-xrp-capital-portfolio",
+			"injective-ecosystem"
+		],
+		"rating": null
+	},
+	"CHSB": {
+		"tags": ["asset-management", "staking"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 48,
+			"team": 48,
+			"technology": 56
+		}
+	},
+	"SC": {
+		"tags": [
+			"mineable",
+			"pow",
+			"blake2b",
+			"platform",
+			"distributed-computing",
+			"filesharing",
+			"storage",
+			"dragonfly-capital-portfolio",
+			"fenbushi-capital-portfolio",
+			"paradigm-portfolio",
+			"web3",
+			"near-protocol-ecosystem"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 53,
+			"team": 36,
+			"technology": 50
+		}
+	},
+	"AUDIO": {
+		"tags": [
+			"music",
+			"coinbase-ventures-portfolio",
+			"binance-labs-portfolio",
+			"solana-ecosystem",
+			"pantera-capital-portfolio",
+			"multicoin-capital-portfolio",
+			"web3"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 45,
+			"team": 55,
+			"technology": 65
+		}
+	},
+	"ONT": {
+		"tags": [
+			"enterprise-solutions",
+			"identity",
+			"polkadot-ecosystem",
+			"metaverse",
+			"huobi-capital-portfolio",
+			"fantom-ecosystem",
+			"web3",
+			"near-protocol-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 71.0,
+			"opportunity": 68.0,
+			"ecosystem": 70.0,
+			"performance": 60.0,
+			"team": 75.0,
+			"technology": 76.0,
+			"progress": 70.0
+		}
+	},
+	"NFT": {
+		"tags": ["art", "collectibles-nfts", "tron-ecosystem"],
+		"rating": null
+	},
+	"VGX": {
+		"tags": ["asset-management", "wallet", "algorand-ecosystem"],
+		"rating": null
+	},
+	"FEI": {
+		"tags": ["defi", "stablecoin", "algorithmic-stablecoin"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 50,
+			"team": 67,
+			"technology": 48
+		}
+	},
+	"ZRX": {
+		"tags": [
+			"platform",
+			"decentralized-exchange",
+			"defi",
+			"scaling",
+			"dao",
+			"substrate",
+			"polkadot",
+			"polkadot-ecosystem",
+			"polychain-capital-portfolio",
+			"governance",
+			"blockchain-capital-portfolio",
+			"boostvc-portfolio",
+			"fabric-ventures-portfolio",
+			"kenetic-capital-portfolio",
+			"placeholder-ventures-portfolio",
+			"pantera-capital-portfolio"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 64,
+			"team": 64,
+			"technology": 85
+		}
+	},
+	"KEEP": {
+		"tags": [
+			"defi",
+			"privacy",
+			"coinbase-ventures-portfolio",
+			"polychain-capital-portfolio",
+			"boostvc-portfolio",
+			"fabric-ventures-portfolio",
+			"a16z-portfolio",
+			"multicoin-capital-portfolio",
+			"parafi-capital",
+			"paradigm-portfolio"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 74.0,
+			"opportunity": 85.0,
+			"ecosystem": 70.0,
+			"performance": 80.0,
+			"team": 80.0,
+			"technology": 70.0,
+			"progress": 60.0
+		}
+	},
+	"REN": {
+		"tags": [
+			"marketplace",
+			"defi",
+			"polkadot-ecosystem",
+			"avalanche-ecosystem",
+			"solana-ecosystem",
+			"kenetic-capital-portfolio",
+			"huobi-capital-portfolio",
+			"alameda-research-portfolio",
+			"fantom-ecosystem"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 70.0,
+			"opportunity": 75.0,
+			"ecosystem": 56.0,
+			"performance": 70.0,
+			"team": 75.0,
+			"technology": 80.0,
+			"progress": 70.0
+		}
+	},
+	"IOST": {
+		"tags": ["hardware", "iot", "huobi-capital-portfolio"],
+		"rating": {
+			"provider": "simetri",
+			"overall": 70.0,
+			"opportunity": 67.0,
+			"ecosystem": 67.0,
+			"performance": 57.0,
+			"team": 75.0,
+			"technology": 75.0,
+			"progress": 55.0
+		}
+	},
+	"ELON": {
+		"tags": ["memes", "payments", "polygon-ecosystem", "doggone-doggerel"],
+		"rating": null
+	},
+	"REV": {
+		"tags": ["platform", "distributed-computing", "smart-contracts"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 26,
+			"team": 62,
+			"technology": 79
+		}
+	},
+	"SKL": {
+		"tags": [
+			"platform",
+			"scaling",
+			"smart-contracts",
+			"staking",
+			"arrington-xrp-capital-portfolio",
+			"boostvc-portfolio",
+			"galaxy-digital-portfolio",
+			"hashkey-capital-portfolio"
+		],
+		"rating": null
+	},
+	"HIVE": {
+		"tags": ["dpos", "media", "content-creation", "scaling", "web3"],
+		"rating": null
+	},
+	"SUSHI": {
+		"tags": [
+			"collectibles-nfts",
+			"decentralized-exchange",
+			"defi",
+			"dao",
+			"yield-farming",
+			"amm",
+			"yearn-partnerships",
+			"governance",
+			"avalanche-ecosystem",
+			"metaverse",
+			"blockchain-capital-portfolio",
+			"defiance-capital-portfolio",
+			"alameda-research-portfolio",
+			"pantera-capital-portfolio",
+			"polygon-ecosystem",
+			"fantom-ecosystem",
+			"arbitrum-ecosytem",
+			"harmony-ecosystem",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 78,
+			"team": 70,
+			"technology": 60
+		}
+	},
+	"IMX": {
+		"tags": [
+			"collectibles-nfts",
+			"scaling",
+			"rollups",
+			"arrington-xrp-capital-portfolio",
+			"alameda-research-portfolio"
+		],
+		"rating": null
+	},
+	"STORJ": {
+		"tags": [
+			"platform",
+			"distributed-computing",
+			"filesharing",
+			"storage",
+			"web3"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 58,
+			"team": 56,
+			"technology": 73
+		}
+	},
+	"JST": { "tags": ["defi", "tron-ecosystem"], "rating": null },
+	"POLY": {
+		"tags": ["marketplace", "crowdfunding"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 35,
+			"team": 73,
+			"technology": 74
+		}
+	},
+	"UOS": {
+		"tags": [
+			"platform",
+			"collectibles-nfts",
+			"gaming",
+			"payments",
+			"metaverse"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 47,
+			"team": 55,
+			"technology": 55
+		}
+	},
+	"BTRST": { "tags": ["coinbase-ventures-portfolio", "web3"], "rating": null },
+	"ILV": {
+		"tags": ["collectibles-nfts", "gaming", "dao", "metaverse", "play-to-earn"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 55,
+			"team": 70,
+			"technology": 50
+		}
+	},
+	"CKB": {
+		"tags": [
+			"mineable",
+			"pow",
+			"platform",
+			"collectibles-nfts",
+			"defi",
+			"interoperability",
+			"research",
+			"scaling",
+			"smart-contracts",
+			"dao",
+			"polychain-capital-portfolio",
+			"rollups",
+			"blockchain-capital-portfolio",
+			"cms-holdings-portfolio",
+			"dragonfly-capital-portfolio",
+			"electric-capital-portfolio",
+			"hashkey-capital-portfolio",
+			"huobi-capital-portfolio",
+			"1confirmation-portfolio",
+			"multicoin-capital-portfolio",
+			"web3"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 35,
+			"team": 72,
+			"technology": 60
+		}
+	},
+	"PEOPLE": { "tags": [], "rating": null },
+	"SYS": {
+		"tags": [
+			"mineable",
+			"pow",
+			"platform",
+			"enterprise-solutions",
+			"collectibles-nfts",
+			"masternodes",
+			"scaling"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 50,
+			"team": 42,
+			"technology": 55
+		}
+	},
+	"NU": {
+		"tags": [
+			"polychain-capital-portfolio",
+			"arrington-xrp-capital-portfolio",
+			"coinfund-portfolio",
+			"kenetic-capital-portfolio",
+			"web3"
+		],
+		"rating": null
+	},
+	"SPELL": {
+		"tags": [
+			"olympus-pro-ecosystem",
+			"arbitrum-ecosytem",
+			"defi-2",
+			"protocol-owned-liquidity"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 72.0,
+			"opportunity": 7.5,
+			"ecosystem": 80.0,
+			"performance": 6.5,
+			"team": 70.0,
+			"technology": 70.0,
+			"progress": 6.5
+		}
+	},
+	"DYDX": {
+		"tags": ["defi", "derivatives", "paradigm-portfolio", "spartan-group"],
+		"rating": {
+			"provider": "simetri",
+			"overall": 74.0,
+			"opportunity": 85.0,
+			"ecosystem": 85.0,
+			"performance": 70.0,
+			"team": 80.0,
+			"technology": 75.0,
+			"progress": 50.0
+		}
+	},
+	"FLUX": {
+		"tags": [
+			"mineable",
+			"distributed-computing",
+			"filesharing",
+			"masternodes",
+			"web3",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"DGB": {
+		"tags": [
+			"mineable",
+			"pow",
+			"multiple-algorithms",
+			"medium-of-exchange",
+			"collectibles-nfts",
+			"iot",
+			"payments"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 52,
+			"team": 79,
+			"technology": 38
+		}
+	},
+	"TEL": {
+		"tags": ["medium-of-exchange", "polygon-ecosystem"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 43,
+			"team": 37,
+			"technology": 66
+		}
+	},
+	"ENS": {
+		"tags": ["dao", "governance", "web3"],
+		"rating": {
+			"provider": "simetri",
+			"overall": 76.0,
+			"opportunity": 80.0,
+			"ecosystem": 78.0,
+			"performance": 70.0,
+			"team": 75.0,
+			"technology": 80.0,
+			"progress": 80.0
+		}
+	},
+	"PLA": {
+		"tags": ["gaming", "ethereum-ecosystem", "metaverse", "polygon-ecosystem"],
+		"rating": null
+	},
+	"GUSD": {
+		"tags": ["store-of-value", "stablecoin", "asset-backed-stablecoin"],
+		"rating": null
+	},
+	"YGG": {
+		"tags": [
+			"collectibles-nfts",
+			"gaming",
+			"entertainment",
+			"metaverse",
+			"a16z-portfolio",
+			"play-to-earn",
+			"animoca-brands-portfolio",
+			"gaming-guild",
+			"okex-blockdream-ventures-portfolio"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 76.0,
+			"opportunity": 80.0,
+			"ecosystem": 80.0,
+			"performance": 75.0,
+			"team": 80.0,
+			"technology": 75.0,
+			"progress": 75.0
+		}
+	},
+	"LSK": {
+		"tags": ["dpos", "platform", "enterprise-solutions", "smart-contracts"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 55,
+			"team": 61,
+			"technology": 79
+		}
+	},
+	"FXS": {
+		"tags": [
+			"defi",
+			"seigniorage",
+			"avalanche-ecosystem",
+			"exnetwork-capital-portfolio",
+			"olympus-pro-ecosystem",
+			"arbitrum-ecosytem"
+		],
+		"rating": null
+	},
+	"PERP": {
+		"tags": [
+			"decentralized-exchange",
+			"defi",
+			"derivatives",
+			"scaling",
+			"amm",
+			"three-arrows-capital-portfolio",
+			"cms-holdings-portfolio",
+			"alameda-research-portfolio",
+			"multicoin-capital-portfolio"
+		],
+		"rating": null
+	},
+	"XDB": { "tags": [], "rating": null },
+	"OCEAN": {
+		"tags": [
+			"platform",
+			"ai-big-data",
+			"defi",
+			"filesharing",
+			"substrate",
+			"storage",
+			"polkadot-ecosystem",
+			"dcg-portfolio",
+			"fabric-ventures-portfolio",
+			"polygon-ecosystem",
+			"web3",
+			"injective-ecosystem"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 30,
+			"team": 63,
+			"technology": 58
+		}
+	},
+	"XPRT": {
+		"tags": [
+			"dpos",
+			"cosmos-ecosystem",
+			"derivatives",
+			"arrington-xrp-capital-portfolio",
+			"exnetwork-capital-portfolio",
+			"vbc-ventures-portfolio",
+			"spartan-group",
+			"okex-blockdream-ventures-portfolio",
+			"injective-ecosystem"
+		],
+		"rating": null
+	},
+	"WIN": {
+		"tags": [
+			"oracles",
+			"tron-ecosystem",
+			"binance-launchpad",
+			"binance-labs-portfolio",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"CSPR": {
+		"tags": [
+			"enterprise-solutions",
+			"arrington-xrp-capital-portfolio",
+			"hashkey-capital-portfolio",
+			"web3",
+			"okex-blockdream-ventures-portfolio"
+		],
+		"rating": null
+	},
+	"FET": {
+		"tags": [
+			"cosmos-ecosystem",
+			"ai-big-data",
+			"collectibles-nfts",
+			"iot",
+			"binance-launchpad",
+			"web3"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 42,
+			"team": 78,
+			"technology": 64
+		}
+	},
+	"INJ": {
+		"tags": [
+			"cosmos-ecosystem",
+			"decentralized-exchange",
+			"defi",
+			"derivatives",
+			"smart-contracts",
+			"staking",
+			"heco-ecosystem",
+			"binance-launchpad",
+			"binance-labs-portfolio",
+			"solana-ecosystem",
+			"cms-holdings-portfolio",
+			"pantera-capital-portfolio",
+			"polygon-ecosystem",
+			"fantom-ecosystem",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 73.5,
+			"opportunity": 75.0,
+			"ecosystem": 75.0,
+			"performance": 75.0,
+			"team": 80.0,
+			"technology": 80.0,
+			"progress": 80.0
+		}
+	},
+	"TRIBE": {
+		"tags": ["defi", "stablecoin", "algorithmic-stablecoin", "governance"],
+		"rating": null
+	},
+	"TWT": { "tags": ["polygon-ecosystem", "bnb-chain"], "rating": null },
+	"SRM": {
+		"tags": [
+			"decentralized-exchange",
+			"defi",
+			"derivatives",
+			"smart-contracts",
+			"staking",
+			"solana-ecosystem",
+			"cms-holdings-portfolio",
+			"coinfund-portfolio",
+			"kenetic-capital-portfolio",
+			"alameda-research-portfolio",
+			"exnetwork-capital-portfolio"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 60,
+			"team": 70,
+			"technology": 70
+		}
+	},
+	"SUPER": {
+		"tags": [
+			"collectibles-nfts",
+			"launchpad",
+			"polkastarter",
+			"exnetwork-capital-portfolio",
+			"superstarter",
+			"polygon-ecosystem",
+			"animoca-brands-portfolio",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"CELR": {
+		"tags": [
+			"platform",
+			"enterprise-solutions",
+			"scaling",
+			"state-channel",
+			"ethereum-ecosystem",
+			"substrate",
+			"polkadot-ecosystem",
+			"binance-launchpad",
+			"arrington-xrp-capital-portfolio",
+			"pantera-capital-portfolio",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 36,
+			"team": 72,
+			"technology": 70
+		}
+	},
+	"MXC": {
+		"tags": ["iot", "substrate", "polkadot-ecosystem"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 49,
+			"team": 57,
+			"technology": 67
+		}
+	},
+	"POWR": {
+		"tags": ["energy", "sharing-economy"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 41,
+			"team": 62,
+			"technology": 91
+		}
+	},
+	"DENT": {
+		"tags": ["services"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 52,
+			"team": 70,
+			"technology": 87
+		}
+	},
+	"XCH": { "tags": [], "rating": null },
+	"WRX": {
+		"tags": [
+			"centralized-exchange",
+			"algorand-ecosystem",
+			"binance-launchpad",
+			"injective-ecosystem"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 64,
+			"team": 47,
+			"technology": 50
+		}
+	},
+	"C98": {
+		"tags": [
+			"wallet",
+			"binance-launchpad",
+			"solana-ecosystem",
+			"celo-ecosystem",
+			"spartan-group",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"CEEK": {
+		"tags": ["vr-ar", "collectibles-nfts", "metaverse", "bnb-chain"],
+		"rating": null
+	},
+	"XNO": {
+		"tags": [
+			"dag",
+			"blake2b",
+			"medium-of-exchange",
+			"store-of-value",
+			"payments"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 63.0,
+			"opportunity": 60.0,
+			"ecosystem": 63.0,
+			"performance": 50.0,
+			"team": 65.0,
+			"technology": 75.0,
+			"progress": 60.0
+		}
+	},
+	"PYR": {
+		"tags": ["collectibles-nfts", "gaming", "entertainment", "metaverse"],
+		"rating": null
+	},
+	"XYO": { "tags": ["web3"], "rating": null },
+	"RAY": {
+		"tags": [
+			"decentralized-exchange",
+			"defi",
+			"amm",
+			"dex",
+			"solana-ecosystem",
+			"petrock-capital-portfolio"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 65,
+			"team": 60,
+			"technology": 80
+		}
+	},
+	"ONG": { "tags": ["ontology-ecosystem"], "rating": null },
+	"COTI": {
+		"tags": [
+			"defi",
+			"fantom-ecosystem",
+			"cardano-ecosystem",
+			"cardano",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"MED": { "tags": ["health", "cosmos-ecosystem"], "rating": null },
+	"CHR": {
+		"tags": [
+			"platform",
+			"enterprise-solutions",
+			"collectibles-nfts",
+			"defi",
+			"gaming",
+			"ethereum-ecosystem",
+			"metaverse",
+			"chromia-ecosystem",
+			"web3",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 39,
+			"team": 74,
+			"technology": 67
+		}
+	},
+	"ORBS": {
+		"tags": ["services", "enterprise-solutions"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 48,
+			"team": 45,
+			"technology": 61
+		}
+	},
+	"SNT": {
+		"tags": [
+			"media",
+			"content-creation",
+			"privacy",
+			"fabric-ventures-portfolio",
+			"kenetic-capital-portfolio"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 90,
+			"team": 32,
+			"technology": 82
+		}
+	},
+	"FX": {
+		"tags": ["hardware"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 44,
+			"team": 53,
+			"technology": 30
+		}
+	},
+	"ARDR": {
+		"tags": ["platform", "enterprise-solutions", "state-channel"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 31,
+			"team": 40,
+			"technology": 73
+		}
+	},
+	"REQ": {
+		"tags": ["medium-of-exchange", "defi", "payments", "smart-contracts"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 53,
+			"team": 56,
+			"technology": 68
+		}
+	},
+	"PUNDIX": { "tags": [], "rating": null },
+	"CFX": {
+		"tags": [
+			"mineable",
+			"pow",
+			"platform",
+			"smart-contracts",
+			"injective-ecosystem"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 45,
+			"team": 75,
+			"technology": 65
+		}
+	},
+	"RGT": {
+		"tags": [
+			"defi",
+			"dao",
+			"yield-farming",
+			"yield-aggregator",
+			"governance",
+			"ledgerprime-portfolio"
+		],
+		"rating": null
+	},
+	"MDX": {
+		"tags": [
+			"decentralized-exchange",
+			"defi",
+			"yield-farming",
+			"amm",
+			"heco-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 70,
+			"team": 40,
+			"technology": 65
+		}
+	},
+	"HEX": {
+		"tags": [],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 50,
+			"team": 60,
+			"technology": 70
+		}
+	},
+	"WTRX": { "tags": [], "rating": null },
+	"STETH": { "tags": ["eth-2-staking"], "rating": null },
+	"FRAX": {
+		"tags": [
+			"defi",
+			"stablecoin",
+			"seigniorage",
+			"avalanche-ecosystem",
+			"polygon-ecosystem",
+			"fantom-ecosystem",
+			"arbitrum-ecosytem",
+			"moonriver-ecosystem"
+		],
+		"rating": null
+	},
+	"OSMO": { "tags": ["cosmos-ecosystem"], "rating": null },
+	"TON": { "tags": [], "rating": null },
+	"WBNB": { "tags": ["wrapped-tokens", "bnb-chain"], "rating": null },
+	"BTTOLD": { "tags": [], "rating": null },
+	"HBTC": { "tags": ["heco-ecosystem"], "rating": null },
+	"CBG": { "tags": [], "rating": null },
+	"DFI": { "tags": ["defi"], "rating": null },
+	"YOUC": { "tags": [], "rating": null },
+	"LN": { "tags": ["centralized-exchange"], "rating": null },
+	"LUSD": { "tags": ["defi", "stablecoin"], "rating": null },
+	"OMI": {
+		"tags": ["collectibles-nfts", "dao-maker", "exnetwork-capital-portfolio"],
+		"rating": null
+	},
+	"vBNB": { "tags": ["bnb-chain"], "rating": null },
+	"BIT": {
+		"tags": [
+			"dao",
+			"governance",
+			"dragonfly-capital-portfolio",
+			"fenbushi-capital-portfolio",
+			"pantera-capital-portfolio",
+			"spartan-group"
+		],
+		"rating": null
+	},
+	"CCXX": {
+		"tags": ["mineable"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 35,
+			"team": 0,
+			"technology": 63
+		}
+	},
+	"NXM": {
+		"tags": [
+			"defi",
+			"insurance",
+			"arrington-xrp-capital-portfolio",
+			"kenetic-capital-portfolio",
+			"placeholder-ventures-portfolio"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 78.0,
+			"opportunity": 80.0,
+			"ecosystem": 85.0,
+			"performance": 60.0,
+			"team": 85.0,
+			"technology": 80.0,
+			"progress": 70.0
+		}
+	},
+	"WEMIX": {
+		"tags": [
+			"platform",
+			"collectibles-nfts",
+			"gaming",
+			"metaverse",
+			"play-to-earn"
+		],
+		"rating": null
+	},
+	"KOK": { "tags": [], "rating": null },
+	"TTT": { "tags": [], "rating": null },
+	"METIS": {
+		"tags": ["scaling", "rollups", "okex-blockdream-ventures-portfolio"],
+		"rating": null
+	},
+	"XWC": {
+		"tags": ["platform", "interoperability", "staking", "rpos"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 45,
+			"team": 55,
+			"technology": 50
+		}
+	},
+	"HUSD": {
+		"tags": [
+			"pow",
+			"medium-of-exchange",
+			"stablecoin",
+			"asset-backed-stablecoin"
+		],
+		"rating": null
+	},
+	"RACA": {
+		"tags": [
+			"collectibles-nfts",
+			"gaming",
+			"metaverse",
+			"play-to-earn",
+			"mvb",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"MOB": {
+		"tags": ["privacy", "payments", "arrington-xrp-capital-portfolio"],
+		"rating": null
+	},
+	"SAPP": { "tags": ["masternodes"], "rating": null },
+	"SAFEMOON": { "tags": ["bnb-chain"], "rating": null },
+	"BEST": { "tags": ["marketplace", "centralized-exchange"], "rating": null },
+	"RPL": { "tags": ["defi"], "rating": null },
+	"SAFE": { "tags": ["medium-of-exchange", "masternodes"], "rating": null },
+	"DESO": {
+		"tags": ["communications-social-media", "arrington-xrp-capital-portfolio"],
+		"rating": null
+	},
+	"HERO": {
+		"tags": ["hardware", "marketplace", "vr-ar", "metaverse", "bnb-chain"],
+		"rating": null
+	},
+	"TLOS": {
+		"tags": [
+			"medium-of-exchange",
+			"services",
+			"enterprise-solutions",
+			"collectibles-nfts",
+			"defi",
+			"zero-knowledge-proofs",
+			"smart-contracts",
+			"eos",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"LDO": { "tags": ["defi", "paradigm-portfolio"], "rating": null },
+	"VVS": { "tags": ["defi", "dex"], "rating": null },
+	"ANY": {
+		"tags": [
+			"decentralized-exchange",
+			"defi",
+			"amm",
+			"avalanche-ecosystem",
+			"fantom-ecosystem",
+			"arbitrum-ecosytem",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"ARRR": {
+		"tags": [
+			"mineable",
+			"hybrid-dpow-pow",
+			"medium-of-exchange",
+			"privacy",
+			"zero-knowledge-proofs"
+		],
+		"rating": null
+	},
+	"XAUT": { "tags": [], "rating": null },
+	"LYXe": {
+		"tags": ["collectibles-nfts", "metaverse"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 33,
+			"team": 75,
+			"technology": 55
+		}
+	},
+	"ORC": { "tags": [], "rating": null },
+	"ASTR": {
+		"tags": ["polkadot-ecosystem", "okex-blockdream-ventures-portfolio"],
+		"rating": null
+	},
+	"UFO": {
+		"tags": [
+			"platform",
+			"collectibles-nfts",
+			"gaming",
+			"launchpad",
+			"metaverse",
+			"play-to-earn"
+		],
+		"rating": null
+	},
+	"MVL": { "tags": [], "rating": null },
+	"XSGD": {
+		"tags": ["stablecoin", "asset-backed-stablecoin", "zilliqa-ecosystem"],
+		"rating": null
+	},
+	"SOS": { "tags": [], "rating": null },
+	"API3": {
+		"tags": [
+			"defi",
+			"oracles",
+			"coinfund-portfolio",
+			"dcg-portfolio",
+			"placeholder-ventures-portfolio",
+			"pantera-capital-portfolio",
+			"polygon-ecosystem",
+			"fantom-ecosystem",
+			"cardano-ecosystem",
+			"web3",
+			"cardano",
+			"injective-ecosystem"
+		],
+		"rating": null
+	},
+	"ALICE": {
+		"tags": [
+			"collectibles-nfts",
+			"gaming",
+			"entertainment",
+			"metaverse",
+			"dao-maker",
+			"exnetwork-capital-portfolio",
+			"chromia-ecosystem",
+			"play-to-earn"
+		],
+		"rating": null
+	},
+	"MX": {
+		"tags": ["marketplace", "centralized-exchange", "discount-token"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 31,
+			"team": 23,
+			"technology": 58
+		}
+	},
+	"DIVI": {
+		"tags": ["mineable", "asset-management", "masternodes", "wallet"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 48,
+			"team": 56,
+			"technology": 68
+		}
+	},
+	"BTCST": { "tags": ["binance-launchpool", "bnb-chain"], "rating": null },
+	"HUM": { "tags": [], "rating": null },
+	"JOE": { "tags": ["avalanche-ecosystem"], "rating": null },
+	"ANT": {
+		"tags": [
+			"platform",
+			"cosmos-ecosystem",
+			"enterprise-solutions",
+			"dao",
+			"ethereum-ecosystem",
+			"governance",
+			"boostvc-portfolio",
+			"placeholder-ventures-portfolio",
+			"web3"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 65,
+			"team": 66,
+			"technology": 73
+		}
+	},
+	"BFC": {
+		"tags": [
+			"platform",
+			"interoperability",
+			"avalanche-ecosystem",
+			"exnetwork-capital-portfolio",
+			"vbc-ventures-portfolio"
+		],
+		"rating": null
+	},
+	"AURORA": {
+		"tags": ["okex-blockdream-ventures-portfolio", "injective-ecosystem"],
+		"rating": null
+	},
+	"BOBA": { "tags": ["scaling", "layer-2", "rollups"], "rating": null },
+	"EVER": { "tags": [], "rating": null },
+	"CVC": {
+		"tags": [
+			"enterprise-solutions",
+			"identity",
+			"solana-ecosystem",
+			"dcg-portfolio",
+			"pantera-capital-portfolio",
+			"web3"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 43,
+			"team": 50,
+			"technology": 80
+		}
+	},
+	"ELF": {
+		"tags": [
+			"marketplace",
+			"enterprise-solutions",
+			"arrington-xrp-capital-portfolio",
+			"huobi-capital-portfolio",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 59,
+			"team": 62,
+			"technology": 74
+		}
+	},
+	"MOVR": {
+		"tags": [
+			"interoperability",
+			"smart-contracts",
+			"polkadot-ecosystem",
+			"moonriver-ecosystem"
+		],
+		"rating": null
+	},
+	"ACH": { "tags": [], "rating": null },
+	"NMR": {
+		"tags": [
+			"asset-management",
+			"ai-big-data",
+			"defi",
+			"payments",
+			"research",
+			"coinfund-portfolio",
+			"usv-portfolio",
+			"placeholder-ventures-portfolio",
+			"paradigm-portfolio"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 51,
+			"team": 49,
+			"technology": 42
+		}
+	},
+	"DAG": {
+		"tags": ["dag", "platform", "payments", "smart-contracts"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 51,
+			"team": 56,
+			"technology": 46
+		}
+	},
+	"RSR": {
+		"tags": [
+			"store-of-value",
+			"defi",
+			"stablecoin",
+			"asset-backed-stablecoin",
+			"coinbase-ventures-portfolio",
+			"dcg-portfolio"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 55,
+			"team": 64,
+			"technology": 69
+		}
+	},
+	"XVG": {
+		"tags": [
+			"mineable",
+			"multiple-algorithms",
+			"medium-of-exchange",
+			"privacy"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 50,
+			"team": 35,
+			"technology": 48
+		}
+	},
+	"DAO": {
+		"tags": [
+			"defi",
+			"governance",
+			"launchpad",
+			"dao-maker",
+			"vbc-ventures-portfolio",
+			"injective-ecosystem"
+		],
+		"rating": null
+	},
+	"CTSI": {
+		"tags": [
+			"scaling",
+			"layer-2",
+			"rollups",
+			"sidechain",
+			"binance-launchpad",
+			"binance-labs-portfolio",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 50,
+			"team": 51,
+			"technology": 65
+		}
+	},
+	"REEF": {
+		"tags": [
+			"defi",
+			"substrate",
+			"polkadot",
+			"polkadot-ecosystem",
+			"avalanche-ecosystem",
+			"kenetic-capital-portfolio",
+			"exnetwork-capital-portfolio",
+			"polygon-ecosystem",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"OUSD": { "tags": ["defi", "stablecoin"], "rating": null },
+	"MNGO": {
+		"tags": [
+			"decentralized-exchange",
+			"defi",
+			"derivatives",
+			"dao",
+			"dex",
+			"governance",
+			"solana-ecosystem"
+		],
+		"rating": null
+	},
+	"OXT": {
+		"tags": [
+			"polychain-capital-portfolio",
+			"blockchain-capital-portfolio",
+			"fabric-ventures-portfolio",
+			"kenetic-capital-portfolio",
+			"a16z-portfolio",
+			"web3"
+		],
+		"rating": null
+	},
+	"TRAC": {
+		"tags": [
+			"logistics",
+			"enterprise-solutions",
+			"smart-contracts",
+			"polkadot-ecosystem"
+		],
+		"rating": null
+	},
+	"MBOX": {
+		"tags": [
+			"collectibles-nfts",
+			"defi",
+			"gaming",
+			"yield-farming",
+			"metaverse",
+			"play-to-earn",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"MIR": {
+		"tags": [
+			"cosmos-ecosystem",
+			"defi",
+			"derivatives",
+			"synthetics",
+			"arrington-xrp-capital-portfolio",
+			"pantera-capital-portfolio",
+			"terra-ecosystem",
+			"injective-ecosystem"
+		],
+		"rating": null
+	},
+	"HEDG": {
+		"tags": ["asset-management", "marketplace", "discount-token"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 36,
+			"team": 50,
+			"technology": 57
+		}
+	},
+	"BETA": {
+		"tags": [
+			"binance-launchpad",
+			"defiance-capital-portfolio",
+			"multicoin-capital-portfolio",
+			"parafi-capital",
+			"spartan-group"
+		],
+		"rating": null
+	},
+	"REP": {
+		"tags": [
+			"platform",
+			"defi",
+			"oracles",
+			"prediction-markets",
+			"reputation",
+			"storage",
+			"1confirmation-portfolio",
+			"pantera-capital-portfolio",
+			"multicoin-capital-portfolio",
+			"polygon-ecosystem"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 52,
+			"team": 58,
+			"technology": 76
+		}
+	},
+	"SURE": {
+		"tags": [
+			"collectibles-nfts",
+			"defi",
+			"dao",
+			"insurance",
+			"metaverse",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 25,
+			"team": 37,
+			"technology": 68
+		}
+	},
+	"MWC": { "tags": ["privacy"], "rating": null },
+	"USDX": { "tags": ["stablecoin"], "rating": null },
+	"EWT": {
+		"tags": [
+			"energy",
+			"enterprise-solutions",
+			"identity",
+			"substrate",
+			"polkadot-ecosystem"
+		],
+		"rating": null
+	},
+	"STMX": { "tags": ["media", "loyalty"], "rating": null },
+	"ASD": {
+		"tags": ["centralized-exchange"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 65,
+			"team": 80,
+			"technology": 46
+		}
+	},
+	"AVINOC": { "tags": [], "rating": null },
+	"STARL": { "tags": ["metaverse"], "rating": null },
+	"BICO": {
+		"tags": [
+			"platform",
+			"interoperability",
+			"coinbase-ventures-portfolio",
+			"binance-labs-portfolio",
+			"fenbushi-capital-portfolio",
+			"mvb"
+		],
+		"rating": null
+	},
+	"VTHO": {
+		"tags": [],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 50,
+			"team": 42,
+			"technology": 48
+		}
+	},
+	"EURS": {
+		"tags": ["marketplace", "stablecoin", "asset-backed-stablecoin", "wallet"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 65,
+			"team": 26,
+			"technology": 64
+		}
+	},
+	"DERO": { "tags": ["mineable", "privacy"], "rating": null },
+	"MAID": {
+		"tags": [
+			"platform",
+			"distributed-computing",
+			"filesharing",
+			"omni",
+			"storage"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 29,
+			"team": 40,
+			"technology": 81
+		}
+	},
+	"ALT": { "tags": ["bnb-chain"], "rating": null },
+	"RLC": {
+		"tags": [
+			"marketplace",
+			"ai-big-data",
+			"distributed-computing",
+			"defi",
+			"privacy",
+			"oracles",
+			"scaling",
+			"substrate",
+			"polkadot",
+			"web3"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 51,
+			"team": 60,
+			"technology": 72
+		}
+	},
+	"1ECO": { "tags": [], "rating": null },
+	"PROM": { "tags": ["binance-chain", "bnb-chain"], "rating": null },
+	"HXRO": {
+		"tags": [
+			"three-arrows-capital-portfolio",
+			"solana-ecosystem",
+			"cms-holdings-portfolio",
+			"coinfund-portfolio",
+			"ledgerprime-portfolio",
+			"alameda-research-portfolio"
+		],
+		"rating": null
+	},
+	"DG": { "tags": ["gaming", "metaverse", "dcg-portfolio"], "rating": null },
+	"RMRK": {
+		"tags": ["collectibles-nfts", "polkadot-ecosystem", "metaverse"],
+		"rating": null
+	},
+	"DEP": {
+		"tags": [
+			"collectibles-nfts",
+			"gaming",
+			"metaverse",
+			"play-to-earn",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"DUSK": {
+		"tags": ["marketplace", "privacy", "smart-contracts"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 34,
+			"team": 64,
+			"technology": 65
+		}
+	},
+	"ORN": {
+		"tags": [
+			"defi",
+			"algorand-ecosystem",
+			"avalanche-ecosystem",
+			"dao-maker",
+			"exnetwork-capital-portfolio",
+			"fantom-ecosystem",
+			"injective-ecosystem"
+		],
+		"rating": null
+	},
+	"RIF": {
+		"tags": ["services", "filesharing", "payments"],
+		"rating": {
+			"provider": "simetri",
+			"overall": 70.0,
+			"opportunity": 65.0,
+			"ecosystem": 68.0,
+			"performance": 70.0,
+			"team": 75.0,
+			"technology": 70.0,
+			"progress": 70.0
+		}
+	},
+	"BLOK": {
+		"tags": [
+			"metaverse",
+			"polkafoundry-red-kite",
+			"bullperks-launchpad",
+			"animoca-brands-portfolio",
+			"oxbull"
+		],
+		"rating": null
+	},
+	"DVI": {
+		"tags": [
+			"collectibles-nfts",
+			"gaming",
+			"ethereum-ecosystem",
+			"metaverse",
+			"mvb",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"STPT": {
+		"tags": ["defi", "payments"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 43,
+			"team": 40,
+			"technology": 63
+		}
+	},
+	"NKN": {
+		"tags": [
+			"mineable",
+			"platform",
+			"enterprise-solutions",
+			"distributed-computing",
+			"iot",
+			"web3"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 70.0,
+			"opportunity": 70.0,
+			"ecosystem": 63.0,
+			"performance": 65.0,
+			"team": 72.0,
+			"technology": 74.0,
+			"progress": 75.0
+		}
+	},
+	"MBL": { "tags": ["media", "content-creation", "video"], "rating": null },
+	"GXC": {
+		"tags": ["platform", "decentralized-exchange"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 48,
+			"team": 73,
+			"technology": 68
+		}
+	},
+	"STRAX": {
+		"tags": [
+			"hybrid-pow-pos",
+			"poa",
+			"platform",
+			"enterprise-solutions",
+			"masternodes",
+			"smart-contracts",
+			"staking",
+			"dao",
+			"sidechain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 54,
+			"team": 44,
+			"technology": 73
+		}
+	},
+	"C20": {
+		"tags": ["services"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 49,
+			"team": 50,
+			"technology": 62
+		}
+	},
+	"DVF": {
+		"tags": ["defi", "spartan-group", "okex-blockdream-ventures-portfolio"],
+		"rating": null
+	},
+	"SFUND": {
+		"tags": [
+			"gaming",
+			"launchpad",
+			"polygon-ecosystem",
+			"play-to-earn",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"AKT": {
+		"tags": ["cosmos-ecosystem", "storage", "solana-ecosystem", "web3"],
+		"rating": null
+	},
+	"BAND": {
+		"tags": [
+			"cosmos-ecosystem",
+			"defi",
+			"oracles",
+			"binance-chain",
+			"binance-launchpad",
+			"binance-labs-portfolio",
+			"solana-ecosystem",
+			"polygon-ecosystem",
+			"fantom-ecosystem",
+			"web3",
+			"near-protocol-ecosystem",
+			"spartan-group",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 71.7,
+			"opportunity": 80.0,
+			"ecosystem": 70.0,
+			"performance": 60.0,
+			"team": 73.0,
+			"technology": 75.0,
+			"progress": 70.0
+		}
+	},
+	"SPA": {
+		"tags": ["alameda-research-portfolio", "arbitrum-ecosytem"],
+		"rating": null
+	},
+	"SUN": { "tags": ["tron-ecosystem"], "rating": null },
+	"STEEM": {
+		"tags": ["media", "content-creation", "web3"],
+		"rating": {
+			"provider": "simetri",
+			"overall": 63.0,
+			"opportunity": 65.0,
+			"ecosystem": 70.0,
+			"performance": 50.0,
+			"team": 60.0,
+			"technology": 70.0,
+			"progress": 65.0
+		}
+	},
+	"META": {
+		"tags": ["platform", "identity", "kenetic-capital-portfolio"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 41,
+			"team": 32,
+			"technology": 60
+		}
+	},
+	"ALPHA": {
+		"tags": [
+			"defi",
+			"yield-farming",
+			"yield-aggregator",
+			"binance-launchpool",
+			"binance-launchpad",
+			"defiance-capital-portfolio",
+			"alameda-research-portfolio",
+			"multicoin-capital-portfolio",
+			"spartan-group",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 78.0,
+			"opportunity": 85.0,
+			"ecosystem": 85.0,
+			"performance": 80.0,
+			"team": 80.0,
+			"technology": 75.0,
+			"progress": 67.0
+		}
+	},
+	"FUN": {
+		"tags": [
+			"gambling",
+			"marketplace",
+			"payments",
+			"pantera-capital-portfolio"
+		],
+		"rating": null
+	},
+	"CENNZ": { "tags": ["marketplace", "enterprise-solutions"], "rating": null },
+	"RAD": {
+		"tags": [
+			"coinbase-ventures-portfolio",
+			"fabric-ventures-portfolio",
+			"placeholder-ventures-portfolio",
+			"web3"
+		],
+		"rating": null
+	},
+	"STRK": { "tags": ["defi"], "rating": null },
+	"DAWN": { "tags": ["cosmos-ecosystem", "gaming"], "rating": null },
+	"ALCX": {
+		"tags": [
+			"defi",
+			"yield-farming",
+			"governance",
+			"lending-borowing",
+			"olympus-pro-ecosystem",
+			"defi-2",
+			"protocol-owned-liquidity",
+			"spartan-group"
+		],
+		"rating": null
+	},
+	"QRDO": { "tags": ["spartan-group"], "rating": null },
+	"PRO": {
+		"tags": [
+			"real-estate",
+			"escrow",
+			"smart-contracts",
+			"arrington-xrp-capital-portfolio"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 45,
+			"team": 33,
+			"technology": 42
+		}
+	},
+	"GHST": {
+		"tags": [
+			"collectibles-nfts",
+			"gaming",
+			"dao",
+			"governance",
+			"metaverse",
+			"polygon-ecosystem",
+			"play-to-earn"
+		],
+		"rating": null
+	},
+	"ARK": {
+		"tags": [
+			"dpos",
+			"marketplace",
+			"payments",
+			"state-channel",
+			"polygon-ecosystem"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 55,
+			"team": 42,
+			"technology": 62
+		}
+	},
+	"MASK": {
+		"tags": [
+			"communications-social-media",
+			"content-creation",
+			"web3",
+			"animoca-brands-portfolio",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"SOUL": {
+		"tags": [
+			"platform",
+			"enterprise-solutions",
+			"distributed-computing",
+			"collectibles-nfts",
+			"content-creation",
+			"filesharing",
+			"gaming",
+			"storage",
+			"metaverse"
+		],
+		"rating": null
+	},
+	"XPR": {
+		"tags": [
+			"collectibles-nfts",
+			"decentralized-exchange",
+			"defi",
+			"wallet",
+			"amm",
+			"dex",
+			"governance",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 69.2,
+			"opportunity": 70.0,
+			"ecosystem": 68.0,
+			"performance": 65.0,
+			"team": 75.0,
+			"technology": 70.0,
+			"progress": 70.0
+		}
+	},
+	"UBT": {
+		"tags": [],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 36,
+			"team": 59,
+			"technology": 87
+		}
+	},
+	"BIFI": {
+		"tags": [
+			"defi",
+			"yield-farming",
+			"yield-aggregator",
+			"governance",
+			"heco-ecosystem",
+			"avalanche-ecosystem",
+			"polygon-ecosystem",
+			"fantom-ecosystem",
+			"moonriver-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 65,
+			"team": 61,
+			"technology": 59
+		}
+	},
+	"LAT": { "tags": [], "rating": null },
+	"WILD": {
+		"tags": [
+			"vr-ar",
+			"collectibles-nfts",
+			"gaming",
+			"metaverse",
+			"polkastarter",
+			"animoca-brands-portfolio",
+			"skyvision-capital-portfolio"
+		],
+		"rating": null
+	},
+	"DPR": {
+		"tags": [
+			"hardware",
+			"distributed-computing",
+			"polkadot",
+			"polkadot-ecosystem"
+		],
+		"rating": null
+	},
+	"CRTS": { "tags": [], "rating": null },
+	"SSX": { "tags": [], "rating": null },
+	"HTR": { "tags": ["exnetwork-capital-portfolio"], "rating": null },
+	"UTK": {
+		"tags": ["cybersecurity", "payments", "smart-contracts"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 51,
+			"team": 47,
+			"technology": 67
+		}
+	},
+	"YOOSHI": {
+		"tags": ["collectibles-nfts", "gaming", "bnb-chain"],
+		"rating": null
+	},
+	"KAI": {
+		"tags": [
+			"dpos",
+			"platform",
+			"enterprise-solutions",
+			"interoperability",
+			"scaling",
+			"sharding",
+			"smart-contracts",
+			"staking",
+			"injective-ecosystem"
+		],
+		"rating": null
+	},
+	"HOO": { "tags": [], "rating": null },
+	"RKN": { "tags": [], "rating": null },
+	"VERI": {
+		"tags": ["services"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 34,
+			"team": 32,
+			"technology": 28
+		}
+	},
+	"MLN": {
+		"tags": [
+			"asset-management",
+			"defi",
+			"kenetic-capital-portfolio",
+			"placeholder-ventures-portfolio"
+		],
+		"rating": null
+	},
+	"vETH": { "tags": ["bnb-chain"], "rating": null },
+	"SSV": {
+		"tags": [],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 24,
+			"team": 36,
+			"technology": 54
+		}
+	},
+	"SNL": { "tags": ["marketplace"], "rating": null },
+	"BAKE": {
+		"tags": [
+			"collectibles-nfts",
+			"defi",
+			"gaming",
+			"binance-chain",
+			"amm",
+			"dex",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 50,
+			"team": 50,
+			"technology": 55
+		}
+	},
+	"POLS": {
+		"tags": [
+			"defi",
+			"polkadot",
+			"polkadot-ecosystem",
+			"launchpad",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"XVS": {
+		"tags": [
+			"defi",
+			"yield-farming",
+			"binance-launchpool",
+			"lending-borowing",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 80,
+			"team": 70,
+			"technology": 80
+		}
+	},
+	"vUSDC": { "tags": ["bnb-chain"], "rating": null },
+	"OGN": {
+		"tags": [
+			"collectibles-nfts",
+			"defi",
+			"kenetic-capital-portfolio",
+			"pantera-capital-portfolio"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 50,
+			"team": 78,
+			"technology": 61
+		}
+	},
+	"TOMO": {
+		"tags": ["platform", "alameda-research-portfolio", "injective-ecosystem"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 54,
+			"team": 49,
+			"technology": 72
+		}
+	},
+	"TIME": { "tags": ["defi", "bnb-chain"], "rating": null },
+	"THG": {
+		"tags": ["gaming", "polkastarter", "mvb", "animoca-brands-portfolio"],
+		"rating": null
+	},
+	"ERG": {
+		"tags": [
+			"mineable",
+			"pow",
+			"platform",
+			"dapp",
+			"cardano-ecosystem",
+			"cardano"
+		],
+		"rating": null
+	},
+	"EPS": {
+		"tags": ["decentralized-exchange", "defi", "dex", "bnb-chain"],
+		"rating": null
+	},
+	"ABBC": {
+		"tags": ["dpos", "platform", "payments"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 45,
+			"team": 57,
+			"technology": 63
+		}
+	},
+	"MTL": {
+		"tags": ["medium-of-exchange", "payments"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 62,
+			"team": 46,
+			"technology": 28
+		}
+	},
+	"QKC": {
+		"tags": ["marketplace", "payments"],
+		"rating": {
+			"provider": "simetri",
+			"overall": 70.0,
+			"opportunity": 65.0,
+			"ecosystem": 70.0,
+			"performance": 60.0,
+			"team": 73.0,
+			"technology": 80.0,
+			"progress": 75.0
+		}
+	},
+	"BZRX": {
+		"tags": [
+			"decentralized-exchange",
+			"defi",
+			"smart-contracts",
+			"avalanche-ecosystem",
+			"lending-borowing",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 67,
+			"team": 61,
+			"technology": 62
+		}
+	},
+	"CFG": {
+		"tags": [
+			"ethereum-ecosystem",
+			"substrate",
+			"polkadot",
+			"polkadot-ecosystem"
+		],
+		"rating": null
+	},
+	"WNCG": { "tags": ["skyvision-capital-portfolio"], "rating": null },
+	"MPL": { "tags": ["defi", "spartan-group"], "rating": null },
+	"VR": {
+		"tags": [
+			"collectibles-nfts",
+			"gaming",
+			"ethereum-ecosystem",
+			"metaverse",
+			"play-to-earn"
+		],
+		"rating": null
+	},
+	"AIOZ": {
+		"tags": [
+			"media",
+			"platform",
+			"smart-contracts",
+			"video",
+			"web3",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"SUSD": {
+		"tags": [
+			"store-of-value",
+			"defi",
+			"stablecoin",
+			"algorithmic-stablecoin",
+			"synthetics",
+			"fantom-ecosystem"
+		],
+		"rating": null
+	},
+	"BCD": {
+		"tags": ["mineable", "medium-of-exchange", "payments"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 50,
+			"team": 25,
+			"technology": 47
+		}
+	},
+	"RBTC": { "tags": ["mineable"], "rating": null },
+	"VRA": {
+		"tags": [
+			"collectibles-nfts",
+			"gaming",
+			"entertainment",
+			"payments",
+			"staking",
+			"video",
+			"metaverse"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 48,
+			"team": 57,
+			"technology": 72
+		}
+	},
+	"ETN": {
+		"tags": ["mineable", "medium-of-exchange", "wallet"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 75,
+			"team": 66,
+			"technology": 21
+		}
+	},
+	"IDEX": {
+		"tags": ["decentralized-exchange", "defi"],
+		"rating": {
+			"provider": "simetri",
+			"overall": 73.85,
+			"opportunity": 65.0,
+			"ecosystem": 73.0,
+			"performance": 75.0,
+			"team": 80.0,
+			"technology": 75.0,
+			"progress": 50.0
+		}
+	},
+	"DFA": { "tags": ["collectibles-nfts", "entertainment"], "rating": null },
+	"DKA": { "tags": [], "rating": null },
+	"TRU": {
+		"tags": [
+			"defi",
+			"ethereum-ecosystem",
+			"yield-farming",
+			"avalanche-ecosystem",
+			"lending-borowing"
+		],
+		"rating": null
+	},
+	"BADGER": {
+		"tags": [
+			"defi",
+			"dao",
+			"yield-farming",
+			"yield-aggregator",
+			"governance",
+			"blockchain-capital-portfolio"
+		],
+		"rating": null
+	},
+	"SLP": { "tags": ["collectibles-nfts", "play-to-earn"], "rating": null },
+	"CQT": {
+		"tags": [
+			"ai-big-data",
+			"enterprise-solutions",
+			"defi",
+			"polkadot-ecosystem",
+			"avalanche-ecosystem",
+			"fantom-ecosystem",
+			"near-protocol-ecosystem",
+			"injective-ecosystem"
+		],
+		"rating": null
+	},
+	"TLM": {
+		"tags": [
+			"collectibles-nfts",
+			"gaming",
+			"entertainment",
+			"dao",
+			"metaverse",
+			"play-to-earn",
+			"animoca-brands-portfolio",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"ICHI": { "tags": ["yield-farming", "polkadot-ecosystem"], "rating": null },
+	"EXRD": { "tags": ["ethereum-ecosystem"], "rating": null },
+	"WAN": {
+		"tags": ["marketplace", "enterprise-solutions", "defi", "interoperability"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 66,
+			"team": 50,
+			"technology": 66
+		}
+	},
+	"HUNT": { "tags": [], "rating": null },
+	"PEAK": { "tags": ["defi", "bnb-chain"], "rating": null },
+	"AERGO": {
+		"tags": ["platform", "enterprise-solutions", "smart-contracts"],
+		"rating": null
+	},
+	"IQ": { "tags": ["media", "loyalty", "content-creation"], "rating": null },
+	"AGIX": {
+		"tags": [
+			"marketplace",
+			"ai-big-data",
+			"payments",
+			"cross-chain-dex-aggregator"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 30,
+			"team": 81,
+			"technology": 47
+		}
+	},
+	"CUSD": {
+		"tags": ["defi", "stablecoin", "algorithmic-stablecoin", "celo-ecosystem"],
+		"rating": null
+	},
+	"ARPA": {
+		"tags": ["scaling", "arrington-xrp-capital-portfolio"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 31,
+			"team": 75,
+			"technology": 92
+		}
+	},
+	"GMT": { "tags": ["bnb-chain"], "rating": null },
+	"MC": {
+		"tags": [
+			"gaming",
+			"governance",
+			"play-to-earn",
+			"token",
+			"gaming-guild",
+			"spartan-group"
+		],
+		"rating": null
+	},
+	"DPI": { "tags": ["defi", "defi-index"], "rating": null },
+	"HNS": {
+		"tags": [
+			"distributed-computing",
+			"collectibles-nfts",
+			"storage",
+			"boostvc-portfolio",
+			"dcg-portfolio",
+			"kenetic-capital-portfolio",
+			"a16z-portfolio",
+			"pantera-capital-portfolio",
+			"web3"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 47,
+			"team": 69,
+			"technology": 74
+		}
+	},
+	"GTC": { "tags": ["paradigm-portfolio", "web3"], "rating": null },
+	"STAKE": {
+		"tags": ["defi", "exnetwork-capital-portfolio"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 30,
+			"team": 43,
+			"technology": 61
+		}
+	},
+	"DAR": {
+		"tags": [
+			"collectibles-nfts",
+			"gaming",
+			"metaverse",
+			"chromia-ecosystem",
+			"play-to-earn",
+			"animoca-brands-portfolio"
+		],
+		"rating": null
+	},
+	"SOV": { "tags": [], "rating": null },
+	"JASMY": { "tags": [], "rating": null },
+	"SFP": {
+		"tags": ["wallet", "binance-launchpad", "injective-ecosystem", "bnb-chain"],
+		"rating": null
+	},
+	"CLV": {
+		"tags": [
+			"ethereum-ecosystem",
+			"substrate",
+			"polkadot-ecosystem",
+			"fantom-ecosystem",
+			"okex-blockdream-ventures-portfolio",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 65,
+			"team": 55,
+			"technology": 55
+		}
+	},
+	"BNX": { "tags": ["mvb", "bnb-chain"], "rating": null },
+	"CTK": {
+		"tags": [
+			"cybersecurity",
+			"cosmos-ecosystem",
+			"enterprise-solutions",
+			"interoperability",
+			"scaling",
+			"smart-contracts",
+			"binance-launchpool",
+			"binance-labs-portfolio",
+			"arrington-xrp-capital-portfolio",
+			"kenetic-capital-portfolio",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"BAL": {
+		"tags": [
+			"decentralized-exchange",
+			"defi",
+			"dao",
+			"yield-farming",
+			"amm",
+			"three-arrows-capital-portfolio",
+			"governance",
+			"coinfund-portfolio",
+			"alameda-research-portfolio",
+			"placeholder-ventures-portfolio",
+			"pantera-capital-portfolio",
+			"near-protocol-ecosystem",
+			"arbitrum-ecosytem"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 70,
+			"team": 65,
+			"technology": 74
+		}
+	},
+	"FIDA": {
+		"tags": [
+			"defi",
+			"solana-ecosystem",
+			"cms-holdings-portfolio",
+			"kenetic-capital-portfolio"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 49,
+			"team": 65,
+			"technology": 61
+		}
+	},
+	"LOOM": {
+		"tags": [
+			"platform",
+			"cosmos-ecosystem",
+			"enterprise-solutions",
+			"scaling",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 70.0,
+			"opportunity": 70.0,
+			"ecosystem": 68.0,
+			"performance": 50.0,
+			"team": 69.0,
+			"technology": 75.0,
+			"progress": 83.0
+		}
+	},
+	"AURY": {
+		"tags": [
+			"collectibles-nfts",
+			"gaming",
+			"solana-ecosystem",
+			"metaverse",
+			"play-to-earn",
+			"skyvision-capital-portfolio"
+		],
+		"rating": null
+	},
+	"AMPL": {
+		"tags": [
+			"defi",
+			"rebase",
+			"avalanche-ecosystem",
+			"arrington-xrp-capital-portfolio",
+			"alameda-research-portfolio",
+			"pantera-capital-portfolio",
+			"spartan-group"
+		],
+		"rating": null
+	},
+	"RAI": { "tags": ["defi"], "rating": null },
+	"ROOK": {
+		"tags": [
+			"defi",
+			"yield-farming",
+			"three-arrows-capital-portfolio",
+			"alameda-research-portfolio"
+		],
+		"rating": null
+	},
+	"HYDRA": { "tags": [], "rating": null },
+	"CRA": {
+		"tags": [
+			"gaming",
+			"avalanche-ecosystem",
+			"play-to-earn",
+			"skyvision-capital-portfolio"
+		],
+		"rating": null
+	},
+	"NSBT": { "tags": [], "rating": null },
+	"ACA": {
+		"tags": [
+			"defi",
+			"substrate",
+			"polkadot",
+			"arrington-xrp-capital-portfolio",
+			"spartan-group",
+			"injective-ecosystem"
+		],
+		"rating": null
+	},
+	"YFII": {
+		"tags": [
+			"defi",
+			"dao",
+			"yield-farming",
+			"binance-chain",
+			"yield-aggregator",
+			"governance",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"TVK": {
+		"tags": [
+			"collectibles-nfts",
+			"metaverse",
+			"exnetwork-capital-portfolio",
+			"polygon-ecosystem"
+		],
+		"rating": null
+	},
+	"ZB": {
+		"tags": [
+			"marketplace",
+			"centralized-exchange",
+			"discount-token",
+			"payments"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 71,
+			"team": 46,
+			"technology": 51
+		}
+	},
+	"PRE": {
+		"tags": ["platform", "crowdsourcing", "search-engine"],
+		"rating": null
+	},
+	"VEGA": {
+		"tags": ["pos", "defi", "derivatives", "coinbase-ventures-portfolio"],
+		"rating": null
+	},
+	"COVAL": { "tags": ["collectibles-nfts", "defi"], "rating": null },
+	"SOLO": { "tags": [], "rating": null },
+	"FOX": { "tags": [], "rating": null },
+	"UQC": { "tags": ["asset-management", "defi", "payments"], "rating": null },
+	"DERC": {
+		"tags": [
+			"collectibles-nfts",
+			"gaming",
+			"metaverse",
+			"play-to-earn",
+			"animoca-brands-portfolio",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"FORTH": {
+		"tags": ["dao", "governance", "near-protocol-ecosystem"],
+		"rating": null
+	},
+	"VOXEL": {
+		"tags": [
+			"collectibles-nfts",
+			"gaming",
+			"binance-launchpad",
+			"play-to-earn"
+		],
+		"rating": null
+	},
+	"BNANA": { "tags": [], "rating": null },
+	"IRIS": {
+		"tags": ["cosmos-ecosystem"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 48,
+			"team": 63,
+			"technology": 77
+		}
+	},
+	"CUBE": {
+		"tags": [
+			"vr-ar",
+			"collectibles-nfts",
+			"ethereum-ecosystem",
+			"solana-ecosystem",
+			"metaverse",
+			"polygon-ecosystem",
+			"web3",
+			"near-protocol-ecosystem"
+		],
+		"rating": null
+	},
+	"KP3R": {
+		"tags": ["defi", "yearn-partnerships", "fantom-ecosystem"],
+		"rating": null
+	},
+	"PCL": { "tags": [], "rating": null },
+	"AGLD": { "tags": [], "rating": null },
+	"KIN": {
+		"tags": [
+			"media",
+			"content-creation",
+			"smart-contracts",
+			"polychain-capital-portfolio",
+			"solana-ecosystem",
+			"galaxy-digital-portfolio",
+			"pantera-capital-portfolio",
+			"web3"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 73,
+			"team": 34,
+			"technology": 35
+		}
+	},
+	"ZLW": { "tags": ["bnb-chain"], "rating": null },
+	"NOIA": {
+		"tags": ["iot", "scaling", "staking", "substrate", "governance", "web3"],
+		"rating": null
+	},
+	"erowan": {
+		"tags": ["cosmos-ecosystem", "kenetic-capital-portfolio"],
+		"rating": null
+	},
+	"KLV": { "tags": ["wallet"], "rating": null },
+	"ELA": {
+		"tags": [
+			"mineable",
+			"platform",
+			"distributed-computing",
+			"filesharing",
+			"state-channel",
+			"web3"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 39,
+			"team": 61,
+			"technology": 61
+		}
+	},
+	"TKO": {
+		"tags": ["centralized-exchange", "binance-launchpad", "bnb-chain"],
+		"rating": null
+	},
+	"MFT": {
+		"tags": [
+			"platform",
+			"content-creation",
+			"smart-contracts",
+			"kenetic-capital-portfolio"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 45,
+			"team": 58,
+			"technology": 72
+		}
+	},
+	"VXV": { "tags": ["ai-big-data", "ethereum-ecosystem"], "rating": null },
+	"aEth": { "tags": ["eth-2-staking"], "rating": null },
+	"CORE": { "tags": ["defi", "dao", "governance"], "rating": null },
+	"XCAD": {
+		"tags": [],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 75,
+			"team": 68,
+			"technology": 30
+		}
+	},
+	"ERN": {
+		"tags": ["collectibles-nfts", "metaverse", "polkastarter"],
+		"rating": null
+	},
+	"ALPINE": { "tags": ["fan-token", "bnb-chain"], "rating": null },
+	"TROY": { "tags": ["binance-launchpad"], "rating": null },
+	"ONUS": { "tags": [], "rating": null },
+	"TT": {
+		"tags": [
+			"platform",
+			"kenetic-capital-portfolio",
+			"huobi-capital-portfolio",
+			"pantera-capital-portfolio"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 54,
+			"team": 73,
+			"technology": 77
+		}
+	},
+	"BLCT": { "tags": [], "rating": null },
+	"NCT": {
+		"tags": ["cybersecurity", "smart-contracts", "dapp"],
+		"rating": null
+	},
+	"XWG": {
+		"tags": ["collectibles-nfts", "gaming", "play-to-earn", "bnb-chain"],
+		"rating": null
+	},
+	"GF": {
+		"tags": [
+			"gaming",
+			"coinbase-ventures-portfolio",
+			"alameda-research-portfolio",
+			"pantera-capital-portfolio",
+			"play-to-earn",
+			"animoca-brands-portfolio",
+			"gaming-guild",
+			"skyvision-capital-portfolio"
+		],
+		"rating": null
+	},
+	"KMD": {
+		"tags": [
+			"mineable",
+			"hybrid-dpow-pow",
+			"equihash",
+			"platform",
+			"atomic-swaps",
+			"enterprise-solutions"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 67.0,
+			"opportunity": 70.0,
+			"ecosystem": 60.0,
+			"performance": 60.0,
+			"team": 71.0,
+			"technology": 80.0,
+			"progress": 73.0
+		}
+	},
+	"AQT": { "tags": ["bnb-chain"], "rating": null },
+	"CRE": {
+		"tags": ["retail", "loyalty"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 33,
+			"team": 36,
+			"technology": 51
+		}
+	},
+	"ADS": { "tags": ["marketing", "metaverse", "bnb-chain"], "rating": null },
+	"MONA": {
+		"tags": [
+			"mineable",
+			"pow",
+			"lyra2rev2",
+			"medium-of-exchange",
+			"memes",
+			"payments"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 47,
+			"team": 50,
+			"technology": 56
+		}
+	},
+	"QC": {
+		"tags": ["stablecoin"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 57,
+			"team": 93,
+			"technology": 47
+		}
+	},
+	"GTN": { "tags": [], "rating": null },
+	"PHA": {
+		"tags": [
+			"ai-big-data",
+			"privacy",
+			"substrate",
+			"polkadot",
+			"polkadot-ecosystem"
+		],
+		"rating": null
+	},
+	"EFI": {
+		"tags": [
+			"collectibles-nfts",
+			"gaming",
+			"polkadot-ecosystem",
+			"metaverse",
+			"okex-blockdream-ventures-portfolio"
+		],
+		"rating": null
+	},
+	"LCX": {
+		"tags": [],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 42,
+			"team": 36,
+			"technology": 51
+		}
+	},
+	"MLK": { "tags": ["bnb-chain"], "rating": null },
+	"AVA": {
+		"tags": [
+			"hospitality",
+			"marketplace",
+			"medium-of-exchange",
+			"payments",
+			"tourism",
+			"fantom-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 54,
+			"team": 56,
+			"technology": 74
+		}
+	},
+	"SAMO": {
+		"tags": ["memes", "solana-ecosystem", "doggone-doggerel"],
+		"rating": null
+	},
+	"SWP": { "tags": [], "rating": null },
+	"RFOX": {
+		"tags": [
+			"collectibles-nfts",
+			"ethereum-ecosystem",
+			"metaverse",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"TITAN": { "tags": [], "rating": null },
+	"BSW": { "tags": ["amm", "bnb-chain"], "rating": null },
+	"EUM": {
+		"tags": [],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 34,
+			"team": 25,
+			"technology": 29
+		}
+	},
+	"LINA": {
+		"tags": [
+			"decentralized-exchange",
+			"defi",
+			"yield-farming",
+			"polkadot-ecosystem",
+			"cms-holdings-portfolio",
+			"kenetic-capital-portfolio",
+			"alameda-research-portfolio",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 28,
+			"team": 61,
+			"technology": 80
+		}
+	},
+	"BTS": {
+		"tags": [
+			"pos",
+			"sha-512",
+			"marketplace",
+			"decentralized-exchange",
+			"defi",
+			"synthetics"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 53,
+			"team": 66,
+			"technology": 65
+		}
+	},
+	"RISE": { "tags": ["amm", "dex", "bnb-chain"], "rating": null },
+	"DIA": {
+		"tags": [
+			"platform",
+			"defi",
+			"oracles",
+			"smart-contracts",
+			"ethereum-ecosystem",
+			"substrate",
+			"polkadot-ecosystem",
+			"avalanche-ecosystem",
+			"solana-ecosystem",
+			"exnetwork-capital-portfolio",
+			"polygon-ecosystem",
+			"fantom-ecosystem",
+			"web3",
+			"near-protocol-ecosystem",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"ATA": { "tags": ["binance-launchpool", "bnb-chain"], "rating": null },
+	"DAD": { "tags": [], "rating": null },
+	"HYN": {
+		"tags": ["platform", "geospatial-services"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 35,
+			"team": 42,
+			"technology": 42
+		}
+	},
+	"BZZ": { "tags": [], "rating": null },
+	"LTO": {
+		"tags": [
+			"pos",
+			"platform",
+			"enterprise-solutions",
+			"collectibles-nfts",
+			"dao-maker",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 47,
+			"team": 66,
+			"technology": 62
+		}
+	},
+	"BOSON": {
+		"tags": [
+			"marketplace",
+			"collectibles-nfts",
+			"e-commerce",
+			"payments",
+			"metaverse",
+			"exnetwork-capital-portfolio",
+			"play-to-earn"
+		],
+		"rating": null
+	},
+	"FARM": {
+		"tags": ["defi", "dao", "yield-farming", "yield-aggregator", "governance"],
+		"rating": null
+	},
+	"vBUSD": { "tags": ["bnb-chain"], "rating": null },
+	"MOC": {
+		"tags": [],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 39,
+			"team": 61,
+			"technology": 48
+		}
+	},
+	"DDX": {
+		"tags": ["decentralized-exchange", "defi", "derivatives"],
+		"rating": null
+	},
+	"POSI": { "tags": [], "rating": null },
+	"DMCH": { "tags": [], "rating": null },
+	"FLM": {
+		"tags": [
+			"defi",
+			"dao",
+			"yield-farming",
+			"binance-chain",
+			"binance-launchpool"
+		],
+		"rating": null
+	},
+	"ALEPH": {
+		"tags": [
+			"mineable",
+			"cosmos-ecosystem",
+			"distributed-computing",
+			"filesharing",
+			"storage",
+			"polkadot-ecosystem",
+			"avalanche-ecosystem",
+			"solana-ecosystem",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"BSCPAD": {
+		"tags": [
+			"launchpad",
+			"exnetwork-capital-portfolio",
+			"bluezilla",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"SPS": {
+		"tags": [
+			"collectibles-nfts",
+			"gaming",
+			"play-to-earn",
+			"animoca-brands-portfolio",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"ALPACA": {
+		"tags": [
+			"defi",
+			"staking",
+			"yield-farming",
+			"yield-aggregator",
+			"governance",
+			"lending-borowing",
+			"polygon-ecosystem",
+			"fantom-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 65,
+			"team": 50,
+			"technology": 40
+		}
+	},
+	"XHV": {
+		"tags": ["defi", "privacy"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 35,
+			"team": 50,
+			"technology": 42
+		}
+	},
+	"VRSC": {
+		"tags": [
+			"mineable",
+			"hybrid-pow-pos",
+			"defi",
+			"privacy",
+			"zero-knowledge-proofs",
+			"identity",
+			"interoperability",
+			"scaling",
+			"staking",
+			"amm"
+		],
+		"rating": null
+	},
+	"ATLAS": {
+		"tags": [
+			"collectibles-nfts",
+			"gaming",
+			"solana-ecosystem",
+			"metaverse",
+			"petrock-capital-portfolio",
+			"play-to-earn"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 70,
+			"team": 70,
+			"technology": 65
+		}
+	},
+	"ADX": {
+		"tags": [
+			"marketing",
+			"smart-contracts",
+			"substrate",
+			"polkadot",
+			"polkadot-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 42,
+			"team": 48,
+			"technology": 58
+		}
+	},
+	"CUDOS": {
+		"tags": ["algorand-ecosystem", "exnetwork-capital-portfolio"],
+		"rating": null
+	},
+	"GRID": { "tags": ["energy"], "rating": null },
+	"QUACK": { "tags": ["bnb-chain"], "rating": null },
+	"DATA": {
+		"tags": [
+			"platform",
+			"ai-big-data",
+			"distributed-computing",
+			"filesharing",
+			"iot",
+			"fabric-ventures-portfolio",
+			"web3"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 53,
+			"team": 74,
+			"technology": 76
+		}
+	},
+	"BMX": {
+		"tags": ["marketplace"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 52,
+			"team": 61,
+			"technology": 60
+		}
+	},
+	"XNC": { "tags": [], "rating": null },
+	"QUICK": {
+		"tags": [
+			"decentralized-exchange",
+			"defi",
+			"yield-farming",
+			"amm",
+			"polygon-ecosystem"
+		],
+		"rating": null
+	},
+	"COS": {
+		"tags": ["media", "content-creation", "video"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 18,
+			"team": 70,
+			"technology": 92
+		}
+	},
+	"SWAP": {
+		"tags": ["defi", "launchpad", "avalanche-ecosystem"],
+		"rating": null
+	},
+	"VAI": {
+		"tags": ["defi", "stablecoin", "asset-backed-stablecoin", "bnb-chain"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 70,
+			"team": 60,
+			"technology": 70
+		}
+	},
+	"ASM": { "tags": [], "rating": null },
+	"HDAO": { "tags": [], "rating": null },
+	"CBK": { "tags": [], "rating": null },
+	"UPP": { "tags": [], "rating": null },
+	"NYE": { "tags": ["services"], "rating": null },
+	"CHESS": { "tags": ["mvb", "bnb-chain"], "rating": null },
+	"BIOT": { "tags": [], "rating": null },
+	"TORN": {
+		"tags": [],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 60,
+			"team": 40,
+			"technology": 75
+		}
+	},
+	"CLT": { "tags": [], "rating": null },
+	"ALBT": {
+		"tags": [
+			"avalanche-ecosystem",
+			"exnetwork-capital-portfolio",
+			"injective-ecosystem"
+		],
+		"rating": null
+	},
+	"RBN": {
+		"tags": ["derivatives", "coinbase-ventures-portfolio"],
+		"rating": null
+	},
+	"AKRO": {
+		"tags": [
+			"defi",
+			"dao",
+			"substrate",
+			"polkadot-ecosystem",
+			"yield-aggregator",
+			"yearn-partnerships",
+			"kenetic-capital-portfolio",
+			"ledgerprime-portfolio",
+			"alameda-research-portfolio",
+			"spartan-group"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 33,
+			"team": 54,
+			"technology": 57
+		}
+	},
+	"PNK": {
+		"tags": ["prediction-markets", "polygon-ecosystem"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 45,
+			"team": 33,
+			"technology": 80
+		}
+	},
+	"RARI": {
+		"tags": [
+			"collectibles-nfts",
+			"dao",
+			"coinbase-ventures-portfolio",
+			"governance",
+			"coinfund-portfolio"
+		],
+		"rating": null
+	},
+	"AXEL": { "tags": ["filesharing"], "rating": null },
+	"FIRO": {
+		"tags": [
+			"mineable",
+			"pow",
+			"medium-of-exchange",
+			"privacy",
+			"zero-knowledge-proofs",
+			"masternodes"
+		],
+		"rating": null
+	},
+	"MARO": { "tags": ["media", "content-creation"], "rating": null },
+	"BOR": { "tags": ["defi", "polygon-ecosystem"], "rating": null },
+	"GRS": {
+		"tags": ["mineable", "pow", "groestl", "medium-of-exchange"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 34,
+			"team": 35,
+			"technology": 59
+		}
+	},
+	"PNY": { "tags": ["mineable", "masternodes"], "rating": null },
+	"LQTY": {
+		"tags": ["defi"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 57,
+			"team": 63,
+			"technology": 67
+		}
+	},
+	"BLZ": {
+		"tags": [
+			"platform",
+			"cosmos-ecosystem",
+			"distributed-computing",
+			"filesharing",
+			"smart-contracts",
+			"storage",
+			"polkadot-ecosystem",
+			"kenetic-capital-portfolio"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 35,
+			"team": 68,
+			"technology": 79
+		}
+	},
+	"HIGH": {
+		"tags": [
+			"vr-ar",
+			"ethereum-ecosystem",
+			"solana-ecosystem",
+			"metaverse",
+			"bullperks-launchpad",
+			"animoca-brands-portfolio",
+			"skyvision-capital-portfolio"
+		],
+		"rating": null
+	},
+	"WHALE": { "tags": ["collectibles-nfts", "social-money"], "rating": null },
+	"TPT": { "tags": ["bnb-chain"], "rating": null },
+	"GAS": {
+		"tags": ["medium-of-exchange", "payments", "smart-contracts"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 58,
+			"team": 52,
+			"technology": 79
+		}
+	},
+	"RFR": {
+		"tags": [
+			"media",
+			"content-creation",
+			"gaming",
+			"kenetic-capital-portfolio"
+		],
+		"rating": null
+	},
+	"COCOS": {
+		"tags": ["media", "collectibles-nfts", "gaming"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 58,
+			"team": 61,
+			"technology": 55
+		}
+	},
+	"mVIXY": { "tags": [], "rating": null },
+	"RARE": {
+		"tags": ["marketplace", "collectibles-nfts", "dao"],
+		"rating": null
+	},
+	"TRB": {
+		"tags": [
+			"mineable",
+			"defi",
+			"oracles",
+			"framework-ventures-portfolio",
+			"polygon-ecosystem",
+			"web3"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 49,
+			"team": 56,
+			"technology": 71
+		}
+	},
+	"CTXC": {
+		"tags": [
+			"mineable",
+			"platform",
+			"iot",
+			"smart-contracts",
+			"kenetic-capital-portfolio"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 65,
+			"team": 90,
+			"technology": 82
+		}
+	},
+	"SBD": {
+		"tags": ["media", "content-creation", "stablecoin"],
+		"rating": null
+	},
+	"WNXM": { "tags": ["insurance", "wrapped-tokens"], "rating": null },
+	"KILT": {
+		"tags": [
+			"lpos",
+			"identity",
+			"substrate",
+			"polkadot",
+			"polkadot-ecosystem",
+			"web3",
+			"vbc-ventures-portfolio"
+		],
+		"rating": null
+	},
+	"HARD": {
+		"tags": [
+			"cosmos-ecosystem",
+			"defi",
+			"binance-launchpool",
+			"lending-borowing"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 32,
+			"team": 53,
+			"technology": 70
+		}
+	},
+	"LON": { "tags": ["decentralized-exchange", "defi"], "rating": null },
+	"mIAU": { "tags": ["tokenized-stock"], "rating": null },
+	"BOND": {
+		"tags": ["defi", "dao", "yield-farming", "governance", "parafi-capital"],
+		"rating": null
+	},
+	"MIX": { "tags": ["mvb"], "rating": null },
+	"PSG": { "tags": ["sports", "fan-token"], "rating": null },
+	"DVPN": {
+		"tags": ["cosmos-ecosystem"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 57,
+			"team": 45,
+			"technology": 55
+		}
+	},
+	"FWT": { "tags": ["trustswap-launchpad", "bnb-chain"], "rating": null },
+	"DODO": {
+		"tags": [
+			"decentralized-exchange",
+			"defi",
+			"coinbase-ventures-portfolio",
+			"three-arrows-capital-portfolio",
+			"cms-holdings-portfolio",
+			"defiance-capital-portfolio",
+			"framework-ventures-portfolio",
+			"alameda-research-portfolio",
+			"pantera-capital-portfolio",
+			"exnetwork-capital-portfolio",
+			"arbitrum-ecosytem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 62,
+			"team": 76,
+			"technology": 68
+		}
+	},
+	"MSOL": { "tags": ["solana-ecosystem"], "rating": null },
+	"CON": { "tags": [], "rating": null },
+	"SLIM": {
+		"tags": [
+			"solana-ecosystem",
+			"petrock-capital-portfolio",
+			"skyvision-capital-portfolio"
+		],
+		"rating": null
+	},
+	"LIT": {
+		"tags": [
+			"ethereum-ecosystem",
+			"substrate",
+			"polkadot",
+			"polkadot-ecosystem",
+			"injective-ecosystem"
+		],
+		"rating": null
+	},
+	"CXO": { "tags": ["logistics", "polygon-ecosystem"], "rating": null },
+	"BEL": {
+		"tags": [
+			"defi",
+			"ethereum-ecosystem",
+			"yield-aggregator",
+			"binance-launchpool",
+			"chromia-ecosystem",
+			"polygon-ecosystem",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"DNT": {
+		"tags": ["platform", "payments", "reputation", "boostvc-portfolio", "web3"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 34,
+			"team": 40,
+			"technology": 70
+		}
+	},
+	"MUSD": {
+		"tags": ["defi", "stablecoin", "polygon-ecosystem"],
+		"rating": null
+	},
+	"BEAM": {
+		"tags": [
+			"mineable",
+			"pow",
+			"medium-of-exchange",
+			"defi",
+			"privacy",
+			"mimblewimble",
+			"lelantusmw"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 40,
+			"team": 58,
+			"technology": 57
+		}
+	},
+	"OOKI": { "tags": [], "rating": null },
+	"MNW": { "tags": ["logistics", "payments"], "rating": null },
+	"AION": {
+		"tags": ["mineable", "marketplace", "ai-big-data", "payments"],
+		"rating": null
+	},
+	"BABY": {
+		"tags": [
+			"collectibles-nfts",
+			"decentralized-exchange",
+			"defi",
+			"gaming",
+			"yield-farming",
+			"amm",
+			"mvb",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"FIO": { "tags": ["collectibles-nfts", "wallet"], "rating": null },
+	"CET": {
+		"tags": [
+			"cosmos-ecosystem",
+			"decentralized-exchange",
+			"algorand-ecosystem"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 42,
+			"team": 67,
+			"technology": 65
+		}
+	},
+	"LA": {
+		"tags": ["marketplace", "centralized-exchange", "payments"],
+		"rating": null
+	},
+	"SIX": { "tags": ["payments"], "rating": null },
+	"NEST": {
+		"tags": ["defi", "oracles"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 45,
+			"team": 14,
+			"technology": 72
+		}
+	},
+	"CYCLUB": { "tags": ["content-creation", "crowdfunding"], "rating": null },
+	"CELL": {
+		"tags": [
+			"zero-knowledge-proofs",
+			"quantum-resistant",
+			"scaling",
+			"sharding",
+			"exnetwork-capital-portfolio",
+			"trustswap-launchpad"
+		],
+		"rating": null
+	},
+	"NRG": {
+		"tags": ["mineable", "marketplace", "masternodes", "research"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 44,
+			"team": 54,
+			"technology": 63
+		}
+	},
+	"LOKA": { "tags": ["binance-launchpad"], "rating": null },
+	"FLETA": { "tags": ["bnb-chain"], "rating": null },
+	"NULS": {
+		"tags": ["mineable", "platform", "enterprise-solutions"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 52,
+			"team": 31,
+			"technology": 50
+		}
+	},
+	"SERO": {
+		"tags": ["privacy"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 36,
+			"team": 53,
+			"technology": 76
+		}
+	},
+	"VELO": {
+		"tags": [],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 33,
+			"team": 89,
+			"technology": 79
+		}
+	},
+	"vXVS": { "tags": ["bnb-chain"], "rating": null },
+	"KAR": { "tags": ["polkadot-ecosystem", "spartan-group"], "rating": null },
+	"DGD": {
+		"tags": ["platform", "stablecoin", "asset-backed-stablecoin"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 59,
+			"team": 61,
+			"technology": 56
+		}
+	},
+	"APL": {
+		"tags": ["medium-of-exchange", "privacy", "payments"],
+		"rating": null
+	},
+	"FRONT": {
+		"tags": [
+			"platform",
+			"defi",
+			"staking",
+			"avalanche-ecosystem",
+			"solana-ecosystem",
+			"alameda-research-portfolio",
+			"exnetwork-capital-portfolio",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"YLD": {
+		"tags": ["exnetwork-capital-portfolio", "trustswap-launchpad"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 34,
+			"team": 56,
+			"technology": 70
+		}
+	},
+	"SHFT": {
+		"tags": [
+			"identity",
+			"algorand-ecosystem",
+			"polkastarter",
+			"polygon-ecosystem",
+			"spartan-group"
+		],
+		"rating": null
+	},
+	"CITY": { "tags": ["sports", "fan-token"], "rating": null },
+	"FIS": {
+		"tags": [
+			"defi",
+			"substrate",
+			"polkadot",
+			"polkadot-ecosystem",
+			"exnetwork-capital-portfolio",
+			"injective-ecosystem"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 24,
+			"team": 68,
+			"technology": 87
+		}
+	},
+	"MAP": { "tags": ["cross-chain"], "rating": null },
+	"FSN": {
+		"tags": ["platform", "defi", "payments"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 47,
+			"team": 63,
+			"technology": 46
+		}
+	},
+	"APX": { "tags": [], "rating": null },
+	"STACK": {
+		"tags": ["polygon-ecosystem", "web3", "bnb-chain"],
+		"rating": null
+	},
+	"BTM": {
+		"tags": [
+			"mineable",
+			"platform",
+			"cosmos-ecosystem",
+			"payments",
+			"smart-contracts",
+			"polygon-ecosystem"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 45,
+			"team": 57,
+			"technology": 85
+		}
+	},
+	"MDT": {
+		"tags": ["marketplace", "ai-big-data"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 48,
+			"team": 53,
+			"technology": 51
+		}
+	},
+	"ZNN": { "tags": ["mineable"], "rating": null },
+	"KEY": {
+		"tags": ["platform", "enterprise-solutions", "identity"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 30,
+			"team": 70,
+			"technology": 80
+		}
+	},
+	"IHF": { "tags": [], "rating": null },
+	"PRQ": {
+		"tags": [
+			"services",
+			"ai-big-data",
+			"defi",
+			"smart-contracts",
+			"polkadot-ecosystem",
+			"algorand-ecosystem",
+			"solana-ecosystem",
+			"analytics",
+			"web3",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"WTC": {
+		"tags": ["logistics", "iot"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 42,
+			"team": 41,
+			"technology": 62
+		}
+	},
+	"MAPS": {
+		"tags": [
+			"solana-ecosystem",
+			"cms-holdings-portfolio",
+			"alameda-research-portfolio",
+			"web3"
+		],
+		"rating": null
+	},
+	"BTSE": { "tags": ["centralized-exchange"], "rating": null },
+	"WXT": {
+		"tags": [
+			"asset-management",
+			"centralized-exchange",
+			"payments",
+			"mobile-payment"
+		],
+		"rating": null
+	},
+	"ATRI": {
+		"tags": [
+			"gambling",
+			"collectibles-nfts",
+			"gaming",
+			"ethereum-ecosystem",
+			"metaverse",
+			"polygon-ecosystem",
+			"fantom-ecosystem",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"SDN": {
+		"tags": ["interoperability", "smart-contracts", "polkadot-ecosystem"],
+		"rating": null
+	},
+	"SOFI": { "tags": [], "rating": null },
+	"QSP": {
+		"tags": ["cybersecurity", "smart-contracts", "kenetic-capital-portfolio"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 38,
+			"team": 75,
+			"technology": 66
+		}
+	},
+	"RVP": { "tags": [], "rating": null },
+	"VBIT": { "tags": [], "rating": null },
+	"SHPING": { "tags": [], "rating": null },
+	"TABOO": { "tags": ["bnb-chain"], "rating": null },
+	"SNTVT": { "tags": ["iot"], "rating": null },
+	"FCT,FCT2": {
+		"tags": ["cosmos-ecosystem"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 53,
+			"team": 50,
+			"technology": 66
+		}
+	},
+	"NMC": { "tags": ["mineable", "pow", "sha-256", "platform"], "rating": null },
+	"POLIS": {
+		"tags": [
+			"collectibles-nfts",
+			"gaming",
+			"solana-ecosystem",
+			"metaverse",
+			"petrock-capital-portfolio",
+			"play-to-earn"
+		],
+		"rating": null
+	},
+	"OM": {
+		"tags": [
+			"defi",
+			"dao",
+			"substrate",
+			"polkadot-ecosystem",
+			"kenetic-capital-portfolio",
+			"exnetwork-capital-portfolio",
+			"polygon-ecosystem",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"TREEB": { "tags": ["fantom-ecosystem"], "rating": null },
+	"vUSDT": { "tags": ["bnb-chain"], "rating": null },
+	"RAMP": {
+		"tags": [
+			"defi",
+			"solana-ecosystem",
+			"lending-borowing",
+			"arrington-xrp-capital-portfolio",
+			"alameda-research-portfolio",
+			"parafi-capital",
+			"exnetwork-capital-portfolio",
+			"injective-ecosystem",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"BOA": { "tags": ["dao", "metaverse"], "rating": null },
+	"NFTX": {
+		"tags": ["collectibles-nfts", "defi", "coinfund-portfolio"],
+		"rating": null
+	},
+	"XFT": {
+		"tags": [
+			"privacy",
+			"ethereum-ecosystem",
+			"polkadot-ecosystem",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"BANANA": {
+		"tags": [
+			"decentralized-exchange",
+			"defi",
+			"yield-farming",
+			"amm",
+			"dex",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"MVC": { "tags": [], "rating": null },
+	"AE": {
+		"tags": ["mineable", "medium-of-exchange", "smart-contracts"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 46,
+			"team": 56,
+			"technology": 76
+		}
+	},
+	"STT": {
+		"tags": [
+			"collectibles-nfts",
+			"defi",
+			"gaming",
+			"launchpad",
+			"play-to-earn",
+			"terra-ecosystem"
+		],
+		"rating": null
+	},
+	"SOLVE": {
+		"tags": ["health", "enterprise-solutions", "wallet"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 37,
+			"team": 64,
+			"technology": 85
+		}
+	},
+	"ULT": { "tags": ["services"], "rating": null },
+	"THN": { "tags": [], "rating": null },
+	"GPX": { "tags": [], "rating": null },
+	"UNFI": {
+		"tags": ["defi", "binance-launchpool", "bnb-chain"],
+		"rating": null
+	},
+	"AHT": { "tags": [], "rating": null },
+	"BAR": { "tags": ["sports", "fan-token"], "rating": null },
+	"VSYS": {
+		"tags": ["platform", "discount-token", "smart-contracts"],
+		"rating": null
+	},
+	"GLCH": {
+		"tags": ["trustswap-launchpad", "polygon-ecosystem"],
+		"rating": null
+	},
+	"ERC20": {
+		"tags": [
+			"medium-of-exchange",
+			"collectibles-nfts",
+			"defi",
+			"memes",
+			"payments",
+			"ethereum-ecosystem",
+			"yield-farming",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"SAITO": {
+		"tags": [
+			"gaming",
+			"polkadot-ecosystem",
+			"okex-blockdream-ventures-portfolio"
+		],
+		"rating": null
+	},
+	"KRT": { "tags": ["terra-ecosystem"], "rating": null },
+	"EGG": { "tags": [], "rating": null },
+	"ANJ": { "tags": ["dao", "web3"], "rating": null },
+	"NWC": {
+		"tags": [
+			"education",
+			"ethereum-ecosystem",
+			"stellar",
+			"metaverse",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 34,
+			"team": 32,
+			"technology": 87
+		}
+	},
+	"BASIC": { "tags": [], "rating": null },
+	"BURGER": {
+		"tags": [
+			"decentralized-exchange",
+			"defi",
+			"yield-farming",
+			"amm",
+			"arbitrum-ecosytem",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"BTR": { "tags": ["marketplace", "centralized-exchange"], "rating": null },
+	"SDAO": {
+		"tags": [
+			"defi",
+			"poolz-finance-portfolio",
+			"exnetwork-capital-portfolio",
+			"cross-chain-dex-aggregator"
+		],
+		"rating": null
+	},
+	"NBS": { "tags": [], "rating": null },
+	"MITH": {
+		"tags": ["media", "content-creation", "smart-contracts"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 41,
+			"team": 50,
+			"technology": 66
+		}
+	},
+	"DF": {
+		"tags": ["defi", "arbitrum-ecosytem"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 68,
+			"team": 67,
+			"technology": 63
+		}
+	},
+	"MET": { "tags": ["platform", "defi", "payments", "wallet"], "rating": null },
+	"GOM2": { "tags": [], "rating": null },
+	"WICC": {
+		"tags": ["platform"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 41,
+			"team": 54,
+			"technology": 32
+		}
+	},
+	"MANDOX": { "tags": [], "rating": null },
+	"RSV": {
+		"tags": ["defi", "stablecoin", "coinbase-ventures-portfolio"],
+		"rating": null
+	},
+	"USDK": {
+		"tags": ["medium-of-exchange", "stablecoin", "asset-backed-stablecoin"],
+		"rating": null
+	},
+	"XMON": { "tags": ["collectibles-nfts"], "rating": null },
+	"PDEX": {
+		"tags": [
+			"decentralized-exchange",
+			"dex",
+			"polkadot-ecosystem",
+			"polkastarter",
+			"okex-blockdream-ventures-portfolio"
+		],
+		"rating": null
+	},
+	"URUS": { "tags": ["bnb-chain"], "rating": null },
+	"ZEON": { "tags": [], "rating": null },
+	"AMO": { "tags": [], "rating": null },
+	"VID": {
+		"tags": ["media", "collectibles-nfts", "content-creation", "video"],
+		"rating": null
+	},
+	"LGCY": { "tags": [], "rating": null },
+	"SCP": {
+		"tags": [
+			"mineable",
+			"pow",
+			"blake2b",
+			"platform",
+			"distributed-computing",
+			"filesharing",
+			"storage"
+		],
+		"rating": null
+	},
+	"QTCON": { "tags": [], "rating": null },
+	"HEZ": { "tags": ["scaling", "rollups"], "rating": null },
+	"IDIA": {
+		"tags": ["defi", "launchpad", "mvb", "moonriver-ecosystem", "bnb-chain"],
+		"rating": null
+	},
+	"OXEN": { "tags": ["pos", "defi", "privacy", "masternodes"], "rating": null },
+	"HOGE": { "tags": ["gaming", "memes", "bnb-chain"], "rating": null },
+	"GODS": {
+		"tags": [
+			"collectibles-nfts",
+			"gaming",
+			"entertainment",
+			"ethereum-ecosystem",
+			"metaverse",
+			"play-to-earn",
+			"okex-blockdream-ventures-portfolio"
+		],
+		"rating": null
+	},
+	"EVZ": { "tags": [], "rating": null },
+	"CREAM": {
+		"tags": [
+			"defi",
+			"dao",
+			"amm",
+			"yearn-partnerships",
+			"governance",
+			"lending-borowing",
+			"alameda-research-portfolio",
+			"fantom-ecosystem",
+			"bnb-chain"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 72,
+			"team": 60,
+			"technology": 70
+		}
+	},
+	"GO": {
+		"tags": ["platform", "enterprise-solutions", "smart-contracts"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 36,
+			"team": 58,
+			"technology": 56
+		}
+	},
+	"NIF": { "tags": ["collectibles-nfts", "polygon-ecosystem"], "rating": null },
+	"ZASH": { "tags": [], "rating": null },
+	"XCP": { "tags": ["pow"], "rating": null },
+	"RAINI": { "tags": ["bnb-chain"], "rating": null },
+	"BCN": {
+		"tags": [
+			"mineable",
+			"pow",
+			"cryptonight",
+			"medium-of-exchange",
+			"privacy",
+			"payments"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 36,
+			"team": 40,
+			"technology": 34
+		}
+	},
+	"AUCTION": {
+		"tags": ["defi", "polkadot-ecosystem", "bounce-launchpad", "bnb-chain"],
+		"rating": null
+	},
+	"CVP": {
+		"tags": [
+			"defi",
+			"dao",
+			"yearn-partnerships",
+			"governance",
+			"ledgerprime-portfolio",
+			"polygon-ecosystem",
+			"mvb"
+		],
+		"rating": null
+	},
+	"SUKU": { "tags": ["defi"], "rating": null },
+	"GENE": { "tags": ["animoca-brands-portfolio"], "rating": null },
+	"WOZX": { "tags": ["energy"], "rating": null },
+	"BRD": {
+		"tags": [
+			"services",
+			"wallet",
+			"binance-launchpad",
+			"kenetic-capital-portfolio"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 35,
+			"team": 30,
+			"technology": 49
+		}
+	},
+	"STC": { "tags": [], "rating": null },
+	"REVV": {
+		"tags": [
+			"collectibles-nfts",
+			"gaming",
+			"entertainment",
+			"play-to-earn",
+			"animoca-brands-portfolio",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"DOBO": {
+		"tags": ["memes", "doggone-doggerel", "bnb-chain"],
+		"rating": null
+	},
+	"LIKE": { "tags": ["cosmos-ecosystem"], "rating": null },
+	"HEGIC": {
+		"tags": [
+			"decentralized-exchange",
+			"defi",
+			"derivatives",
+			"options",
+			"fantom-ecosystem"
+		],
+		"rating": {
+			"provider": "simetri",
+			"overall": 79.0,
+			"opportunity": 87.0,
+			"ecosystem": 76.0,
+			"performance": 80.0,
+			"team": 67.0,
+			"technology": 75.0,
+			"progress": 75.0
+		}
+	},
+	"HOPR": {
+		"tags": [
+			"privacy",
+			"dao",
+			"substrate",
+			"polkadot",
+			"polkadot-ecosystem",
+			"governance",
+			"binance-labs-portfolio",
+			"vbc-ventures-portfolio"
+		],
+		"rating": null
+	},
+	"GAFI": {
+		"tags": [
+			"gaming",
+			"launchpad",
+			"metaverse",
+			"polkafoundry-red-kite",
+			"play-to-earn",
+			"icetea-labs",
+			"animoca-brands-portfolio"
+		],
+		"rating": null
+	},
+	"LOCUS": { "tags": ["platform", "payments", "scaling"], "rating": null },
+	"GXT": {
+		"tags": ["collectibles-nfts", "defi", "ethereum-ecosystem"],
+		"rating": null
+	},
+	"KRL": { "tags": [], "rating": null },
+	"GNY": {
+		"tags": ["platform", "enterprise-solutions", "bnb-chain"],
+		"rating": null
+	},
+	"BTU": {
+		"tags": ["marketplace", "enterprise-solutions", "polygon-ecosystem"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 65.0,
+			"ecosystem": 31,
+			"team": 41,
+			"technology": 54
+		}
+	},
+	"PNT": {
+		"tags": [
+			"collectibles-nfts",
+			"defi",
+			"dao",
+			"governance",
+			"polygon-ecosystem",
+			"arbitrum-ecosytem",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"LAZIO": {
+		"tags": ["fan-token", "binance-launchpad", "bnb-chain"],
+		"rating": null
+	},
+	"MTV": {
+		"tags": ["bnb-chain"],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 56,
+			"team": 76,
+			"technology": 70
+		}
+	},
+	"DOCK": {
+		"tags": [
+			"ai-big-data",
+			"smart-contracts",
+			"polkadot-ecosystem",
+			"governance"
+		],
+		"rating": {
+			"provider": "tokenInsight",
+			"overall": 80.0,
+			"ecosystem": 36,
+			"team": 60,
+			"technology": 78
+		}
+	},
+	"DEGO": {
+		"tags": [
+			"collectibles-nfts",
+			"defi",
+			"dao",
+			"polkadot-ecosystem",
+			"governance",
+			"binance-launchpad",
+			"bnb-chain"
+		],
+		"rating": null
+	},
+	"CIV": { "tags": [], "rating": null }
+}

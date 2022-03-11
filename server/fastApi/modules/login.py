@@ -9,10 +9,10 @@ userDB = getUserInfoCollection()
 def processLogin(mobileNumber):
     auth = generateAuthorisation()
     if(checkExistingLogin(auth, mobileNumber)):
-        return auth,False #Is not new user
+        return auth, False  # Is not new user
     else:
         setNewLogin(auth, mobileNumber)
-        return auth,True #Is new user
+        return auth, True  # Is new user
 
 
 def setNewLogin(auth, mobNum):

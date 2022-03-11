@@ -1,24 +1,18 @@
 import copy
-from datetime import date, datetime
 import json
-import threading
-from tkinter import CURRENT
-from tokenize import Double
-from typing import List
-from DataBase.MongoDB import getLiveMarketCollection
-from DataBase.RedisDB import getRedisInstance
-import pickle
-import numpy as np
+
 import pandas as pd
 import requests
-from src.DataFieldConstants import CHANGE, DAY, ID, LAST_UPDATED, MONTH, NAME, PRICE, VOLATILITY, WEEK, YEAR
+
+from DataBase.RedisDB import getRedisInstance
+from src.DataFieldConstants import DAY, MONTH, WEEK, YEAR
 
 baseUrl = "https://min-api.cryptocompare.com"
 redis_instance = getRedisInstance()
 
 
 def fetchChartData(id):
-    current = redis_instance.get(id+"_ChartData")
+    current = redis_instance.get(id + "_ChartData")
     if current is None:
         return {}
     else:
@@ -35,20 +29,24 @@ def updateOneDayData(tickerId):
     if response.status_code == 200:
         df = pd.DataFrame(response.json()["Data"]["Data"])
         df.drop(["volumeto", "volumefrom", "conversionType",
-                "conversionSymbol"], axis=1, inplace=True)
+                 "conversionSymbol"], axis=1, inplace=True)
         df['time'] = pd.to_datetime(
             df['time'], unit='s')
         df.index = df["time"]
         df = df.resample("15min").agg(
             {'open': 'first', 'close': 'last', 'high': 'max', 'low': 'min'})
         df.reset_index(inplace=True)
-        current = redis_instance.get(tickerId+"_ChartData")
+        current = redis_instance.get(tickerId + "_ChartData")
         if current is None:
             current = {}
         else:
             current = json.loads(current)
-        current[DAY] = df.iloc[-96:].to_json(orient="records")
-        redis_instance.set(tickerId+"_ChartData", json.dumps(current))
+
+        current[DAY] = json.loads(df.iloc[-96:].to_json(orient="records"))
+        for index, item in enumerate(current[DAY]):
+            item['time'] = round(item['time'] / 1000)
+            current[DAY][index] = item
+        redis_instance.set(tickerId + "_ChartData", json.dumps(current))
 
 
 def updateWeeklyAndMonthlyData(tickerId, data):
@@ -56,14 +54,14 @@ def updateWeeklyAndMonthlyData(tickerId, data):
     df.drop(["volumeto", "volumefrom", "conversionType",
              "conversionSymbol"], axis=1, inplace=True)
 
-    current = redis_instance.get(tickerId+"_ChartData")
+    current = redis_instance.get(tickerId + "_ChartData")
     if current is None:
         current = {}
     else:
         current = json.loads(current)
-    current[WEEK] = df.iloc[-168:].to_json(orient="records")
-    current[MONTH] = df.iloc[-720:].to_json(orient="records")
-    redis_instance.set(tickerId+"_ChartData", json.dumps(current))
+    current[WEEK] = json.loads(df.iloc[-168:].to_json(orient="records"))
+    current[MONTH] = json.loads(df.iloc[-720:].to_json(orient="records"))
+    redis_instance.set(tickerId + "_ChartData", json.dumps(current))
 
 
 def updateOneYearData(tickerId):
@@ -76,11 +74,11 @@ def updateOneYearData(tickerId):
     if response.status_code == 200:
         df = pd.DataFrame(response.json()["Data"]["Data"])
         df.drop(["volumeto", "volumefrom", "conversionType",
-                "conversionSymbol"], axis=1, inplace=True)
-        current = redis_instance.get(tickerId+"_ChartData")
+                 "conversionSymbol"], axis=1, inplace=True)
+        current = redis_instance.get(tickerId + "_ChartData")
         if current is None:
             current = {}
         else:
             current = json.loads(current)
-        current[YEAR] = df.iloc[-365:].to_json(orient="records")
-        redis_instance.set(tickerId+"_ChartData", json.dumps(current))
+        current[YEAR] = json.loads(df.iloc[-365:].to_json(orient="records"))
+        redis_instance.set(tickerId + "_ChartData", json.dumps(current))
