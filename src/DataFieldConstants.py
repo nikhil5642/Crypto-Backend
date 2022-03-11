@@ -17,6 +17,7 @@ RESULT = "result"
 ITEM_TYPE = "itemType"
 TITLE = "title"
 VALUES = "values"
+OVERALL = "overall"
 DATA = "data"
 BUCKETS = "buckets"
 

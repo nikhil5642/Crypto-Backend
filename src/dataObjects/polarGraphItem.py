@@ -1,6 +1,6 @@
-from src.DataFieldConstants import ITEM_TYPE, TITLE, VALUES, DATA
-
 from typing import List
+
+from src.DataFieldConstants import ITEM_TYPE, TITLE, VALUES, DATA, OVERALL
 
 
 class PolarGraphDataItem:
@@ -15,10 +15,11 @@ class PolarGraphDataItem:
 class PolarGraphItem:
     ITEM_TYPE = "PolarGraph"
 
-    def __init__(self, title: str, itemList: List[PolarGraphDataItem]):
+    def __init__(self, title: str, itemList: List[PolarGraphDataItem], overAllScore: int):
         self.DATA = {
             TITLE: title,
-            VALUES: [item.getJson() for item in itemList]
+            VALUES: [item.getJson() for item in itemList],
+            OVERALL: overAllScore
         }
 
     def getJson(self):

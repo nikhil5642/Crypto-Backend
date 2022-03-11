@@ -37,7 +37,7 @@ def getSimitriRating(ratings):
                            PolarGraphDataItem(
                                "TECHNOLOGY", ratings['technology']),
                            PolarGraphDataItem("PROGRESS", ratings['progress'])
-                           ]).getJson()
+                           ], ratings['overall']).getJson()
 
 
 def getTokenInsightRating(ratings):
@@ -46,4 +46,4 @@ def getTokenInsightRating(ratings):
                            PolarGraphDataItem("TEAM", ratings['team']),
                            PolarGraphDataItem(
                                "TECHNOLOGY", ratings['technology'])
-                           ]).getJson()
+                           ], ratings['overall']).getJson()
