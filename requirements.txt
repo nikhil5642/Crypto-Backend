@@ -31,3 +31,6 @@ typing_extensions==4.0.1
 urllib3==1.26.8
 userpath==1.8.0
 uvicorn==0.17.4
+
+locust~=2.8.3
+redis~=4.1.4

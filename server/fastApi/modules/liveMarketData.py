@@ -62,22 +62,30 @@ def calculateAndUpdateVolatility(tickerId, data):
     redis_instance.set(tickerId + "_MarketData", json.dumps(current))
 
 
-class LiveMarketData:
-
-    def createOrUpdateTicker(self, name: str, tickerId: str, currentPrice: Double, change: Double):
-        val = redis_instance.get(tickerId + "_MarketData")
-        if val is not None:
-            val = json.loads(val)
-            val[PRICE] = currentPrice
-            val[CHANGE] = change
-            redis_instance.set(tickerId + "_MarketData", json.dumps(val))
-            if LAST_UPDATED in val and (
-                    datetime.now() - datetime.fromtimestamp(float(val[LAST_UPDATED]))).total_seconds() > 900:
-                updateAdditionalInfo(tickerId)
-        else:
-            redis_instance.set(tickerId + "_MarketData", json.dumps(
-                {NAME: name, ID: tickerId, PRICE: currentPrice, CHANGE: change}))
+def createOrUpdateTicker(name: str, tickerId: str, currentPrice: Double, change: Double):
+    val = redis_instance.get(tickerId + "_MarketData")
+    if val is not None:
+        val = json.loads(val)
+        val[PRICE] = currentPrice
+        val[CHANGE] = change
+        redis_instance.set(tickerId + "_MarketData", json.dumps(val))
+        if LAST_UPDATED in val and (
+                datetime.now() - datetime.fromtimestamp(float(val[LAST_UPDATED]))).total_seconds() > 900:
             updateAdditionalInfo(tickerId)
+    else:
+        redis_instance.set(tickerId + "_MarketData", json.dumps(
+            {NAME: name, ID: tickerId, PRICE: currentPrice, CHANGE: change}))
+        updateAdditionalInfo(tickerId)
+
+
+def getExchangeRate(fromCurrency: str, toCurrency: str):
+    ticker = redis_instance.get(fromCurrency + "_MarketData")
+    if ticker is None:
+        return 0
+    return json.loads(ticker)[PRICE]
+
+
+class LiveMarketData:
 
     def fetchAndUpdateLiveMarketData(self):
         thread = threading.Thread(
@@ -93,16 +101,17 @@ class LiveMarketData:
 
         response = requests.get(baseUrl + endPoint, params=params)
         if response.status_code == 200:
+            redis_instance.set("liveMarketDataLastFetched",
+                               datetime.timestamp(datetime.now()))
             for ticker in response.json()["Data"]:
                 try:
-                    self.createOrUpdateTicker(
+                    createOrUpdateTicker(
                         ticker["CoinInfo"]["FullName"], ticker["CoinInfo"]["Name"], ticker["RAW"]["INR"]["PRICE"],
                         ticker["RAW"]["INR"]["CHANGEPCT24HOUR"])
                 except:
                     print("Data not present for:",
                           ticker["CoinInfo"]["FullName"])
-            redis_instance.set("liveMarketDataLastFetched",
-                               datetime.timestamp(datetime.now()))
+
             print("Live Data Fetched")
         else:
             self.fetchAndUpdateLiveMarketData()
@@ -118,15 +127,8 @@ class LiveMarketData:
                 data.append(json.loads(ticker))
         return data
 
-    def getExchangeRate(self, fromCurrency: str, toCurrency: str):
-        ticker = redis_instance.get(fromCurrency + "_MarketData")
-        if ticker is None:
-            return 0
-        return json.loads(ticker)[PRICE]
-
 
 marketData = LiveMarketData()
-marketData.fetchAndUpdateLiveMarketData()
 
 
 def getLiveMarketDataInstance():

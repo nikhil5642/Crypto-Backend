@@ -1,12 +1,12 @@
-from unicodedata import name
+from typing import List
+
 from fastapi import APIRouter
 from pydantic import BaseModel
-from server.fastApi.modules.chartData import fetchChartData
-from server.fastApi.modules.liveMarketData import LiveMarketData, getLiveMarketDataInstance
-from server.fastApi.modules.tickerDetails import getTickerDetails
 
+from server.fastApi.modules.chartData import fetchChartData
+from server.fastApi.modules.liveMarketData import getLiveMarketDataInstance
+from server.fastApi.modules.tickerDetails import getTickerDetails
 from src.DataFieldConstants import RESULT
-from typing import List
 
 router = APIRouter(prefix="/market")
 

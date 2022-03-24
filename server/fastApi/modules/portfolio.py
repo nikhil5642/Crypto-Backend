@@ -1,9 +1,9 @@
 import uuid
+from typing import List
 
 from DataBase.MongoDB import getUserInfoCollection
-from server.fastApi.modules.liveMarketData import getLiveMarketDataInstance
+from server.fastApi.modules.liveMarketData import getExchangeRate
 from src.DataFieldConstants import BALANCE, USER_ID, TRANSACTIONS
-from typing import List
 
 userDB = getUserInfoCollection()
 
@@ -36,7 +36,7 @@ def getCompletePortFolio(userId: str):
         if result[BALANCE]:
             for tickerID in result[BALANCE]:
                 totalPortfolioValue += result[BALANCE][tickerID] * \
-                    getLiveMarketDataInstance().getExchangeRate(tickerID, baseCurrency)
+                                       getExchangeRate(tickerID, baseCurrency)
             totalPortfolioValue += result[BALANCE][baseCurrency]
             return result[BALANCE], totalPortfolioValue
     return {}, totalPortfolioValue
@@ -58,10 +58,10 @@ def updateAmountByUserId(userId: str, newAmount: int, currency: str):
 def exchangeCurrency(userId: str, fromCurrency: str, toCurrency: str, amountInFromCurrency: int, actionType: str):
     try:
         if actionType == 'buy':
-            exchangeRate = getLiveMarketDataInstance().getExchangeRate(toCurrency, fromCurrency)
+            exchangeRate = getExchangeRate(toCurrency, fromCurrency)
             amountInToCurrency = amountInFromCurrency / exchangeRate
         else:
-            exchangeRate = getLiveMarketDataInstance().getExchangeRate(fromCurrency, toCurrency)
+            exchangeRate = getExchangeRate(fromCurrency, toCurrency)
             amountInToCurrency = amountInFromCurrency * exchangeRate
 
         currentBalance = getMultiCurrencyAmountByUserId(

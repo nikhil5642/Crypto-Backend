@@ -1,0 +1,1 @@
+locust -f marketTest.py --host http://15.206.100.229 --users 5000 --spawn-rate 20
