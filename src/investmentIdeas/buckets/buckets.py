@@ -14,7 +14,6 @@ redis_client = getRedisInstance()
 
 def getBucketsBasicInfo(bucketIds: List[str]):
     data = []
-    updateRedisDataBase()
     for bucketId in bucketIds:
         bucket = redis_client.get(bucketId + "_MarketData")
         if bucket is not None:
@@ -30,21 +29,19 @@ def getBucketsBasicInfo(bucketIds: List[str]):
 
 
 def updateRedisDataBase():
-    lastUpdated = redis_client.get("bucketBasicInfoLastFetched")
-    if lastUpdated is None or (datetime.now() - datetime.fromtimestamp(float(lastUpdated))).total_seconds() > 900:
-        for bucket in bucketDB.find({}):
-            if (LAST_UPDATED not in bucket or (bucket[LAST_UPDATED] - datetime.now()).total_seconds() > 900):
-                updateBucketPrice(bucket)
-            bucket.pop("_id")
-            bucket.pop("lastUpdated")
-            redis_client.set(bucket[ID] + "_MarketData", json.dumps(bucket))
-            redis_client.set(
-                "bucketBasicInfoLastFetched", datetime.timestamp(datetime.now()))
+    for bucket in bucketDB.find({}):
+        bucket.pop("_id")
+        bucket.pop("lastUpdated")
+        redis_client.set(bucket[ID] + "_MarketData", json.dumps(bucket))
 
 
 def getBucketDetail(bucketId: str):
     details = json.loads(redis_client.get(bucketId + "_MarketData"))
     return details
+
+
+def buyBucket(bucketId: str):
+    json.loads(redis_client.get(bucketId + "_MarketData"))[PORTFOLIO]
 
 
 def updateAllUnitPrice():
@@ -62,7 +59,7 @@ def calculateUnitPrice(portfolio: str):
     price = 0
     for portfolioItem in portfolio:
         price += portfolioItem[AMOUNT_PER_UNIT] * \
-                 getExchangeRate(
-                     portfolioItem[ID], "INR")
+            getExchangeRate(
+            portfolioItem[ID], "INR")
 
     return price
