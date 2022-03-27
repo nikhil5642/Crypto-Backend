@@ -40,10 +40,6 @@ def getBucketDetail(bucketId: str):
     return details
 
 
-def buyBucket(bucketId: str):
-    json.loads(redis_client.get(bucketId + "_MarketData"))[PORTFOLIO]
-
-
 def updateAllUnitPrice():
     for bucket in bucketDB.find({}):
         updateBucketPrice(bucket)
