@@ -12,6 +12,7 @@ INR = "INR"
 TOTAL_PORTFOLIO_VALUE = "totalPortfolioValue"
 
 SUCCESS = "success"
+MESSAGE = "msg"
 RESULT = "result"
 
 ITEM_TYPE = "itemType"
@@ -61,3 +62,5 @@ SIMETRI = "simetri"
 TOKEN_INSIGHT = "tokenInsight"
 
 USDT = "usdt"
+PENDING = "pending"
+LAST_PRICE = "last_price"

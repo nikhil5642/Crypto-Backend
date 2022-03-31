@@ -9,8 +9,9 @@ class MongoDBCollections:
     USER_INFO_COLLECTION = "user_info"
     LOGIN_INFO_COLLECTION = "login_info"
     BUCKET_COLLECTION = "buckets"
+    CRYPTO_BALANCE_COLLECTION = "crypto_balance"
     BUCKET_TRANSACTIONS_COLLECTION = "bucket_transactions"
-    INVESTMETN_CATEGORIES_COLLECTION = "invest_categories"
+    INVESTMENT_CATEGORIES_COLLECTION = "invest_categories"
     LIVE_MARKET_COLLECTION = "live_market"
 
 
@@ -50,12 +51,16 @@ def getBucketsCollection():
     return MongoManager.getInstance()[MongoDBCollections.BUCKET_COLLECTION]
 
 
+def getCryptoBalanceCollection():
+    return MongoManager.getInstance()[MongoDBCollections.CRYPTO_BALANCE_COLLECTION]
+
+
 def getBucketsTransactionCollection():
     return MongoManager.getInstance()[MongoDBCollections.BUCKET_TRANSACTIONS_COLLECTION]
 
 
 def getInvestmentCategoriesCollection():
-    return MongoManager.getInstance()[MongoDBCollections.INVESTMETN_CATEGORIES_COLLECTION]
+    return MongoManager.getInstance()[MongoDBCollections.INVESTMENT_CATEGORIES_COLLECTION]
 
 
 def getLiveMarketCollection():

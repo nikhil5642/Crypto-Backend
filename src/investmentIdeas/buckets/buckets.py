@@ -1,5 +1,6 @@
 import json
 from datetime import datetime
+from time import sleep
 from typing import List
 
 from DataBase.MongoDB import getBucketsCollection
@@ -14,6 +15,7 @@ redis_client = getRedisInstance()
 
 def getBucketsBasicInfo(bucketIds: List[str]):
     data = []
+
     for bucketId in bucketIds:
         bucket = redis_client.get(bucketId + "_MarketData")
         if bucket is not None:
@@ -28,11 +30,13 @@ def getBucketsBasicInfo(bucketIds: List[str]):
     return data
 
 
-def updateRedisDataBase():
-    for bucket in bucketDB.find({}):
-        bucket.pop("_id")
-        bucket.pop("lastUpdated")
-        redis_client.set(bucket[ID] + "_MarketData", json.dumps(bucket))
+def updateBucketsInCache():
+    while True:
+        for bucket in bucketDB.find({}):
+            bucket.pop("_id")
+            bucket["lastUpdated"] = bucket["lastUpdated"].timestamp()
+            redis_client.set(bucket[ID] + "_MarketData", json.dumps(bucket))
+        sleep(300)
 
 
 def getBucketDetail(bucketId: str):
@@ -55,7 +59,7 @@ def calculateUnitPrice(portfolio: str):
     price = 0
     for portfolioItem in portfolio:
         price += portfolioItem[AMOUNT_PER_UNIT] * \
-            getExchangeRate(
-            portfolioItem[ID], "INR")
+                 getExchangeRate(
+                     portfolioItem[ID], "INR")
 
     return price
