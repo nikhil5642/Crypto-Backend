@@ -4,6 +4,7 @@ from ccxt.base.errors import InsufficientFunds, InvalidOrder, RateLimitExceeded
 
 from DataBase.MongoDB import getCryptoBalanceCollection
 from src.DataFieldConstants import ID, PENDING, BALANCE, LAST_PRICE
+from src.logger.logger import GlobalLogger
 from src.wazirx.exchange import getWazirXClient
 
 balanceDB = getCryptoBalanceCollection()
@@ -30,15 +31,39 @@ def placeBuyOrderFromUSDT(tickerId, amount):
                 "$inc": {PENDING: -amount, BALANCE: amount}})
 
     except InsufficientFunds:
-        print("insufficientFund")
+        GlobalLogger().error("insufficientFund")
     except InvalidOrder:
-        print("invalid order")
+        GlobalLogger().error("invalid order")
     except Exception:
-        print("Exception Occured ")
+        GlobalLogger().error("Exception Occured ")
 
 
 def placeSellOrderToUSDT(tickerId, amount):
-    pass
+    symbol = tickerId + "/USDT"
+    orderBook = getWazirXClient().fetchOrderBook(symbol)
+    topBuyPrice = orderBook["bids"][0][0]
+    topSellPrice = orderBook["asks"][0][0]
+    sellRate = topBuyPrice + (topSellPrice - topBuyPrice) * .8
+
+    if sellRate * amount < 2:
+        GlobalLogger().error("insufficientFund")
+    try:
+        order = getWazirXClient().create_limit_sell_order(symbol, amount, sellRate)
+        sleep(60)
+        orderExecuted = verifyOrderExecution(order)
+        if not orderExecuted:
+            cancel_order(order)
+        else:
+            balanceDB.update_one({ID: tickerId}, {
+                "$set": {LAST_PRICE: sellRate},
+                "$inc": {PENDING: amount, BALANCE: -amount}})
+
+    except InsufficientFunds:
+        GlobalLogger().error("insufficientFund")
+    except InvalidOrder:
+        GlobalLogger().error("invalid order")
+    except Exception:
+        GlobalLogger().error("Exception Occurred")
 
 
 def verifyOrderExecution(curOrder):

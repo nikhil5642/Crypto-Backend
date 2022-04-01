@@ -13,6 +13,7 @@ from DataBase.MongoDB import getLiveMarketCollection
 from DataBase.RedisDB import getRedisInstance
 from server.fastApi.modules.chartData import updateOneDayData, updateOneYearData, updateWeeklyAndMonthlyData
 from src.DataFieldConstants import CHANGE, ID, LAST_UPDATED, MONTH, NAME, PRICE, VOLATILITY, WEEK, YEAR
+from src.logger.logger import GlobalLogger
 
 baseUrl = "https://min-api.cryptocompare.com"
 
@@ -112,7 +113,7 @@ class LiveMarketData:
                     print("Data not present for:",
                           ticker["CoinInfo"]["FullName"])
 
-            print("Live Data Fetched")
+            GlobalLogger().info("Live Data Fetched")
         else:
             self.fetchAndUpdateLiveMarketData()
 

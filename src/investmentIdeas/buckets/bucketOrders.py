@@ -9,6 +9,7 @@ from server.fastApi.modules.portfolio import getMultiCurrencyAmountByUserId
 from src.DataFieldConstants import AMOUNT_IN_USDT, BALANCE, BUCKET_ID, FREE, ID, INVESTED, \
     ORDER_TYPE, PORTFOLIO, TRANSACTIONID, TRANSACTIONS, UNIT_PRICE, UNITS, USDT, USER_ID, PENDING, AMOUNT_PER_UNIT, \
     LAST_PRICE
+from src.logger.logger import GlobalLogger
 from src.wazirx.wazirxOrders import placeBuyOrderFromUSDT, placeSellOrderToUSDT
 
 redis_client = getRedisInstance()
@@ -47,6 +48,34 @@ def buyPartOfBucket(userId: str, bucketId: str, amountInUSDT):
         buyOneBucketFromExchange(bucketId)
 
 
+def sellPartOfBucket(userId: str, bucketId: str, amountInBucket):
+    currentBalance = getMultiCurrencyAmountByUserId(
+        userId, [bucketId, USDT])
+    if currentBalance[bucketId] < amountInBucket:
+        return False, "Insufficient Balance"
+    bucket = bucketDB.find_one({ID: bucketId})
+    sellBuketPrice = bucket[UNIT_PRICE] * 0.999
+    usdtRefunded = amountInBucket * sellBuketPrice
+    transactionId = uuid.uuid4().hex
+    bucketDB.update_one(
+        {ID: bucketId},
+        {"$set": {FREE: bucket[FREE] + amountInBucket, INVESTED: bucket[INVESTED] - amountInBucket}})
+    bucketTransactionDB.insert_one(
+        {ORDER_TYPE: "sell", TRANSACTIONID: transactionId, USER_ID: userId, BUCKET_ID: bucketId,
+         UNITS: amountInBucket, AMOUNT_IN_USDT: usdtRefunded})
+
+    userDB.update_one({USER_ID: int(userId)},
+                      {"$push": {TRANSACTIONS: {TRANSACTIONID: transactionId,
+                                                BUCKET_ID: bucketId,
+                                                UNITS: amountInBucket,
+                                                AMOUNT_IN_USDT: usdtRefunded,
+                                                ORDER_TYPE: "sell"}},
+                       "$set": {BALANCE + "." + bucketId: currentBalance[bucketId] - amountInBucket,
+                                BALANCE + "." + USDT: currentBalance[USDT] + usdtRefunded}})
+    if bucket[FREE] + amountInBucket > 2:
+        sellOneBucketFromExchange(bucketId)
+
+
 def buyOneBucketFromExchange(bucketId: str):
     portfolio = bucketDB.find_one({ID: bucketId})[PORTFOLIO]
     for ticker in portfolio:
@@ -59,20 +88,28 @@ def buyOneBucketFromExchange(bucketId: str):
                                   LAST_PRICE: 0, })
 
 
+def sellOneBucketFromExchange(bucketId: str):
+    portfolio = bucketDB.find_one({ID: bucketId})[PORTFOLIO]
+    for ticker in portfolio:
+        balanceDB.update_one({ID: ticker[ID]}, {
+            "$inc": {PENDING: -ticker[AMOUNT_PER_UNIT]}})
+
+
 def checkAndFillAllPendingOrders():
-    print("checkAndFillAllPendingOrders")
+    GlobalLogger().error("checkAndFillAllPendingOrders")
     while True:
         for ticker in balanceDB.find({}):
-            threading.Thread(
-                target=buyTicket, args=(ticker,)).start()
-            sleep(5)
+            if ticker[PENDING] != 0:
+                threading.Thread(
+                    target=processOrder, args=(ticker,)).start()
+                sleep(5)
         sleep(60)
 
 
-def buyTicket(ticker):
-    if ticker[PENDING] == 0:
-        pass
-    elif ticker[PENDING] > 0:
+def processOrder(ticker):
+    if ticker[PENDING] > 0:
         placeBuyOrderFromUSDT(ticker[ID], ticker[PENDING])
+    elif abs(ticker[PENDING]) <= ticker[BALANCE]:
+        placeSellOrderToUSDT(ticker[ID], -ticker[PENDING])
     else:
-        placeSellOrderToUSDT(ticker[ID], ticker[PENDING])
+        GlobalLogger().error(f"Insufficient {ticker[ID]} balance")

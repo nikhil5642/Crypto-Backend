@@ -3,3 +3,5 @@ from src.investmentIdeas.buckets.bucketOrders import checkAndFillAllPendingOrder
 if __name__ == '__main__':
     checkAndFillAllPendingOrders()
     # buyOneBucketFromExchange("bucket_x")
+    # sellOneBucketFromExchange("bucket_x")
+
