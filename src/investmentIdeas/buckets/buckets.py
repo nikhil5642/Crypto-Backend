@@ -1,16 +1,16 @@
 import json
-from datetime import datetime
 from time import sleep
 from typing import List
 
-from DataBase.MongoDB import getBucketsCollection
+from DataBase.MongoDB import getBucketsCollection, getCryptoBalanceCollection
 from DataBase.RedisDB import getRedisInstance
-from server.fastApi.modules.liveMarketData import getExchangeRate
-from src.DataFieldConstants import AMOUNT_PER_UNIT, LAST_UPDATED, NAME, PORTFOLIO, TITLE_IMG, ID, CATEGORY, \
+from src.DataFieldConstants import NAME, TITLE_IMG, ID, CATEGORY, \
     RETURN_ONE_YR, MIN_AMOUNT, RISK_LEVEL, SHORT_DESCRIPTION, UNIT_PRICE
+from src.logger.logger import GlobalLogger
 
 bucketDB = getBucketsCollection()
 redis_client = getRedisInstance()
+balanceDB = getCryptoBalanceCollection()
 
 
 def getBucketsBasicInfo(bucketIds: List[str]):
@@ -31,35 +31,15 @@ def getBucketsBasicInfo(bucketIds: List[str]):
 
 
 def updateBucketsInCache():
+    GlobalLogger().info("Update Buckets in Cache service started")
     while True:
         for bucket in bucketDB.find({}):
             bucket.pop("_id")
             bucket["lastUpdated"] = bucket["lastUpdated"].timestamp()
             redis_client.set(bucket[ID] + "_MarketData", json.dumps(bucket))
-        sleep(300)
+        sleep(5 * 60)
 
 
 def getBucketDetail(bucketId: str):
     details = json.loads(redis_client.get(bucketId + "_MarketData"))
     return details
-
-
-def updateAllUnitPrice():
-    for bucket in bucketDB.find({}):
-        updateBucketPrice(bucket)
-
-
-def updateBucketPrice(bucketData):
-    current_price = calculateUnitPrice(bucketData[PORTFOLIO])
-    bucketDB.update_one(
-        {ID: bucketData[ID]}, {"$set": {UNIT_PRICE: current_price, LAST_UPDATED: datetime.now()}})
-
-
-def calculateUnitPrice(portfolio: str):
-    price = 0
-    for portfolioItem in portfolio:
-        price += portfolioItem[AMOUNT_PER_UNIT] * \
-                 getExchangeRate(
-                     portfolioItem[ID], "INR")
-
-    return price

@@ -31,7 +31,7 @@ def buyPartOfBucket(userId: str, bucketId: str, amountInUSDT):
     transactionId = uuid.uuid4().hex
     bucketDB.update_one(
         {ID: bucketId},
-        {"$set": {FREE: bucket[FREE] - bucketUnitsAllotted, INVESTED: bucket[INVESTED] + bucketUnitsAllotted}})
+        {"$inc": {FREE: -bucketUnitsAllotted, INVESTED: bucketUnitsAllotted}})
     bucketTransactionDB.insert_one(
         {ORDER_TYPE: "buy", TRANSACTIONID: transactionId, USER_ID: userId, BUCKET_ID: bucketId,
          UNITS: bucketUnitsAllotted, AMOUNT_IN_USDT: amountInUSDT})
@@ -42,10 +42,11 @@ def buyPartOfBucket(userId: str, bucketId: str, amountInUSDT):
                                                 UNITS: bucketUnitsAllotted,
                                                 AMOUNT_IN_USDT: amountInUSDT,
                                                 ORDER_TYPE: "buy"}},
-                       "$set": {BALANCE + "." + bucketId: currentBalance[bucketId] + bucketUnitsAllotted,
-                                BALANCE + "." + USDT: currentBalance[USDT] - amountInUSDT}})
+                       "$inc": {BALANCE + "." + bucketId: bucketUnitsAllotted,
+                                BALANCE + "." + USDT: -amountInUSDT}})
     if bucket[FREE] - bucketUnitsAllotted < 1:
         buyOneBucketFromExchange(bucketId)
+    return True, "Transaction Successfull"
 
 
 def sellPartOfBucket(userId: str, bucketId: str, amountInBucket):
@@ -59,7 +60,7 @@ def sellPartOfBucket(userId: str, bucketId: str, amountInBucket):
     transactionId = uuid.uuid4().hex
     bucketDB.update_one(
         {ID: bucketId},
-        {"$set": {FREE: bucket[FREE] + amountInBucket, INVESTED: bucket[INVESTED] - amountInBucket}})
+        {"$inc": {FREE: amountInBucket, INVESTED: - amountInBucket}})
     bucketTransactionDB.insert_one(
         {ORDER_TYPE: "sell", TRANSACTIONID: transactionId, USER_ID: userId, BUCKET_ID: bucketId,
          UNITS: amountInBucket, AMOUNT_IN_USDT: usdtRefunded})
@@ -70,10 +71,11 @@ def sellPartOfBucket(userId: str, bucketId: str, amountInBucket):
                                                 UNITS: amountInBucket,
                                                 AMOUNT_IN_USDT: usdtRefunded,
                                                 ORDER_TYPE: "sell"}},
-                       "$set": {BALANCE + "." + bucketId: currentBalance[bucketId] - amountInBucket,
-                                BALANCE + "." + USDT: currentBalance[USDT] + usdtRefunded}})
+                       "$inc": {BALANCE + "." + bucketId: amountInBucket,
+                                BALANCE + "." + USDT: usdtRefunded}})
     if bucket[FREE] + amountInBucket > 2:
         sellOneBucketFromExchange(bucketId)
+    return True, "Transaction Successful"
 
 
 def buyOneBucketFromExchange(bucketId: str):
@@ -86,6 +88,8 @@ def buyOneBucketFromExchange(bucketId: str):
                                   BALANCE: 0,
                                   PENDING: ticker[AMOUNT_PER_UNIT],
                                   LAST_PRICE: 0, })
+    bucketDB.update_one({ID: bucketId}, {
+        "$inc": {FREE: 1}})
 
 
 def sellOneBucketFromExchange(bucketId: str):
@@ -93,10 +97,12 @@ def sellOneBucketFromExchange(bucketId: str):
     for ticker in portfolio:
         balanceDB.update_one({ID: ticker[ID]}, {
             "$inc": {PENDING: -ticker[AMOUNT_PER_UNIT]}})
+    bucketDB.update_one({ID: bucketId}, {
+        "$inc": {FREE: -1}})
 
 
 def checkAndFillAllPendingOrders():
-    GlobalLogger().error("checkAndFillAllPendingOrders")
+    GlobalLogger().info("Check and Fill pending orders service started")
     while True:
         for ticker in balanceDB.find({}):
             if ticker[PENDING] != 0:

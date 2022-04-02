@@ -79,7 +79,8 @@ def verifyOrderExecution(curOrder):
 
 def cancel_order(curOrder):
     try:
-        getWazirXClient().cancel_order(id=curOrder["id"], symbol=curOrder["symbol"])
+        getWazirXClient().cancel_order(
+            id=curOrder["id"], symbol=curOrder["symbol"])
     except RateLimitExceeded:
         cancel_order(curOrder)
 
