@@ -1,1 +1,0 @@
-web: gunicorn --bind 0.0.0.0:80 server.fastApi.app:app -w 4 -k uvicorn.workers.UvicornWorker --daemon
