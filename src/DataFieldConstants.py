@@ -55,8 +55,13 @@ INVESTED = "invested"
 ORDER_TYPE = "order_type"
 DAY = 'day'
 WEEK = 'week'
+ONE_WEEK = "one_week"
 MONTH = 'month'
+ONE_MONTH = "one_month"
+THREE_MONTH = "three_month"
+SIX_MONTH = "six_month"
 YEAR = 'year'
+ONE_YEAR = "one_year"
 
 SIMETRI = "simetri"
 TOKEN_INSIGHT = "tokenInsight"

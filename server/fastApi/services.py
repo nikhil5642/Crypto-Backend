@@ -1,4 +1,6 @@
 import threading
+from time import sleep
+from src.investmentIdeas.buckets.bucketChart import updateAllBucketChart, updateAllTickerCharts
 
 from src.investmentIdeas.buckets.bucketOrders import checkAndFillAllPendingOrders
 from src.investmentIdeas.buckets.bucketUnitPrice import updateAllBucketUnitPrice
@@ -10,3 +12,8 @@ threading.Thread(
     target=checkAndFillAllPendingOrders, args=()).start()
 threading.Thread(
     target=updateAllBucketUnitPrice, args=()).start()
+threading.Thread(
+    target=updateAllTickerCharts, args=()).start()
+sleep(5*60)
+threading.Thread(
+    target=updateAllBucketChart, args=()).start()

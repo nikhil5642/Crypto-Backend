@@ -10,6 +10,7 @@ class MongoDBCollections:
     LOGIN_INFO_COLLECTION = "login_info"
     BUCKET_COLLECTION = "buckets"
     CRYPTO_BALANCE_COLLECTION = "crypto_balance"
+    CHART_DATA_COLLECTION = "chart_data"
     BUCKET_TRANSACTIONS_COLLECTION = "bucket_transactions"
     INVESTMENT_CATEGORIES_COLLECTION = "invest_categories"
     LIVE_MARKET_COLLECTION = "live_market"
@@ -57,6 +58,10 @@ def getCryptoBalanceCollection():
 
 def getBucketsTransactionCollection():
     return MongoManager.getInstance()[MongoDBCollections.BUCKET_TRANSACTIONS_COLLECTION]
+
+
+def getChartDataCollection():
+    return MongoManager.getInstance()[MongoDBCollections.CHART_DATA_COLLECTION]
 
 
 def getInvestmentCategoriesCollection():

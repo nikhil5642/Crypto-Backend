@@ -9,11 +9,13 @@ bucketDB = getBucketsCollection()
 
 
 def updateAllBucketPortfolioContribution():
-    for bucket in bucketDB.find({}):
-        unit_price = bucket[UNIT_PRICE]
-        for item in bucket[PORTFOLIO]:
-            bucketDB.update_one(
-                {ID: bucket[ID]}, {"$set": {PORTFOLIO + "." + item[ID]: getTickerContribution(item, unit_price)}})
+    while True:
+        for bucket in bucketDB.find({}):
+            unit_price = bucket[UNIT_PRICE]
+            for item in bucket[PORTFOLIO]:
+                bucketDB.update_one(
+                    {ID: bucket[ID]}, {"$set": {PORTFOLIO + "." + item[ID]: getTickerContribution(item, unit_price)}})
+        sleep(6*60*60)
 
 
 def getTickerContribution(item, unit_price):
