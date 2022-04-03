@@ -1,7 +1,6 @@
 from src.DataFieldConstants import AMOUNT_PER_UNIT, ID
-from src.investmentIdeas.buckets.bucketChart import getTickerChartData, updateAllBucketChart, updateAllTickerCharts, updateBucketChartData, updateChartOfTicker
-from src.investmentIdeas.buckets.bucketContribution import getTickerContribution
-from src.investmentIdeas.buckets.bucketOrders import buyOneBucketFromExchange
+from src.investmentIdeas.buckets.bucketChart import updateAllChartsOnCache
+from src.investmentIdeas.buckets.buckets import updateBucketsInCache
 
 if __name__ == '__main__':
     # updateAllBucketUnitPrice()
@@ -9,4 +8,4 @@ if __name__ == '__main__':
     # sellOneBucketFromExchange("bucket_x")
     # item = {ID: "BTC", AMOUNT_PER_UNIT: 0.0000}
     # print(getTickerContribution(item, 2))
-    updateAllBucketChart()
+    updateBucketsInCache()

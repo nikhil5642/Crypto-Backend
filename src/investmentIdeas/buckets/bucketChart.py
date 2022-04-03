@@ -3,6 +3,7 @@ import json
 from time import sleep
 import requests
 from DataBase.MongoDB import getBucketsCollection, getChartDataCollection, getCryptoBalanceCollection
+from DataBase.RedisDB import getRedisInstance
 from src.DataFieldConstants import AMOUNT_PER_UNIT, ID, ONE_MONTH, ONE_WEEK, ONE_YEAR, PORTFOLIO, SIX_MONTH, THREE_MONTH, UNIT_PRICE
 import pandas as pd
 
@@ -11,6 +12,15 @@ from src.investmentIdeas.buckets.bucketContribution import getTickerContribution
 bucketDB = getBucketsCollection()
 balanceDB = getCryptoBalanceCollection()
 chartDataDB = getChartDataCollection()
+redis_client = getRedisInstance()
+
+
+def updateAllChartsOnCache():
+    while True:
+        for ticker in chartDataDB.find({}):
+            ticker.pop("_id")
+            redis_client.set(ticker[ID] + "_ChartData", json.dumps(ticker))
+        sleep(3*60*60)
 
 
 def updateAllBucketChart():

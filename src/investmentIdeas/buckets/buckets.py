@@ -15,7 +15,6 @@ balanceDB = getCryptoBalanceCollection()
 
 def getBucketsBasicInfo(bucketIds: List[str]):
     data = []
-
     for bucketId in bucketIds:
         bucket = redis_client.get(bucketId + "_MarketData")
         if bucket is not None:
