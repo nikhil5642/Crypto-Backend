@@ -15,10 +15,10 @@ def placeBuyOrderFromUSDT(tickerId, amount):
     orderBook = getWazirXClient().fetchOrderBook(symbol)
     topBuyPrice = orderBook["bids"][0][0]
     topSellPrice = orderBook["asks"][0][0]
-    buyRate = topBuyPrice + (topSellPrice - topBuyPrice) * .2
-
+    buyRate = topBuyPrice + (topSellPrice - topBuyPrice) * .5
     if buyRate * amount < 2:
-        return False, 0
+        GlobalLogger().error("Can't process, less than 2 USDT")
+        return
     try:
         order = getWazirXClient().create_limit_buy_order(symbol, amount, buyRate)
         sleep(60)
@@ -43,7 +43,7 @@ def placeSellOrderToUSDT(tickerId, amount):
     orderBook = getWazirXClient().fetchOrderBook(symbol)
     topBuyPrice = orderBook["bids"][0][0]
     topSellPrice = orderBook["asks"][0][0]
-    sellRate = topBuyPrice + (topSellPrice - topBuyPrice) * .8
+    sellRate = topBuyPrice + (topSellPrice - topBuyPrice) * .5
 
     if sellRate * amount < 2:
         GlobalLogger().error("insufficientFund")

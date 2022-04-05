@@ -4,7 +4,7 @@ from time import sleep
 import requests
 from DataBase.MongoDB import getBucketsCollection, getChartDataCollection, getCryptoBalanceCollection
 from DataBase.RedisDB import getRedisInstance
-from src.DataFieldConstants import AMOUNT_PER_UNIT, ID, ONE_MONTH, ONE_WEEK, ONE_YEAR, PORTFOLIO, SIX_MONTH, THREE_MONTH, UNIT_PRICE
+from src.DataFieldConstants import AMOUNT_PER_UNIT, ID, ONE_MONTH, ONE_WEEK, ONE_YEAR, PORTFOLIO, RETURN_ONE_YR, SIX_MONTH, THREE_MONTH
 import pandas as pd
 
 from src.investmentIdeas.buckets.bucketContribution import getTickerContribution
@@ -71,6 +71,9 @@ def updateBucketChartData(bucket):
                                     ONE_MONTH: json.loads(one_month.to_json(orient="records")),
                                     ONE_WEEK: json.loads(one_week.to_json(orient="records"))}}, upsert=True)
 
+    bucketDB.update_one({ID: bucket[ID]}, {'$set': {RETURN_ONE_YR: (
+        one_year.iloc[-1]['close']-one_year.iloc[0]['close'])*100/one_year.iloc[0]['close']}})
+
 
 def getChartData(id):
     result = chartDataDB.find_one({ID: id})
@@ -93,7 +96,7 @@ def updateChartOfTicker(tickerId):
     one_yr = one_day_candles_data[-365:]
     six_month = one_day_candles_data[-182:]
     three_month = one_day_candles_data[-90:]
-    one_month = one_hour_candles_data[-720:]
+    one_month = one_day_candles_data[-720:]
     one_week = one_hour_candles_data[-168:]
     chartDataDB.update_one(
         {ID: tickerId}, {'$set': {ONE_YEAR: one_yr,

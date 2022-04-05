@@ -5,7 +5,7 @@ import pandas as pd
 import requests
 
 from DataBase.RedisDB import getRedisInstance
-from src.DataFieldConstants import DAY, MONTH, WEEK, YEAR
+from src.DataFieldConstants import DAY, ID, MONTH, WEEK, YEAR
 
 baseUrl = "https://min-api.cryptocompare.com"
 redis_instance = getRedisInstance()
@@ -16,7 +16,9 @@ def fetchChartData(id):
     if current is None:
         return {}
     else:
-        return json.loads(current)
+        current = json.loads(current)
+        current.pop(ID, None)
+        return current
 
 
 def updateOneDayData(tickerId):

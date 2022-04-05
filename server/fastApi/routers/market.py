@@ -19,6 +19,10 @@ class TickerModel(BaseModel):
     tickerId: str = ""
 
 
+class ChartModel(BaseModel):
+    id: str = ""
+
+
 @router.post("/getTickerLiveData")
 async def getTickerLiveData(data: TickerListModel):
     return {RESULT: getLiveMarketDataInstance().getTickersData(data.tickers)}
@@ -30,8 +34,8 @@ async def tickerDetails(data: TickerModel):
 
 
 @router.post("/chartData")
-async def tickerDetails(data: TickerModel):
-    return {RESULT: fetchChartData(data.tickerId)}
+async def chartData(data: ChartModel):
+    return {RESULT: fetchChartData(data.id)}
 
 
 if __name__ == '__main__':

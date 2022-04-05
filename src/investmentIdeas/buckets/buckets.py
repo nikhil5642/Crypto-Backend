@@ -21,7 +21,7 @@ def getBucketsBasicInfo(bucketIds: List[str]):
             bucket = json.loads(bucket)
             data.append({ID: bucket[ID], NAME: bucket[NAME], CATEGORY: bucket[CATEGORY],
                          SHORT_DESCRIPTION: bucket[SHORT_DESCRIPTION],
-                         RETURN_ONE_YR: bucket[RETURN_ONE_YR],
+                         RETURN_ONE_YR: round(bucket[RETURN_ONE_YR], 2),
                          UNIT_PRICE: bucket[UNIT_PRICE],
                          MIN_AMOUNT: bucket[MIN_AMOUNT],
                          RISK_LEVEL: bucket[RISK_LEVEL],
@@ -36,7 +36,7 @@ def updateBucketsInCache():
             bucket.pop("_id")
             bucket["lastUpdated"] = bucket["lastUpdated"].timestamp()
             redis_client.set(bucket[ID] + "_MarketData", json.dumps(bucket))
-        sleep(5 * 60)
+        sleep(60 * 60)
 
 
 def getBucketDetail(bucketId: str):

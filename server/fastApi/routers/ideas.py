@@ -4,7 +4,7 @@ from fastapi import APIRouter
 from pydantic import BaseModel
 
 from src.DataFieldConstants import SUCCESS, MESSAGE
-from src.investmentIdeas.buckets.bucketOrders import buyPartOfBucket
+from src.investmentIdeas.buckets.bucketOrders import buyPartOfBucket, sellPartOfBucket
 from src.investmentIdeas.buckets.buckets import getBucketDetail, getBucketsBasicInfo
 from src.investmentIdeas.causeInvestment.causeInvestment import getCauseItemDetails, getInvestInCauseItems
 
@@ -29,7 +29,7 @@ class BucketItem(BaseModel):
     bucketId: str
 
 
-class BucketBuyItem(BaseModel):
+class BucketTransactionItem(BaseModel):
     userId: str
     bucketId: str
     amount: int
@@ -56,8 +56,16 @@ async def causeIdeaDetails(bucket: BucketItem):
 
 
 @router.post("/buyBucket")
-async def buyBucket(bucket: BucketBuyItem):
-    success, message = buyPartOfBucket(bucket.userId, bucket.bucketId, bucket.amount)
+async def buyBucket(bucket: BucketTransactionItem):
+    success, message = buyPartOfBucket(
+        bucket.userId, bucket.bucketId, bucket.amount)
+    return {SUCCESS: success, MESSAGE: message}
+
+
+@router.post("/sellBucket")
+async def sellBucket(bucket: BucketTransactionItem):
+    success, message = sellPartOfBucket(
+        bucket.userId, bucket.bucketId, bucket.amount)
     return {SUCCESS: success, MESSAGE: message}
 
 

@@ -44,7 +44,7 @@ def buyPartOfBucket(userId: str, bucketId: str, amountInUSDT):
                                                 ORDER_TYPE: "buy"}},
                        "$inc": {BALANCE + "." + bucketId: bucketUnitsAllotted,
                                 BALANCE + "." + USDT: -amountInUSDT}})
-    if bucket[FREE] - bucketUnitsAllotted < 1:
+    if bucket[FREE] - bucketUnitsAllotted < 0.5:
         buyOneBucketFromExchange(bucketId)
     return True, "Transaction Successfull"
 
@@ -75,6 +75,7 @@ def sellPartOfBucket(userId: str, bucketId: str, amountInBucket):
                                 BALANCE + "." + USDT: usdtRefunded}})
     if bucket[FREE] + amountInBucket > 2:
         sellOneBucketFromExchange(bucketId)
+
     return True, "Transaction Successful"
 
 
