@@ -531,3 +531,1072 @@
 04/06/2022 12:12:41 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=SOL&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
 04/06/2022 12:12:41 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
 04/06/2022 12:12:42 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=SOL&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 02:28:56 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 02:28:56 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 02:30:45 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 02:30:45 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 02:30:45 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 02:30:45 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 03:31:26 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 03:31:26 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 03:31:26 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 03:31:26 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 03:42:20 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 03:42:20 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 03:42:20 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 03:42:20 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 04:00:16 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 04:00:16 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 04:00:16 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 04:00:16 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 04:11:14 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 04:11:14 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 04:11:14 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 04:11:14 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 04:27:04 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 04:27:04 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 04:27:04 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 04:27:04 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 05:21:10 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 05:21:10 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 05:21:10 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 05:21:10 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 05:32:07 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 05:32:07 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 05:32:07 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 05:32:07 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 05:50:53 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 05:50:53 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 05:50:53 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 05:50:53 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 06:45:00 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 06:45:00 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 06:45:00 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 06:45:00 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 06:55:57 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 06:55:57 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 06:55:57 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 06:55:57 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 07:12:02 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 07:12:02 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 07:12:02 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 07:31:59 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 07:31:59 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 07:31:59 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 07:31:59 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 08:08:10 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 08:08:10 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 08:08:10 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 08:08:10 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 08:19:05 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 08:19:05 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 08:19:05 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 08:19:05 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 08:35:34 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 08:35:34 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 08:35:34 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 08:35:34 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 01:43:36 PM INFO buckets.py Line:33 Update Buckets in Cache service started
+04/06/2022 01:43:36 PM INFO bucketOrders.py Line:106 Check and Fill pending orders service started
+04/06/2022 01:43:36 PM INFO bucketUnitPrice.py Line:18 Update all buckets price service started
+04/06/2022 01:43:36 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 01:43:36 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 01:43:36 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 01:43:36 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 01:43:36 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 01:43:37 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=BTC&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 01:43:37 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 01:43:38 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=BTC&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 01:43:38 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 01:43:39 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=ETH&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 01:43:39 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 01:43:40 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=ETH&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 01:43:40 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 01:43:41 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=AVAX&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 01:43:41 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 01:43:42 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=AVAX&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 01:43:42 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 01:43:44 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=SOL&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 01:43:44 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 01:43:45 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=SOL&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 04:08:30 PM INFO buckets.py Line:33 Update Buckets in Cache service started
+04/06/2022 04:08:30 PM INFO bucketOrders.py Line:106 Check and Fill pending orders service started
+04/06/2022 04:08:30 PM INFO bucketUnitPrice.py Line:18 Update all buckets price service started
+04/06/2022 04:08:31 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 04:08:31 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 04:08:31 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 04:08:31 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 04:08:31 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 04:08:32 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=BTC&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 04:08:32 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 04:08:33 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=BTC&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 04:08:33 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 04:08:34 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=ETH&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 04:08:34 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 04:08:35 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=ETH&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 04:08:35 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 04:08:36 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=AVAX&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 04:08:36 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 04:08:37 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=AVAX&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 04:08:37 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 04:08:38 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=SOL&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 04:08:38 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 04:08:39 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=SOL&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 04:16:38 PM INFO buckets.py Line:33 Update Buckets in Cache service started
+04/06/2022 04:16:38 PM INFO bucketOrders.py Line:106 Check and Fill pending orders service started
+04/06/2022 04:16:38 PM INFO bucketUnitPrice.py Line:18 Update all buckets price service started
+04/06/2022 04:16:39 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 04:16:39 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 04:16:39 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 04:16:39 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 04:16:39 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 04:16:39 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=BTC&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 04:16:39 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 04:16:41 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=BTC&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 04:16:41 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 04:16:42 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=ETH&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 04:16:42 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 04:16:43 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=ETH&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 04:16:43 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 04:16:44 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=AVAX&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 04:16:44 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 04:16:44 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=AVAX&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 04:16:44 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 04:16:45 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=SOL&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 04:16:45 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 04:16:46 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=SOL&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:04:36 PM INFO buckets.py Line:33 Update Buckets in Cache service started
+04/06/2022 07:04:36 PM INFO bucketOrders.py Line:106 Check and Fill pending orders service started
+04/06/2022 07:04:36 PM INFO bucketUnitPrice.py Line:18 Update all buckets price service started
+04/06/2022 07:04:37 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:04:37 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 07:04:37 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 07:04:37 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 07:04:37 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 07:04:38 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=BTC&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:04:38 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:04:39 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=BTC&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:04:39 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:04:40 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=ETH&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:04:40 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:04:41 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=ETH&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:04:41 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:04:41 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=AVAX&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:04:41 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:04:43 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=AVAX&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:04:43 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:04:44 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=SOL&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:04:44 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:04:44 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=SOL&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:18:32 PM INFO buckets.py Line:33 Update Buckets in Cache service started
+04/06/2022 07:18:32 PM INFO bucketOrders.py Line:106 Check and Fill pending orders service started
+04/06/2022 07:18:32 PM INFO bucketUnitPrice.py Line:18 Update all buckets price service started
+04/06/2022 07:18:33 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 07:18:33 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 07:18:33 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 07:18:33 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 07:18:33 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:18:34 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=BTC&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:18:34 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:18:35 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=BTC&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:18:35 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:18:36 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=ETH&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:18:36 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:18:37 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=ETH&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:18:37 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:18:38 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=AVAX&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:18:38 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:18:39 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=AVAX&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:18:39 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:18:40 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=SOL&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:18:40 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:18:41 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=SOL&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:27:48 PM INFO buckets.py Line:33 Update Buckets in Cache service started
+04/06/2022 07:27:48 PM INFO bucketOrders.py Line:106 Check and Fill pending orders service started
+04/06/2022 07:27:48 PM INFO bucketUnitPrice.py Line:18 Update all buckets price service started
+04/06/2022 07:27:48 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:27:49 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 07:27:49 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 07:27:49 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 07:27:49 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 07:27:49 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=BTC&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:27:49 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:27:50 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=BTC&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:27:50 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:27:51 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=ETH&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:27:52 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:27:52 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=ETH&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:27:52 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:27:53 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=AVAX&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:27:53 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:27:54 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=AVAX&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:27:54 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:27:55 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=SOL&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:27:55 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:27:56 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=SOL&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:28:16 PM INFO buckets.py Line:33 Update Buckets in Cache service started
+04/06/2022 07:28:16 PM INFO bucketOrders.py Line:106 Check and Fill pending orders service started
+04/06/2022 07:28:16 PM INFO bucketUnitPrice.py Line:18 Update all buckets price service started
+04/06/2022 07:28:17 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:28:17 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 07:28:17 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 07:28:17 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 07:28:17 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 07:28:18 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=BTC&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:28:18 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:28:19 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=BTC&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:28:19 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:28:20 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=ETH&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:28:20 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:28:21 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=ETH&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:28:21 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:28:22 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=AVAX&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:28:22 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:28:23 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=AVAX&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:28:23 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:28:24 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=SOL&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 07:28:24 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 07:28:25 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=SOL&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 11:29:54 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 11:29:54 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 11:29:54 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 11:29:54 PM INFO buckets.py Line:33 Update Buckets in Cache service started
+04/06/2022 11:29:54 PM INFO bucketOrders.py Line:108 Check and Fill pending orders service started
+04/06/2022 11:29:54 PM INFO bucketUnitPrice.py Line:18 Update all buckets price service started
+04/06/2022 11:29:54 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 11:29:55 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/06/2022 11:29:55 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=BTC&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 11:29:55 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 11:29:56 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=BTC&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 11:29:56 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 11:29:57 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=ETH&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 11:29:57 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 11:29:58 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=ETH&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 11:29:58 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 11:29:59 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=AVAX&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 11:29:59 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 11:30:00 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=AVAX&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 11:30:00 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 11:30:01 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=SOL&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/06/2022 11:30:01 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/06/2022 11:30:02 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=SOL&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 12:23:13 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 12:23:13 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 12:23:13 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 12:23:13 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 12:47:38 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 12:47:38 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 12:47:38 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 12:47:38 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 01:19:47 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 01:19:47 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 01:19:47 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 01:19:47 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 02:13:56 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 02:13:56 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 02:13:56 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 02:30:21 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 02:30:21 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 02:30:21 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 02:30:21 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 03:09:43 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 03:09:43 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 03:09:43 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 03:09:43 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 03:53:57 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 03:53:57 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 03:53:57 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 03:53:57 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 04:48:05 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 04:48:05 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 04:48:05 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 04:48:05 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 05:42:13 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 05:42:13 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 05:42:13 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 05:42:13 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 06:36:21 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 06:36:21 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 06:36:21 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 06:36:21 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:30:30 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:30:30 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:30:30 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:30:30 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:33:07 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:33:07 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:33:07 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:33:07 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:33:24 AM INFO buckets.py Line:33 Update Buckets in Cache service started
+04/07/2022 07:33:24 AM INFO bucketOrders.py Line:108 Check and Fill pending orders service started
+04/07/2022 07:33:24 AM INFO bucketUnitPrice.py Line:18 Update all buckets price service started
+04/07/2022 07:33:24 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:33:24 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:33:24 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:33:24 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:33:24 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:33:25 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=BTC&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:33:25 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:33:26 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=BTC&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:33:27 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:33:28 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=ETH&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:33:28 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:33:29 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=ETH&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:33:29 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:33:30 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=AVAX&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:33:30 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:33:31 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=AVAX&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:33:31 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:33:32 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=SOL&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:33:32 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:33:33 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=SOL&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:35:30 AM INFO buckets.py Line:33 Update Buckets in Cache service started
+04/07/2022 07:35:30 AM INFO bucketOrders.py Line:108 Check and Fill pending orders service started
+04/07/2022 07:35:30 AM INFO bucketUnitPrice.py Line:18 Update all buckets price service started
+04/07/2022 07:35:31 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:35:31 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:35:31 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:35:31 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:35:31 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:35:32 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=BTC&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:35:32 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:35:33 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=BTC&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:35:33 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:35:34 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=ETH&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:35:34 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:35:35 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=ETH&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:35:35 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:35:35 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=AVAX&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:35:35 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:35:36 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=AVAX&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:35:36 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:35:37 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=SOL&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:35:37 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:35:38 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=SOL&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:36:21 AM INFO buckets.py Line:33 Update Buckets in Cache service started
+04/07/2022 07:36:21 AM INFO bucketOrders.py Line:108 Check and Fill pending orders service started
+04/07/2022 07:36:21 AM INFO bucketUnitPrice.py Line:18 Update all buckets price service started
+04/07/2022 07:36:21 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:36:22 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:36:22 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:36:22 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:36:22 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:36:22 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=BTC&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:36:22 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:36:24 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=BTC&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:36:24 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:36:25 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=ETH&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:36:25 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:36:26 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=ETH&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:36:26 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:36:27 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=AVAX&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:36:27 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:36:28 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=AVAX&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:36:28 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:36:29 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=SOL&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:36:29 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:36:29 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=SOL&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:42:16 AM INFO buckets.py Line:33 Update Buckets in Cache service started
+04/07/2022 07:42:16 AM INFO bucketOrders.py Line:108 Check and Fill pending orders service started
+04/07/2022 07:42:16 AM INFO bucketUnitPrice.py Line:18 Update all buckets price service started
+04/07/2022 07:42:16 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:42:16 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:42:16 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:42:16 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:42:16 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:42:17 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=BTC&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:42:17 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:42:18 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=BTC&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:42:18 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:42:19 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=ETH&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:42:19 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:42:20 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=ETH&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:42:20 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:42:21 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=AVAX&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:42:21 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:42:22 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=AVAX&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:42:22 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:42:23 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=SOL&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:42:23 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:42:24 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=SOL&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:44:07 AM INFO buckets.py Line:33 Update Buckets in Cache service started
+04/07/2022 07:44:07 AM INFO bucketOrders.py Line:108 Check and Fill pending orders service started
+04/07/2022 07:44:07 AM INFO bucketUnitPrice.py Line:18 Update all buckets price service started
+04/07/2022 07:44:08 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:44:08 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:44:08 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:44:08 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:44:08 AM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:44:09 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=BTC&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:44:09 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:44:10 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=BTC&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:44:10 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:44:11 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=ETH&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:44:11 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:44:12 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=ETH&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:44:12 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:44:12 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=AVAX&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:44:12 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:44:13 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=AVAX&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:44:14 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:44:14 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=SOL&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:44:14 AM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 07:44:15 AM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=SOL&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 12:53:55 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 12:53:55 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 01:28:01 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 01:28:01 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 01:28:01 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 01:28:01 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 01:38:54 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 01:38:54 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 01:38:54 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 01:38:54 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 02:23:15 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 02:23:15 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 02:23:15 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 02:23:15 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 03:17:22 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 03:17:22 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 03:17:22 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 03:17:22 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 03:43:46 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 03:43:46 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 03:43:46 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 03:43:46 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 06:30:51 PM INFO buckets.py Line:33 Update Buckets in Cache service started
+04/07/2022 06:30:51 PM INFO bucketOrders.py Line:108 Check and Fill pending orders service started
+04/07/2022 06:30:51 PM INFO bucketUnitPrice.py Line:18 Update all buckets price service started
+04/07/2022 06:30:51 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 06:30:51 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 06:30:51 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 06:30:51 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 06:30:51 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 06:30:52 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=BTC&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 06:30:52 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 06:30:53 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=BTC&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 06:30:53 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 06:30:54 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=ETH&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 06:30:54 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 06:30:55 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=ETH&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 06:30:55 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 06:30:56 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=AVAX&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 06:30:56 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 06:30:57 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=AVAX&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 06:30:57 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 06:30:58 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=SOL&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 06:30:58 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/07/2022 06:30:59 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=SOL&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/07/2022 07:44:16 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 07:44:16 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 08:02:45 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 08:02:45 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 08:02:45 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 08:02:45 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 08:21:39 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 08:21:39 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 08:21:39 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 08:21:39 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 08:27:35 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 08:27:35 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 08:27:35 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 08:27:35 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 09:43:01 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 09:43:01 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 09:43:01 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 09:43:01 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 10:37:09 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 10:37:09 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 10:37:09 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/07/2022 10:37:09 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 12:04:50 PM INFO buckets.py Line:33 Update Buckets in Cache service started
+04/08/2022 12:04:50 PM INFO bucketOrders.py Line:108 Check and Fill pending orders service started
+04/08/2022 12:04:50 PM INFO bucketUnitPrice.py Line:18 Update all buckets price service started
+04/08/2022 12:04:50 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 12:04:50 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 12:04:50 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 12:04:50 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 12:04:50 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 12:04:51 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=BTC&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 12:04:51 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 12:04:52 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=BTC&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 12:04:52 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 12:04:53 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=ETH&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 12:04:53 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 12:04:54 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=ETH&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 12:04:54 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 12:04:55 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=AVAX&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 12:04:55 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 12:04:56 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=AVAX&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 12:04:56 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 12:04:57 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=SOL&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 12:04:57 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 12:04:58 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=SOL&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 06:04:58 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 06:04:59 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=BTC&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 06:04:59 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 06:05:00 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=BTC&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 06:05:00 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 06:05:01 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=ETH&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 06:05:01 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 06:05:02 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=ETH&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 06:05:02 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 06:05:03 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=AVAX&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 06:05:03 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 06:05:04 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=AVAX&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 06:05:04 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 06:05:05 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=SOL&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 06:05:05 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 06:05:06 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=SOL&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 06:49:54 PM INFO buckets.py Line:33 Update Buckets in Cache service started
+04/08/2022 06:49:54 PM INFO bucketOrders.py Line:108 Check and Fill pending orders service started
+04/08/2022 06:49:54 PM INFO bucketUnitPrice.py Line:18 Update all buckets price service started
+04/08/2022 06:49:55 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 06:49:55 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 06:49:55 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 06:49:55 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 06:49:55 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 06:49:56 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=BTC&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 06:49:56 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 06:49:57 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=BTC&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 06:49:57 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 06:49:58 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=ETH&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 06:49:58 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 06:50:00 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=ETH&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 06:50:00 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 06:50:01 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=AVAX&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 06:50:01 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 06:50:02 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=AVAX&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 06:50:02 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 06:50:03 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=SOL&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 06:50:03 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 06:50:04 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=SOL&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:03:23 PM INFO buckets.py Line:33 Update Buckets in Cache service started
+04/08/2022 08:03:23 PM INFO bucketOrders.py Line:108 Check and Fill pending orders service started
+04/08/2022 08:03:23 PM INFO bucketUnitPrice.py Line:18 Update all buckets price service started
+04/08/2022 08:03:24 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 08:03:24 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 08:03:24 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 08:03:24 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 08:03:24 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 08:03:25 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=BTC&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:03:25 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 08:03:26 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=BTC&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:03:26 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 08:03:27 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=ETH&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:03:27 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 08:03:28 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=ETH&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:03:28 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 08:03:29 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=AVAX&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:03:29 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 08:03:30 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=AVAX&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:03:30 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 08:03:32 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=SOL&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:03:32 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 08:03:33 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=SOL&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:03:54 PM INFO buckets.py Line:33 Update Buckets in Cache service started
+04/08/2022 08:03:54 PM INFO bucketOrders.py Line:108 Check and Fill pending orders service started
+04/08/2022 08:03:54 PM INFO bucketUnitPrice.py Line:18 Update all buckets price service started
+04/08/2022 08:03:55 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 08:03:55 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 08:03:55 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 08:03:55 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 08:03:55 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 08:03:56 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=BTC&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:03:56 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 08:03:56 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=BTC&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:03:57 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 08:03:57 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=ETH&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:03:57 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 08:03:58 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=ETH&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:03:58 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 08:03:59 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=AVAX&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:03:59 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 08:04:01 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=AVAX&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:04:01 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 08:04:02 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=SOL&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:04:02 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 08:04:03 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=SOL&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:04:08 PM INFO buckets.py Line:33 Update Buckets in Cache service started
+04/08/2022 08:04:08 PM INFO bucketOrders.py Line:108 Check and Fill pending orders service started
+04/08/2022 08:04:08 PM INFO bucketUnitPrice.py Line:18 Update all buckets price service started
+04/08/2022 08:04:08 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 08:04:08 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 08:04:08 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 08:04:08 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 08:04:09 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 08:04:09 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=BTC&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:04:09 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 08:04:10 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=BTC&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:04:10 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 08:04:11 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=ETH&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:04:11 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 08:04:12 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=ETH&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:04:12 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 08:04:13 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=AVAX&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:04:13 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 08:04:14 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=AVAX&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:04:14 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 08:04:15 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histoday?fsym=SOL&tsym=USD&limit=400&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:04:15 PM DEBUG connectionpool.py Line:1001 Starting new HTTPS connection (1): min-api.cryptocompare.com:443
+04/08/2022 08:04:17 PM DEBUG connectionpool.py Line:456 https://min-api.cryptocompare.com:443 "GET /data/v2/histohour?fsym=SOL&tsym=USD&limit=800&toTs=-1 HTTP/1.1" 200 None
+04/08/2022 08:13:48 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 08:13:48 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 08:13:48 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 08:13:48 PM DEBUG selector_events.py Line:59 Using selector: KqueueSelector
+04/08/2022 08:15:09 PM INFO server.py Line:75 Started server process [96698]
+04/08/2022 08:15:09 PM INFO on.py Line:45 Waiting for application startup.
+04/08/2022 08:15:09 PM INFO on.py Line:59 Application startup complete.
+04/08/2022 08:15:09 PM INFO server.py Line:206 Uvicorn running on http://0.0.0.0:80 (Press CTRL+C to quit)
+04/08/2022 08:15:12 PM INFO server.py Line:252 Shutting down
+04/08/2022 08:15:12 PM INFO on.py Line:64 Waiting for application shutdown.
+04/08/2022 08:15:12 PM INFO on.py Line:75 Application shutdown complete.
+04/08/2022 08:15:12 PM INFO server.py Line:85 Finished server process [96698]
+04/08/2022 08:15:17 PM INFO server.py Line:75 Started server process [96773]
+04/08/2022 08:15:17 PM INFO on.py Line:45 Waiting for application startup.
+04/08/2022 08:15:17 PM INFO on.py Line:59 Application startup complete.
+04/08/2022 08:15:17 PM INFO server.py Line:206 Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+04/08/2022 10:47:57 PM INFO server.py Line:252 Shutting down
+04/08/2022 10:47:57 PM INFO on.py Line:64 Waiting for application shutdown.
+04/08/2022 10:47:57 PM INFO on.py Line:75 Application shutdown complete.
+04/08/2022 10:47:57 PM INFO server.py Line:85 Finished server process [96773]
+04/08/2022 10:48:03 PM INFO server.py Line:75 Started server process [35073]
+04/08/2022 10:48:03 PM INFO on.py Line:45 Waiting for application startup.
+04/08/2022 10:48:03 PM INFO on.py Line:59 Application startup complete.
+04/08/2022 10:48:03 PM INFO server.py Line:206 Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+04/08/2022 10:48:20 PM ERROR h11_impl.py Line:367 Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/fastapi/encoders.py", line 137, in jsonable_encoder
+    data = dict(obj)
+TypeError: 'coroutine' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/fastapi/encoders.py", line 141, in jsonable_encoder
+    data = vars(obj)
+TypeError: vars() argument must have __dict__ attribute
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 364, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/applications.py", line 212, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 234, in app
+    response_data = await serialize_response(
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 148, in serialize_response
+    return jsonable_encoder(response_content)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/encoders.py", line 144, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+04/08/2022 10:50:31 PM INFO server.py Line:252 Shutting down
+04/08/2022 10:50:31 PM INFO on.py Line:64 Waiting for application shutdown.
+04/08/2022 10:50:31 PM INFO on.py Line:75 Application shutdown complete.
+04/08/2022 10:50:31 PM INFO server.py Line:85 Finished server process [35073]
+04/08/2022 10:50:35 PM INFO server.py Line:75 Started server process [35743]
+04/08/2022 10:50:35 PM INFO on.py Line:45 Waiting for application startup.
+04/08/2022 10:50:35 PM INFO on.py Line:59 Application startup complete.
+04/08/2022 10:50:35 PM INFO server.py Line:206 Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+04/08/2022 10:50:41 PM ERROR h11_impl.py Line:367 Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/fastapi/encoders.py", line 137, in jsonable_encoder
+    data = dict(obj)
+TypeError: 'coroutine' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/fastapi/encoders.py", line 141, in jsonable_encoder
+    data = vars(obj)
+TypeError: vars() argument must have __dict__ attribute
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 364, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/applications.py", line 212, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 234, in app
+    response_data = await serialize_response(
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 148, in serialize_response
+    return jsonable_encoder(response_content)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/encoders.py", line 144, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+04/08/2022 10:51:23 PM INFO server.py Line:252 Shutting down
+04/08/2022 10:51:23 PM INFO on.py Line:64 Waiting for application shutdown.
+04/08/2022 10:51:23 PM INFO on.py Line:75 Application shutdown complete.
+04/08/2022 10:51:23 PM INFO server.py Line:85 Finished server process [35743]
+04/08/2022 10:51:26 PM INFO server.py Line:75 Started server process [35959]
+04/08/2022 10:51:26 PM INFO on.py Line:45 Waiting for application startup.
+04/08/2022 10:51:26 PM INFO on.py Line:59 Application startup complete.
+04/08/2022 10:51:26 PM INFO server.py Line:206 Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+04/08/2022 10:51:31 PM ERROR h11_impl.py Line:367 Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/fastapi/encoders.py", line 137, in jsonable_encoder
+    data = dict(obj)
+TypeError: 'coroutine' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/fastapi/encoders.py", line 141, in jsonable_encoder
+    data = vars(obj)
+TypeError: vars() argument must have __dict__ attribute
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 364, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/applications.py", line 212, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 234, in app
+    response_data = await serialize_response(
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 148, in serialize_response
+    return jsonable_encoder(response_content)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/encoders.py", line 144, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+04/08/2022 10:52:11 PM INFO server.py Line:252 Shutting down
+04/08/2022 10:52:11 PM INFO on.py Line:64 Waiting for application shutdown.
+04/08/2022 10:52:11 PM INFO on.py Line:75 Application shutdown complete.
+04/08/2022 10:52:11 PM INFO server.py Line:85 Finished server process [35959]
+04/08/2022 10:55:40 PM INFO server.py Line:75 Started server process [37399]
+04/08/2022 10:55:40 PM INFO on.py Line:45 Waiting for application startup.
+04/08/2022 10:55:40 PM INFO on.py Line:59 Application startup complete.
+04/08/2022 10:55:40 PM INFO server.py Line:206 Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+04/08/2022 10:55:48 PM ERROR h11_impl.py Line:367 Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/fastapi/encoders.py", line 137, in jsonable_encoder
+    data = dict(obj)
+TypeError: 'coroutine' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/fastapi/encoders.py", line 141, in jsonable_encoder
+    data = vars(obj)
+TypeError: vars() argument must have __dict__ attribute
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 364, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/applications.py", line 212, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 234, in app
+    response_data = await serialize_response(
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 148, in serialize_response
+    return jsonable_encoder(response_content)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/encoders.py", line 144, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+04/08/2022 10:57:33 PM INFO server.py Line:252 Shutting down
+04/08/2022 10:57:33 PM INFO on.py Line:64 Waiting for application shutdown.
+04/08/2022 10:57:33 PM INFO on.py Line:75 Application shutdown complete.
+04/08/2022 10:57:33 PM INFO server.py Line:85 Finished server process [37399]
+04/08/2022 10:57:35 PM INFO server.py Line:75 Started server process [37933]
+04/08/2022 10:57:35 PM INFO on.py Line:45 Waiting for application startup.
+04/08/2022 10:57:35 PM INFO on.py Line:59 Application startup complete.
+04/08/2022 10:57:35 PM INFO server.py Line:206 Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+04/08/2022 10:57:41 PM ERROR h11_impl.py Line:367 Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/fastapi/encoders.py", line 137, in jsonable_encoder
+    data = dict(obj)
+TypeError: 'coroutine' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/fastapi/encoders.py", line 141, in jsonable_encoder
+    data = vars(obj)
+TypeError: vars() argument must have __dict__ attribute
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 364, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/applications.py", line 212, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 234, in app
+    response_data = await serialize_response(
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 148, in serialize_response
+    return jsonable_encoder(response_content)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/encoders.py", line 144, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+04/08/2022 10:58:21 PM INFO server.py Line:252 Shutting down
+04/08/2022 10:58:21 PM INFO on.py Line:64 Waiting for application shutdown.
+04/08/2022 10:58:21 PM INFO on.py Line:75 Application shutdown complete.
+04/08/2022 10:58:21 PM INFO server.py Line:85 Finished server process [37933]
+04/08/2022 10:58:24 PM INFO server.py Line:75 Started server process [38185]
+04/08/2022 10:58:24 PM INFO on.py Line:45 Waiting for application startup.
+04/08/2022 10:58:24 PM INFO on.py Line:59 Application startup complete.
+04/08/2022 10:58:24 PM INFO server.py Line:206 Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+04/08/2022 10:58:29 PM ERROR h11_impl.py Line:367 Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/fastapi/encoders.py", line 137, in jsonable_encoder
+    data = dict(obj)
+TypeError: 'coroutine' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/fastapi/encoders.py", line 141, in jsonable_encoder
+    data = vars(obj)
+TypeError: vars() argument must have __dict__ attribute
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 364, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/applications.py", line 212, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 234, in app
+    response_data = await serialize_response(
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 148, in serialize_response
+    return jsonable_encoder(response_content)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/encoders.py", line 144, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+04/08/2022 10:59:46 PM INFO server.py Line:252 Shutting down
+04/08/2022 10:59:46 PM INFO on.py Line:64 Waiting for application shutdown.
+04/08/2022 10:59:46 PM INFO on.py Line:75 Application shutdown complete.
+04/08/2022 10:59:46 PM INFO server.py Line:85 Finished server process [38185]
+04/08/2022 10:59:49 PM INFO server.py Line:75 Started server process [38604]
+04/08/2022 10:59:49 PM INFO on.py Line:45 Waiting for application startup.
+04/08/2022 10:59:49 PM INFO on.py Line:59 Application startup complete.
+04/08/2022 10:59:49 PM INFO server.py Line:206 Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+04/08/2022 10:59:51 PM ERROR h11_impl.py Line:367 Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/fastapi/encoders.py", line 137, in jsonable_encoder
+    data = dict(obj)
+TypeError: 'coroutine' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/fastapi/encoders.py", line 141, in jsonable_encoder
+    data = vars(obj)
+TypeError: vars() argument must have __dict__ attribute
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 364, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/applications.py", line 212, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 234, in app
+    response_data = await serialize_response(
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 148, in serialize_response
+    return jsonable_encoder(response_content)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/encoders.py", line 144, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+04/08/2022 11:00:47 PM INFO server.py Line:252 Shutting down
+04/08/2022 11:00:47 PM INFO on.py Line:64 Waiting for application shutdown.
+04/08/2022 11:00:47 PM INFO on.py Line:75 Application shutdown complete.
+04/08/2022 11:00:47 PM INFO server.py Line:85 Finished server process [38604]
+04/08/2022 11:00:49 PM INFO server.py Line:75 Started server process [38941]
+04/08/2022 11:00:49 PM INFO on.py Line:45 Waiting for application startup.
+04/08/2022 11:00:49 PM INFO on.py Line:59 Application startup complete.
+04/08/2022 11:00:49 PM INFO server.py Line:206 Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+04/08/2022 11:01:01 PM ERROR h11_impl.py Line:367 Exception in ASGI application
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/fastapi/encoders.py", line 137, in jsonable_encoder
+    data = dict(obj)
+TypeError: 'coroutine' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/fastapi/encoders.py", line 141, in jsonable_encoder
+    data = vars(obj)
+TypeError: vars() argument must have __dict__ attribute
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 364, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/usr/local/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/applications.py", line 212, in __call__
+    await super().__call__(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/usr/local/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/usr/local/lib/python3.9/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 234, in app
+    response_data = await serialize_response(
+  File "/usr/local/lib/python3.9/site-packages/fastapi/routing.py", line 148, in serialize_response
+    return jsonable_encoder(response_content)
+  File "/usr/local/lib/python3.9/site-packages/fastapi/encoders.py", line 144, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+04/08/2022 11:01:24 PM INFO server.py Line:252 Shutting down
+04/08/2022 11:01:24 PM INFO on.py Line:64 Waiting for application shutdown.
+04/08/2022 11:01:24 PM INFO on.py Line:75 Application shutdown complete.
+04/08/2022 11:01:24 PM INFO server.py Line:85 Finished server process [38941]
+04/08/2022 11:01:26 PM INFO server.py Line:75 Started server process [39161]
+04/08/2022 11:01:26 PM INFO on.py Line:45 Waiting for application startup.
+04/08/2022 11:01:26 PM INFO on.py Line:59 Application startup complete.
+04/08/2022 11:01:26 PM INFO server.py Line:206 Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+04/08/2022 11:07:31 PM INFO server.py Line:252 Shutting down
+04/08/2022 11:07:31 PM INFO on.py Line:64 Waiting for application shutdown.
+04/08/2022 11:07:31 PM INFO on.py Line:75 Application shutdown complete.
+04/08/2022 11:07:31 PM INFO server.py Line:85 Finished server process [39161]
+04/08/2022 11:07:37 PM INFO server.py Line:75 Started server process [40714]
+04/08/2022 11:07:37 PM INFO on.py Line:45 Waiting for application startup.
+04/08/2022 11:07:37 PM INFO on.py Line:59 Application startup complete.
+04/08/2022 11:07:37 PM INFO server.py Line:206 Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+04/08/2022 11:17:45 PM INFO server.py Line:252 Shutting down
+04/08/2022 11:17:45 PM INFO on.py Line:64 Waiting for application shutdown.
+04/08/2022 11:17:45 PM INFO on.py Line:75 Application shutdown complete.
+04/08/2022 11:17:45 PM INFO server.py Line:85 Finished server process [40714]

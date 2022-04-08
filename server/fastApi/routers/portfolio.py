@@ -1,11 +1,11 @@
+from typing import List
+
 from fastapi import APIRouter
 from pydantic import BaseModel
 
-from server.fastApi.modules.portfolio import exchangeCurrency, getAmountByUserId, getMultiCurrencyAmountByUserId, \
-    getCompletePortFolio, getRecentTransactions
-from src.DataFieldConstants import SUCCESS, TRANSACTIONID, DATA, TOTAL_PORTFOLIO_VALUE
-from typing import List
-from typing import List
+from server.fastApi.modules.portfolio import exchangeCurrency, getCompletePortFolio, getRecentTransactions, \
+    getBalanceByUserId
+from src.DataFieldConstants import SUCCESS, TOTAL_INVESTED_VALUE, TRANSACTIONID, DATA, TOTAL_PORTFOLIO_VALUE
 
 router = APIRouter(prefix="/portfolio")
 
@@ -17,6 +17,10 @@ class TickerListModel(BaseModel):
 class PortFolioModel(BaseModel):
     userId: str
     currency: str
+
+
+class BalanceModel(BaseModel):
+    userId: str
 
 
 class ExcangeCurrencyModel(BaseModel):
@@ -37,19 +41,20 @@ class RecentTransactions(BaseModel):
 
 
 @router.post("/getRemainingAmount")
-async def getRemainingAmount(portfolio: PortFolioModel):
-    return getAmountByUserId(portfolio.userId, portfolio.currency)
+async def getRemainingAmount(portfolio: BalanceModel):
+    return getBalanceByUserId(portfolio.userId)
 
 
-@router.post("/getMultipleCurrencyBalance")
-async def getMultipleCurrencyBalance(portfolio: MutliCurrencyPortFolioModel):
-    return getMultiCurrencyAmountByUserId(portfolio.userId, portfolio.currencies)
-
+#
+# @router.post("/getMultipleCurrencyBalance")
+# async def getMultipleCurrencyBalance(portfolio: MutliCurrencyPortFolioModel):
+#     return getMultiCurrencyAmountByUserId(portfolio.userId, portfolio.currencies)
+#
 
 @router.post("/getCompletePortFolio")
 async def getPortFolio(portfolio: PortFolioModel):
-    portfolioItems, totalPortfolio = getCompletePortFolio(portfolio.userId)
-    return {TOTAL_PORTFOLIO_VALUE: totalPortfolio, DATA: portfolioItems}
+    portfolioItems, totalInvestment = getCompletePortFolio(portfolio.userId)
+    return {TOTAL_INVESTED_VALUE: totalInvestment, DATA: portfolioItems}
 
 
 @router.post("/exchangeCurrency")

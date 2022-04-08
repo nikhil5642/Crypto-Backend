@@ -3,12 +3,14 @@ from typing import List
 from fastapi import APIRouter
 from pydantic import BaseModel
 
-from src.DataFieldConstants import SUCCESS, MESSAGE
+from src.DataFieldConstants import SUCCESS, MESSAGE, TRANSACTIONID
 from src.investmentIdeas.buckets.bucketOrders import buyPartOfBucket, sellPartOfBucket
 from src.investmentIdeas.buckets.buckets import getBucketDetail, getBucketsBasicInfo
 from src.investmentIdeas.causeInvestment.causeInvestment import getCauseItemDetails, getInvestInCauseItems
 
 router = APIRouter(prefix="/ideas")
+
+bucketFunds = ['bucket_x']
 
 
 class CauseIdeas(BaseModel):
@@ -29,9 +31,9 @@ class BucketItem(BaseModel):
     bucketId: str
 
 
-class BucketTransactionItem(BaseModel):
+class FundTransactionItem(BaseModel):
     userId: str
-    bucketId: str
+    fundID: str
     amount: int
 
 
@@ -55,18 +57,30 @@ async def causeIdeaDetails(bucket: BucketItem):
     return getBucketDetail(bucket.bucketId)
 
 
-@router.post("/buyBucket")
-async def buyBucket(bucket: BucketTransactionItem):
-    success, message = buyPartOfBucket(
-        bucket.userId, bucket.bucketId, bucket.amount)
-    return {SUCCESS: success, MESSAGE: message}
+@router.post("/buyFund")
+async def buyFund(fund: FundTransactionItem):
+    if fund.fundID in bucketFunds:
+        return buyBucket(fund)
+    return {SUCCESS: False, MESSAGE: "Invalid Fund"}
 
 
-@router.post("/sellBucket")
-async def sellBucket(bucket: BucketTransactionItem):
-    success, message = sellPartOfBucket(
-        bucket.userId, bucket.bucketId, bucket.amount)
-    return {SUCCESS: success, MESSAGE: message}
+@router.post("/sellFund")
+async def sellFund(fund: FundTransactionItem):
+    if fund in bucketFunds:
+        return sellBucket(fund)
+    return {SUCCESS: False, MESSAGE: "Invalid Fund"}
+
+
+def buyBucket(bucket: FundTransactionItem):
+    success, transactionId, message = buyPartOfBucket(
+        bucket.userId, bucket.fundID, bucket.amount)
+    return {SUCCESS: success, TRANSACTIONID: transactionId, MESSAGE: message}
+
+
+def sellBucket(bucket: FundTransactionItem):
+    success, transactionId, message = sellPartOfBucket(
+        bucket.userId, bucket.fundID, bucket.amount)
+    return {SUCCESS: success,  TRANSACTIONID: transactionId, MESSAGE: message}
 
 
 if __name__ == '__main__':

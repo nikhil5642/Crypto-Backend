@@ -4,12 +4,16 @@ AUTHORISATION = "Authorisation"
 NEW_USER = "newUser"
 
 BALANCE = "Balance"
+
+USDT_BALANCE = "usdt_balance"
+INVESTMENTS = "investments"
 TRANSACTIONS = "transactions"
 TRANSACTIONID = "transactionId"
 SESSION_ID = "sessionId"
 
 INR = "INR"
 TOTAL_PORTFOLIO_VALUE = "totalPortfolioValue"
+TOTAL_INVESTED_VALUE = "totalInvestedValue"
 
 SUCCESS = "success"
 MESSAGE = "msg"
@@ -70,3 +74,5 @@ USDT = "usdt"
 PENDING = "pending"
 LAST_PRICE = "last_price"
 CONTRIBUTION = "contribution"
+
+QUANTITY = "quantity"

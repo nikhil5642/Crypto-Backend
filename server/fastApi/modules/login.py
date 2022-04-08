@@ -1,7 +1,7 @@
 import uuid
 
 from DataBase.MongoDB import getLoginInfoCollection, getUserInfoCollection
-from src.DataFieldConstants import MOBILE_NUMBER, USDT, USER_ID, AUTHORISATION, BALANCE
+from src.DataFieldConstants import MOBILE_NUMBER, USER_ID, AUTHORISATION, USDT_BALANCE
 
 loginDB = getLoginInfoCollection()
 userDB = getUserInfoCollection()
@@ -21,7 +21,7 @@ def setNewLogin(auth, mobNum):
     loginDB.insert_one(
         {MOBILE_NUMBER: mobNum, USER_ID: userId, AUTHORISATION: auth})
     userDB.insert_one(
-        {MOBILE_NUMBER: mobNum, USER_ID: userId, BALANCE: {USDT: 0}})
+        {MOBILE_NUMBER: mobNum, USER_ID: userId, USDT_BALANCE: 0})
 
 
 def verifyAuth(auth):

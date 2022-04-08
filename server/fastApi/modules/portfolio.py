@@ -1,45 +1,46 @@
 import uuid
-from typing import List
 
 from DataBase.MongoDB import getUserInfoCollection
-from server.fastApi.modules.liveMarketData import getExchangeRate
-from src.DataFieldConstants import BALANCE, USER_ID, TRANSACTIONS
+from server.fastApi.modules.liveMarketData import getExchangeRate, getNameAndExchangeRate
+from src.DataFieldConstants import BALANCE, ID, NAME, PRICE, QUANTITY, USER_ID, TRANSACTIONS, USDT_BALANCE, \
+    INVESTMENTS, UNITS
 
 userDB = getUserInfoCollection()
 
 
-def getAmountByUserId(userId: str, currency: str):
+def getBalanceByUserId(userId: str):
     result = userDB.find_one({USER_ID: int(userId)})
     if result:
-        if currency in result[BALANCE]:
-            return result[BALANCE][currency]
+        return result[USDT_BALANCE]
     return 0
 
 
-def getMultiCurrencyAmountByUserId(userId: str, currencies: List[str]):
-    result = userDB.find_one({USER_ID: int(userId)})
-    balance = {}
-    if result:
-        for currency in currencies:
-            if currency in result[BALANCE]:
-                balance[currency] = result[BALANCE][currency]
-            else:
-                balance[currency] = 0
-    return balance
+#
+# def getMultiCurrencyAmountByUserId(userId: str, currencies: List[str]):
+#     result = userDB.find_one({USER_ID: int(userId)})
+#     balance = {}
+#     if result:
+#         for currency in currencies:
+#             if currency in result[BALANCE]:
+#                 balance[currency] = result[BALANCE][currency]
+#             else:
+#                 balance[currency] = 0
+#     return balance
 
 
 def getCompletePortFolio(userId: str):
-    result = userDB.find_one({USER_ID: int(userId)})
-    totalPortfolioValue = 0
-    # baseCurrency = "INR"
-    if result:
-        if result[BALANCE]:
-            for tickerID in result[BALANCE]:
-                totalPortfolioValue += result[BALANCE][tickerID] * \
-                    getExchangeRate(tickerID, baseCurrency)
-            # totalPortfolioValue += result[BALANCE][baseCurrency]
-            return result[BALANCE], totalPortfolioValue
-    return {}, totalPortfolioValue
+    userInfo = userDB.find_one({USER_ID: int(userId)})
+    result = []
+    totalInvestedValue = 0
+    if userInfo:
+        if INVESTMENTS in userInfo:
+            for ticker in userInfo[INVESTMENTS]:
+                name, exchangeRate = getNameAndExchangeRate(ticker)
+                result.append(
+                    {NAME: name, ID: ticker, PRICE: exchangeRate, QUANTITY: userInfo[INVESTMENTS][ticker][UNITS]})
+                totalInvestedValue += userInfo[INVESTMENTS][ticker][UNITS]
+            return result, totalInvestedValue
+    return [], totalInvestedValue
 
 
 def getRecentTransactions(userId: str):

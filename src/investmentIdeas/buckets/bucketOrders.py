@@ -5,10 +5,10 @@ from time import sleep
 from DataBase.MongoDB import getBucketsCollection, getBucketsTransactionCollection, getUserInfoCollection, \
     getCryptoBalanceCollection
 from DataBase.RedisDB import getRedisInstance
-from server.fastApi.modules.portfolio import getMultiCurrencyAmountByUserId
+from server.fastApi.modules.portfolio import getBalanceByUserId
 from src.DataFieldConstants import AMOUNT_IN_USDT, BALANCE, BUCKET_ID, FREE, ID, INVESTED, \
-    ORDER_TYPE, PORTFOLIO, TRANSACTIONID, TRANSACTIONS, UNIT_PRICE, UNITS, USDT, USER_ID, PENDING, AMOUNT_PER_UNIT, \
-    LAST_PRICE
+    ORDER_TYPE, PORTFOLIO, TRANSACTIONID, TRANSACTIONS, UNIT_PRICE, UNITS, USER_ID, PENDING, AMOUNT_PER_UNIT, \
+    LAST_PRICE, USDT_BALANCE, INVESTMENTS
 from src.logger.logger import GlobalLogger
 from src.wazirx.wazirxOrders import placeBuyOrderFromUSDT, placeSellOrderToUSDT
 
@@ -21,14 +21,14 @@ balanceDB = getCryptoBalanceCollection()
 
 
 def buyPartOfBucket(userId: str, bucketId: str, amountInUSDT):
-    currentBalance = getMultiCurrencyAmountByUserId(
-        userId, [bucketId, USDT])
-    if currentBalance[USDT] < amountInUSDT:
-        return False, "Insufficient Balance"
+    currentBalance = getBalanceByUserId(userId)
+    transactionId = uuid.uuid4().hex
+
+    if currentBalance < amountInUSDT:
+        return False, transactionId, "Insufficient Balance"
     bucket = bucketDB.find_one({ID: bucketId})
     buyBuketPrice = bucket[UNIT_PRICE] * 1.001
     bucketUnitsAllotted = amountInUSDT / buyBuketPrice
-    transactionId = uuid.uuid4().hex
     bucketDB.update_one(
         {ID: bucketId},
         {"$inc": {FREE: -bucketUnitsAllotted, INVESTED: bucketUnitsAllotted}})
@@ -42,22 +42,22 @@ def buyPartOfBucket(userId: str, bucketId: str, amountInUSDT):
                                                 UNITS: bucketUnitsAllotted,
                                                 AMOUNT_IN_USDT: amountInUSDT,
                                                 ORDER_TYPE: "buy"}},
-                       "$inc": {BALANCE + "." + bucketId: bucketUnitsAllotted,
-                                BALANCE + "." + USDT: -amountInUSDT}})
+                       "$inc": {INVESTMENTS + "." + bucketId + "." + UNITS: bucketUnitsAllotted,
+                                INVESTMENTS + "." + bucketId + "." + INVESTED: amountInUSDT,
+                                USDT_BALANCE: -amountInUSDT}})
     if bucket[FREE] - bucketUnitsAllotted < 0.5:
         buyOneBucketFromExchange(bucketId)
-    return True, "Transaction Successfull"
+    return True, transactionId, "Transaction Successfull"
 
 
 def sellPartOfBucket(userId: str, bucketId: str, amountInBucket):
-    currentBalance = getMultiCurrencyAmountByUserId(
-        userId, [bucketId, USDT])
-    if currentBalance[bucketId] < amountInBucket:
-        return False, "Insufficient Balance"
+    transactionId = uuid.uuid4().hex
+    currentBalance = getBalanceByUserId(userId)
+    if currentBalance < amountInBucket:
+        return False, transactionId, "Insufficient Balance"
     bucket = bucketDB.find_one({ID: bucketId})
     sellBuketPrice = bucket[UNIT_PRICE] * 0.999
     usdtRefunded = amountInBucket * sellBuketPrice
-    transactionId = uuid.uuid4().hex
     bucketDB.update_one(
         {ID: bucketId},
         {"$inc": {FREE: amountInBucket, INVESTED: - amountInBucket}})
@@ -71,12 +71,14 @@ def sellPartOfBucket(userId: str, bucketId: str, amountInBucket):
                                                 UNITS: amountInBucket,
                                                 AMOUNT_IN_USDT: usdtRefunded,
                                                 ORDER_TYPE: "sell"}},
-                       "$inc": {BALANCE + "." + bucketId: amountInBucket,
-                                BALANCE + "." + USDT: usdtRefunded}})
+                       "$inc": {INVESTMENTS + "." + bucketId + "." + UNITS: -amountInBucket,
+                                USDT_BALANCE: usdtRefunded},
+                       "$set": {INVESTMENTS + "." + bucketId + "." + INVESTED: 0}})
+
     if bucket[FREE] + amountInBucket > 2:
         sellOneBucketFromExchange(bucketId)
 
-    return True, "Transaction Successful"
+    return True, transactionId, "Transaction Successful"
 
 
 def buyOneBucketFromExchange(bucketId: str):

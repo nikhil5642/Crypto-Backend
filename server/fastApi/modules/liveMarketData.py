@@ -1,5 +1,6 @@
 import copy
 import json
+from pickle import NONE
 import threading
 from datetime import datetime
 from tokenize import Double
@@ -12,7 +13,7 @@ import requests
 from DataBase.MongoDB import getLiveMarketCollection
 from DataBase.RedisDB import getRedisInstance
 from server.fastApi.modules.chartData import updateOneDayData, updateOneYearData, updateWeeklyAndMonthlyData
-from src.DataFieldConstants import CHANGE, ID, LAST_UPDATED, MONTH, NAME, PRICE, VOLATILITY, WEEK, YEAR
+from src.DataFieldConstants import CHANGE, ID, LAST_UPDATED, MONTH, NAME, PRICE, UNIT_PRICE, VOLATILITY, WEEK, YEAR
 from src.logger.logger import GlobalLogger
 
 baseUrl = "https://min-api.cryptocompare.com"
@@ -79,11 +80,32 @@ def createOrUpdateTicker(name: str, tickerId: str, currentPrice: Double, change:
         updateAdditionalInfo(tickerId)
 
 
-def getExchangeRate(fromCurrency: str, toCurrency: str):
-    ticker = redis_instance.get(fromCurrency + "_MarketData")
+def getExchangeRate(fromTickerID: str):
+    ticker = redis_instance.get(fromTickerID + "_MarketData")
     if ticker is None:
-        return 0
-    return json.loads(ticker)[PRICE]
+        return 1
+    else:
+        ticker = json.loads(ticker)
+    if PRICE in ticker:
+        return ticker[PRICE]
+    elif UNIT_PRICE in ticker:
+        return ticker[UNIT_PRICE]
+    else:
+        return 1
+
+
+def getNameAndExchangeRate(fromTickerID: str):
+    ticker = redis_instance.get(fromTickerID + "_MarketData")
+    if ticker is None:
+        return "UNKNOWN", 1
+    else:
+        ticker = json.loads(ticker)
+    if PRICE in ticker:
+        return ticker[NAME], ticker[PRICE]
+    elif UNIT_PRICE in ticker:
+        return ticker[NAME], ticker[UNIT_PRICE]
+    else:
+        return 1
 
 
 class LiveMarketData:
