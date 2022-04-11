@@ -76,3 +76,5 @@ LAST_PRICE = "last_price"
 CONTRIBUTION = "contribution"
 
 QUANTITY = "quantity"
+FIAT = "fiat"
+TEMPLATE = "template"

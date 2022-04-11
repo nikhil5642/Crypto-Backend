@@ -14,6 +14,7 @@ class MongoDBCollections:
     BUCKET_TRANSACTIONS_COLLECTION = "bucket_transactions"
     INVESTMENT_CATEGORIES_COLLECTION = "invest_categories"
     LIVE_MARKET_COLLECTION = "live_market"
+    USDT_FIAT_COLLECTION = "usdt_fiat"
 
 
 class MongoManager:
@@ -70,6 +71,10 @@ def getInvestmentCategoriesCollection():
 
 def getLiveMarketCollection():
     return MongoManager.getInstance()[MongoDBCollections.LIVE_MARKET_COLLECTION]
+
+
+def getUSDTFiatCollection():
+    return MongoManager.getInstance()[MongoDBCollections.USDT_FIAT_COLLECTION]
 
 
 if __name__ == '__main__':

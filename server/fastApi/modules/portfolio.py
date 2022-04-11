@@ -38,7 +38,7 @@ def getCompletePortFolio(userId: str):
                 name, exchangeRate = getNameAndExchangeRate(ticker)
                 result.append(
                     {NAME: name, ID: ticker, PRICE: exchangeRate, QUANTITY: userInfo[INVESTMENTS][ticker][UNITS]})
-                totalInvestedValue += userInfo[INVESTMENTS][ticker][UNITS]
+                totalInvestedValue += userInfo[INVESTMENTS][ticker][UNITS]*exchangeRate
             return result, totalInvestedValue
     return [], totalInvestedValue
 
